@@ -33,6 +33,7 @@ from ..const import (
 )
 from ..ports.tts_backend import TTSBackend
 from ..voice_migration import migrate_voices_directory
+from . import tetun_text
 from .model_profiles import SCALE_NAMES, profile_for
 from .voice_metadata import VOICE_METADATA_FILENAME
 from .voice_metadata import read_or_migrate as _read_or_migrate_voice_metadata
@@ -344,6 +345,8 @@ class SpeechOptions:
         return copy.copy(self)
 
     def speak_text(self, text):
+        if self.voice.language.split("-")[0].split("_")[0] == "tdt":
+            text = tetun_text.normalise(text)
         return self.voice.synthesize(
             text, self.rate, self.volume, self.pitch, self.sentence_silence_ms
         )

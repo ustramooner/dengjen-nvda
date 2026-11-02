@@ -37,6 +37,7 @@ def _load_voice_migration(synth_driver_dir=_SYNTH_DRIVER_DIR):
 
 
 voice_migration = _load_voice_migration()
+_SYNTH_DRIVER_DIR_PATH = _SYNTH_DRIVER_DIR
 del _DIR, _SYNTH_DRIVER_DIR
 
 OLD_ADDON_NAME = voice_migration.OLD_ADDON_NAME
@@ -85,8 +86,51 @@ def warn_if_old_addon_installed(addons=None):
     )
 
 
+def _same_model(src, dst):
+    import hashlib
+    for name in os.listdir(src):
+        if not name.endswith(".onnx"):
+            continue
+        a, b = os.path.join(src, name), os.path.join(dst, name)
+        if not os.path.isfile(b) or os.path.getsize(a) != os.path.getsize(b):
+            return False
+        digests = []
+        for path in (a, b):
+            h = hashlib.sha256()
+            with open(path, "rb") as f:
+                for block in iter(lambda: f.read(1 << 20), b""):
+                    h.update(block)
+            digests.append(h.digest())
+        if digests[0] != digests[1]:
+            return False
+    return True
+
+
+def install_bundled_voices():
+    """Copy the voices bundled with this add-on (Tetun) into the voices folder; replace one of the same name when the model differs."""
+    import globalVars
+    bundled = os.path.join(_SYNTH_DRIVER_DIR_PATH, "bundled_voices")
+    if not os.path.isdir(bundled):
+        return False
+    voices_dir = os.path.join(globalVars.appArgs.configPath, "dengjen", "voices", "piper")
+    os.makedirs(voices_dir, exist_ok=True)
+    for name in os.listdir(bundled):
+        src, dst = os.path.join(bundled, name), os.path.join(voices_dir, name)
+        if not os.path.isdir(src):
+            continue
+        if os.path.exists(dst):
+            if _same_model(src, dst):
+                continue
+            shutil.rmtree(dst)
+            log.info(f"Replacing installed voice with the bundled one: {name}")
+        shutil.copytree(src, dst)
+        log.info(f"Installed bundled voice: {name}")
+    return True
+
+
 def onInstall():
     for step in (
+        install_bundled_voices,
         warn_if_old_addon_installed,
         migrate_speech_config,
     ):
