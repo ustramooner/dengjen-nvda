@@ -1,0 +1,16 @@
+name Tetun Dili
+language tdt
+
+stressRule 2 // Stress on penultimate syllable. Phoneme rules override this if stress is marked on the vowel.
+stressLength 160 200  180 180  0 0  220 240
+stressAmp    16  18   18  18   0 0  22  21
+
+consonants 80 80
+
+// Spoken numbers: "resin" (and) between tens and units, and before a final unit after hundreds/thousands;
+// thousand/million come before their multiplier (rihun rua = 2000);
+// bit 3 = decimal comma and dot as thousands separator (51.495 = 51,495; 1,35 = 1.35), as in Timorese news.
+// no "resin" after hundreds and thousands (101 = atus ida ida, 2002 = rihun rua rua; confirmed by a Tetun speaker), so bit 23 is not set.
+// bit 48 = percent word before the number (porsentu ruanulu resin hitu). Bits 3, 5, 41 and 48 are exactly what the shipped sonata engine sets in C for tdt
+// (tr_languages.c, NUM_AND_UNITS | NUM_DECIMAL_COMMA, NUM2_SWAP_THOUSANDS | NUM2_PERCENT_BEFORE); this branch has no C change, so the voice file sets them.
+numbers 3 5 41 48

@@ -281,7 +281,11 @@ def start_grpc_server():
         _show_vcruntime_warning()
         return False
     grpc_server_exe = os.path.join(BIN_DIRECTORY, "dengjen-tts-grpc.exe")
-    nvda_espeak_dir = os.path.join(globalVars.appDir, "synthDrivers")
+    # The data bundled with this add-on holds the Tetun `tdt` language; otherwise use the copy shipped with NVDA.
+    if os.path.isdir(os.path.join(BIN_DIRECTORY, "espeak-ng-data")):
+        nvda_espeak_dir = BIN_DIRECTORY
+    else:
+        nvda_espeak_dir = os.path.join(globalVars.appDir, "synthDrivers")
     env = os.environ.copy()
     env.update(
         {

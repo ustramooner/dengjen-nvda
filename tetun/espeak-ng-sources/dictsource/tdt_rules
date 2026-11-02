@@ -1,0 +1,309 @@
+﻿// This file is UTF8 encoded
+// Spelling-to-phoneme rules for Tetun Dili. This assumes inconsistent spelling, ignores glottals, accepts Portuguese, Indonesian and English spelling where it doesn’t conflict with Tetun (e.g. for “q”, “ff”. Double vowels convert to stressed vowels.
+// Letter groups (for Portuguese rules)
+// A  a vowel
+// B  a consonant, except h l r w y
+// C  a consonant
+// G  a voiced consonant
+// K  not a vowel
+// D  a digit
+// _ beginning or end of word
+
+.replace
+   ’   '    // typographic apostrophe -> straight, so list entries match
+   ʼ   '    // modifier letter apostrophe
+
+.group a
+        a        a
+        aa       ''a
+        a'a      ''a        // glottal stop between identical vowels = doubled vowel (nunee = nune'e)
+        a’a      ''a
+        ae       aE
+        a'e       aE
+        a’e       aE
+        ai       aI
+        a'i       aI
+        a’i       aI
+        ao       aO
+        a'o       aO
+        a’o       aO
+        au       au
+        a'u       au
+        a’u       au
+.group á // Stressed vowel
+        á        ''a
+.group à // Portuguese
+        à        ''a
+.group ã // Portuguese
+        ã          aN
+        ão         auN
+
+.group b
+        b        b
+
+.group c // Portuguese
+     _) c (_       se
+        c          k
+        c (Y       s         // ce ci
+        c (B       ki
+        c (s       k
+        c (t       k
+        c (_C      k_
+        ch         S
+        chr        kr
+        ck         k
+       c (c               //drop “c” (eg: seleccionar)
+   A) ct         t         //drop “c” (eg: exacto)
+   A) cç         s         //drop “c” in European Portuguese (eg: selecção)
+ conta) ct (A      kt        // eg: contacto, contactar, contactável, incontactável, etc...
+
+.group d
+        d        d
+
+.group e
+        e        E
+        ea       Ea
+        e'a       Ea
+        e’a       Ea
+        ee       ''E
+        e'e      ''E
+        e’e      ''E
+        ei       ei
+        e'i       ei
+        e’i       ei
+        eo       EO
+        e'o       EO
+        e’o       EO
+        eu       eu
+        e'u       eu
+        e’u       eu
+        _) e (_      i // Portuguese “and”
+.group é
+        é        ''E
+.group ê
+        ê          ''e
+        êm (_      ''eIN
+        êm (C      ''eIm
+        ên (K      ''eIN
+        ênh        ''en^
+        êu         ''eu
+
+.group f
+        f        f
+        ff       f //English
+
+.group g
+        g        g
+        gg       g // English
+
+.group h
+        h        h // Will pronounce even in Portuguese words
+     D) h (D     _          // 14h00 = clock time: h is only a separator
+
+.group i
+        i        i
+        ia       ia
+        i'a       ia
+        i’a       ia
+        ie       ie
+        i'e       ie
+        i’e       ie
+        ii       ''i
+        i'i      ''i
+        i’i      ''i
+        io       io
+        i'o       io
+        i’o       io
+        iu       iu
+        i'u       iu
+        i’u       iu
+        im (_      iN // Portuguese
+        im (C      im
+        in (g      iN
+        in (k      iN
+        inh        in^
+.group í
+        í        ''i
+
+.group j
+        j        Z
+
+.group k
+        k        k
+
+.group l
+        l        l
+        ll       l^ // INL
+        lh       l^ // Portuguese
+        ly       lj // Rare
+
+.group m
+        m        m
+     A) mm (A       m // English
+
+.group n
+        n        n
+        nn       n // “connosco”
+        ng       N // English, Indonesian
+        nh       n^
+        ny       n^
+.group ñ // INL
+        ñ       n^
+
+.group o
+        o        o
+        oa       Oa
+        o'a       Oa
+        o’a       Oa
+        oe       oe
+        o'e       oe
+        o’e       oe
+        oi       oi
+        o'i       oi
+        o’i       oi
+        oo       ''O
+        o'o      ''O
+        o’o      ''O
+        ou       ou
+        o'u       ou
+        o’u       ou
+        _) os (_      us // Portuguese
+        _) os (_A     uz // Portuguese
+        om (_      oN // Portuguese
+.group ó
+        ó       ''O // Portuguese
+.group ô  // Portuguese
+        ô          ''o
+        ôm (_      ''oN
+        ôm (C      ''om
+        ôn (K      ''oN
+        ônh        ''on^
+.group õ // Portuguese
+        õ          oi
+        õe         oin
+
+.group p
+        p        p
+     A) pp (A       p // English
+        ph       f // English
+
+.group q // Portuguese
+     _) q (_       ke
+        q          k
+        qu         kw
+        qü         kw
+        qu (Y      k
+        qu (K      ku
+     _) que        ke        // quente, etc.
+     _) quei (C    k'eI      // queira, queima, etc
+     @) quên       kw'eIN    // frequência, etc.
+   ade) qu (e      kw
+     A) qu (idade_ kw
+    _a) qu (ífero_ kw
+     e) qu (estr   kw
+    _e) qu (in     kw
+   exe) qu (AC     kw
+   fre) qu (ent    kw
+    lo) qu (en     kw
+     n) qu (en     kw
+     _) qu (inquAn kw
+     _) qu (inquag kw
+   _se) qu (el     kw
+    se) qu (en     kw
+  tran) qu (il     kw
+        queç       kes       // esqueça.
+     A) que (nA_   ke        // pequeno, etc.
+     C) quê (_     ke        // porquê, etc.
+        que (l     ke        // aquele, etc.
+        que (r_    kE        // qualquer, etc.
+        qui        ki        // quinta, esquilo, etc.
+     _) qu (inde   ku        // quindecágono, etc.
+     _) quo        kuo       // quoficiente, etc.
+
+.group r
+        r        r
+        rr       r
+
+.group s
+        s        s
+        ss       s // Portuguese
+        ss         s // Portuguese
+        sc (Y      s // Portuguese
+        sç         s // Portuguese
+        sh         S // English
+        sj       C // Indonesian
+     A) s (C       s // Portuguese
+     A) ss         s
+     A) s (G+      Z
+     A) s (_KS1    s
+     A) s (_G+S1   Z
+        s (G       z
+        s (w+      s
+        sr         zx
+     _) sobre (@P5 sobre
+  tran) s (A       z
+ _trân) s (ito_    z
+  _sub) s (ist     z
+        ssion (_   _^_EN
+
+.group t
+        t        t
+        tt       t // English
+        th         _^_EN // English
+        tion (_    _^_EN // English
+
+.group u
+        u        u
+        ua       ua
+        u'a       ua
+        u’a       ua
+        ue       ue
+        u'e       ue
+        u’e       ue
+        ui       ui
+        u'i       ui
+        u’i       ui
+        uo       uo
+        u'o       uo
+        u’o       uo
+        uu       ''u
+        u'u      ''u
+        u’u      ''u
+        um (_      uN // Portuguese
+.group ú
+        ú        ''u
+
+.group v
+        v        v
+
+.group w
+        w        w
+
+.group x
+        x          S
+        x (_       ks // Portuguese
+
+.group y
+        y        j
+
+.group z
+        z        z
+   _pi) zz (a      ts // pizza..
+
+.group
+        ç          s
+        $          d'olar    // $25 = dolar ruanulu resin lima (Tetun puts the noun first)
+	)A ' (A		//Ignore glottal stop between two vowels
+	)A ’ (A		//Ignore glottal stop between two vowels
+
+// Reading maths
+        , (D       v'irgula
+    D_) , (_D      v'irgula
+    D_) . (_D      p'ontu
+    __) - (_D      m'enus
+    D_) - (_D      _		// range (2022-2027): pause, not "menus"
+    D_) / (_D      _		// date/fraction separator: short pause (was "dividir por")
+    D_) * (_D      v'ezes
+//    A_) - (_D      _              What do these 2 lines do?
+//    C_) - (_D      _
+

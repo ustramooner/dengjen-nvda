@@ -30,6 +30,6 @@ DENGJEN_JAPANESE_DICTIONARY_DIR = os.path.join(
 )
 BATCH_SIZE = max((os.cpu_count() or 2) // 2, 2)
 FALLBACK_SPEAKER_NAME = "default"
-DEFAULT_RATE = 50
+DEFAULT_RATE = 10  # natural speed (the stock 50 started at 2.5 times speed)
 DEFAULT_VOLUME = 100
 DEFAULT_PITCH = 50

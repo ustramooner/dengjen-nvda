@@ -1,0 +1,3303 @@
+﻿// Tetun Dili lists. (Based on Indonesian and Portuguese files)
+// This file in UTF8 encoded
+// Letter names
+a	'a||
+b	'be||
+c	'se||
+d	'de||
+e     'e|| // Also Portuguese spelling of ‘and’
+f	'Efi||
+g	'ge||
+h	'ha||
+i	i|| // Also an unstressed word ‘and’
+j	Z'Ota||
+k	'ka||
+l	'Eli||
+m	'Emi||
+n	'Eni||
+o	'O||
+p	'pe||
+q	'ke||
+r	'Eri||
+s	'Esi||
+t	'te||
+u	'u||
+v	've||
+w	'we||
+x	'Sis||
+y	'je||
+z	'zE||
+
+// Numbers. Read in Tetun. Phonemes are those the rules give the same words written out (penultimate stress; training text has resin, neen, tolunulu),
+// so a number sounds exactly like the written number words the voice was trained on.
+_0	z'Ero
+_1	'ida
+_2	r'ua
+_3	t'olu
+_4	h'at
+_5	l'ima
+_6	n'En
+_7	h'itu
+_8	w'alu
+_9	s'ia
+_10	san'ulu
+_1X	san'ulu
+_2X	r,uan'ulu
+_3X	t,olun'ulu
+_4X	hatn'ulu
+_5X	l,iman'ulu
+_6X	nEn'ulu
+_7X	h,itun'ulu
+_8X	w,alun'ulu
+_9X	s,ian'ulu
+_0C	'atus
+_1C	'atus||'ida
+_2C	'atus||r'ua
+_3C	'atus||t'olu
+_4C	'atus||h'at
+_5C	'atus||l'ima
+_6C	'atus||n'en
+_7C	'atus||h'itu
+_8C	'atus||w'alu
+_9C	'atus||s'ia
+_0M1	r'ihun
+_1M1	r'ihun||'ida
+_0M2	m,ili'aun
+_0M3	b,ili'aun
+_0M4	tr,ili'aun
+_dpt	_v'irgula
+_0and	||r'Esin||
+
+// Unstressed words ($u = unstressed)
+la		$u
+iha		$u
+hosi		$u
+husi		$u
+ba		$u
+kona ba		$u
+atu		$u
+sei		$u
+ka		$u
+i		$u
+no		$u
+mak		$u
+ke		$u
+katak		$u
+se		$u
+pur		$u // Portuguese loans
+per		$u
+desde		$u
+entre		$u
+sobre		$u
+en		$u
+de		$u
+komu		$u
+antes		$u
+sein		$u
+
+// Accent names
+_lig	ligad'ura
+_acu	as'entuag'udu // á
+_ac2	as'entuag'udud'uplu
+_brv	br'Eve
+_ced	sed'ilja
+_cir	sirkuNfl'Eksu
+_dia	tr'ema
+_dot	p'oNtu
+_grv	a'entugr'ave
+_hac	kar'oN
+_mcn	makr'oN
+_ogo	ogon'ek
+_rng	an'Eu
+_stk	b'axa
+_tld	t'il
+
+// alphabets
+_ar	'arabi
+_cyr	sir'iliku
+_he	ebr'aIku
+_zh	Sin'es
+
+// Character names
+_á	$accent
+_à	$accent   // à can be a word
+â	$accent
+ã	$accent
+ç	$accent
+_é	$accent   // é can be a word
+ê	$accent
+í	$accent
+_ó	$accent
+ô	$accent
+õ	$accent
+ú	$accent
+ü	$accent
+v	ve       // not roman numbers
+x	Sis
+
+// Fonts and symbols
+_cap	maI'uskulu
+_sub	||subskr'itu
+_sup	||sobreskr'itu
+_?A	l'etra_
+_??	s'imbolu_
+_#32	esp'asu
+_#9	tab
+*	f'itun
+=	__igw'al_	$max3
+.	p'oNtu		$max3
++	maIs		$max3
+%	pors'eNtu||	$max3	// word break so the number that follows is a separate word
+&	_'i_
+@	ar'oba
+€	'euru
+£	l'ibra
+¥	j'en
+¢	seNt'avus
+§	ses'aun
+_!	eSklamas'auN
+_"	'aspas
+#	l'utu
+_&	'i
+_'	ap'Ostr,ofu
+_(	l,okepar'eNteze
+¶	par'agrafu
+●	s'ir-kulu
+■	k'aixa
+÷	divid'irp'or
+ ×	v'ezis
+µ	m'ikru
+_)	t,akapar'ENteze
+_*	f'itun
+_−	m'enus
+№	n'umeru
+∞	iNfin'itu
+∫	iNtegr'al
+⅓	uNt'er-su
+⅔	doIst'er-sus
+¼	uNku'ar-tu
+½	m'eIu
+¾	treskw'ar-tus
+®	reZistr'adu
+↑	s'Etabal'eten
+↓	s'Etabakr'aik
+←	s'Etabak'aruk
+→	s'Etabal'os
+™	m'ar-kareZiSt'a
+_,	v'irgula
+_-	'ifeN
+_/	b'ara
+_:	d,oIsp'oNtus
+_;	p,oNtu_iv'irgula
+_<      men'Or
+_>	maI'Or
+_?	,iNter,ogas'aun
+_[	l,okepar'Entezekuadr'adu
+_\	b,ara,iNvert'ida
+_]	t,akapar'Entezekuadr'adu
+_^	s,irkuNfl'Eksu
+_´	as'eNtu,ag'udu
+·	p'oNtuseiNtr'adu
+__	s,ublin^'adu
+_`	as'entugr'ave
+_{	l,okepar'EntezeS'avi
+_|	b,arav,ertik'al
+_}	t,akapar'EntezeS'avi
+_~	t'il
+_¡	,esklamas,auN,iNvert'ida
+_¿	,iNtex,ogas,auN iNvert'ida
+_"	l'oke'aspas||d'uplas
+º	maskul'inu
+ª	femin'inu
+°	gr'au
+
+// Ordinal numbers
+_1º	prim'eIru
+_1ª	prim'eIra
+_#º	u
+_#ª	a
+_ord	o
+_1o	prim'eIr
+_2o	seg'uNd
+_3o	ter-s'eIr
+_4o	badalah'at // 4 up in Tetun
+_5o	badalal'ima
+_6o	badalan'en
+_7o	badalah'itu
+_8o	badalaw'alu
+_9o	badalas'ia
+_1Xo	badalas'anulu
+
+// Exceptions to “nh” rule: “bain/wain”+number
+wainhira       w,ainh'ira
+wainhaat       w,ainh'at
+wainhitu       w,ainh'itu
+
+// Abbreviations
+abc	$abbrev
+etc	,ets'Et:ra
+(http ://)	h,atete'pe_
+jpeg	Ze'Eg
+mpeg	,Emp'Eg
+nvda	$abbrev
+oms	$abbrev
+usb	$abbrev
+dr	dowtor	$dot
+dra	dowt'ora	$dot
+mrs	m'irsis	$dot
+profº	pr,ofes'or
+profª	pr,ofes'ora
+engº	enZen^'eIru
+engª	enZen^'eIra
+nº	n'umeru
+sra	sen^'Ora dot
+
+// Main word dictionary
+// Foreign words
+alt        'alt
+back       b'Ek
+backups    bEk'aps
+cancel     k'EnsEl
+caps       k'aps
+ctrl       k,oNt:r'Ol
+doc        d'Ok
+design     d,iz'ain
+designer	dez'aIner
+desktop	'desktOp
+dj         d,i:dZ'eI
+end        'end
+enter	'eNter
+esc     'Esk
+explorer   ,ekspl'O:rar
+frame      fr'eIm
+gay	geI
+gmail      j,im'eIl
+google     g'u:gal
+happy      h'Epi
+hotmail    h'Otm'eIl
+install    ,inst'al
+Intranet   iNtran'Et
+jazz	     dZEs
+laser		l'eIzer
+lasers	l'eIzers
+login      'logiN
+mail       m'eIl
+marketing	m'arketiN
+master	m'aster
+next       n'Ekst
+ok         Ok'eI
+org        Org
+pause      p'au:z
+page       p'eIdZ
+podcast	pOdkEst
+ranking	r'aNkiN
+readme     r'i:dmi:
+right      r'aIt
+sky         sk'aI
+shake	      S'eIk
+scroll     sk:r'ol
+site       s'aIt
+shopping	S'OpiN
+space      sp'eIs
+sporting   sp'Ort,ing
+ tab       t'ab
+ tablet    t'ablet
+  tablets  t'ablets
+upgrade		apgr'eId
+web              w'Eb
+writer r'aIter
+xerox	S'ErOks
+yahoo      'i,ah'u
+yes        j'Es
+// Foreign product names
+access      'aks,Es
+adobe       ad'Obi
+android     aNdr'Oid
+apple      'Epol
+outdoor	autd'Or
+baby	      b'eIbi
+campari	kamp'ari
+chrome	kr'om
+corpus	k'Or@-pus
+excel       ,Eks'El
+express     ,Ekspr'Es
+espeak      isp'i:k
+espeakedit  isp'i:kEd,it
+firefox     f'air@fOks
+front       fr'ont
+high        haI
+jaws        dZ'au:z
+lady	      l'eIdy
+linux       l,in'uks
+ live        l'aiv
+maker       m'eIkar-
+mac         mEk
+messenger   m'EsandZar-
+microsoft   m,ik:r'os,Oft
+netbooks   nEtbuks
+notebook   nowtbuk
+notebooks   nowtbuks
+office      'Of,is
+openoffice  'opeN|'Ofis
+outlook     'autl'uk
+paint       p'aint
+player      pl'eIar-
+point       p'oint
+power       p'auar-
+product     p:r'odakt
+Publisher   p'abl,iSar-
+reader      r'id,ar-
+setup       s'Et'ap
+scout       sk'aut
+skype       sk'aip
+Slackware   sl'akwer-
+smart       sm'art
+society     sos'aIty
+speak       spi:k
+start       st'art
+time        t'aIm
+twitter     tw'iter
+ubuntu      ub'untu
+unix        ,u:n'iks
+unix        j'uniks
+wagner     v'agner
+windows     w'iNd'ou:z
+
+// Standard (INL) spelling of very frequent words, mapped to the phonemes of their Bible-style spelling, which is what the voice was trained on.
+ne'ebé	nEb'E	// nebee
+ne'ebe	nEb'E
+
+// Acronyms read letter by letter (no vowel, or a code that is not a word). Letter names are defined above.
+pntl	$abbrev $allcaps
+cnc	$abbrev $allcaps
+pn	$abbrev $allcaps
+tl	$abbrev $allcaps
+fdtl	$abbrev $allcaps
+cnrt	$abbrev $allcaps
+fc	$abbrev $allcaps
+rdtl	$abbrev $allcaps
+ms	$abbrev $allcaps
+pm	$abbrev $allcaps
+pnds	$abbrev $allcaps
+kstl	$abbrev $allcaps
+plp	$abbrev $allcaps
+fftl	$abbrev $allcaps
+hngv	$abbrev $allcaps
+mp	$abbrev $allcaps
+pdhj	$abbrev $allcaps
+tbc	$abbrev $allcaps
+gs	$abbrev $allcaps
+lng	$abbrev $allcaps
+pd	$abbrev $allcaps
+rttl	$abbrev $allcaps
+tdd	$abbrev $allcaps
+mj	$abbrev $allcaps
+psht	$abbrev $allcaps
+wfp	$abbrev $allcaps
+cne	$abbrev $allcaps
+cac	$abbrev $allcaps
+edtl	$abbrev $allcaps
+untl	$abbrev $allcaps
+anpm	$abbrev $allcaps
+sejd	$abbrev $allcaps
+mejd	$abbrev $allcaps
+ebf	$abbrev $allcaps
+ebc	$abbrev $allcaps
+adn	$abbrev $allcaps
+mssi	$abbrev $allcaps
+
+www	$abbrev	// spelled (newer espeak builds read it as a word)
+
+// Leading zeros in dates and clock times (03/05/2022, 05:00): say the digit, not "zero" + digit. "00" (minutes, cents) is silent.
+01	'ida
+02	r'ua
+03	t'olu
+04	h'at
+05	l'ima
+06	n'en
+07	h'itu
+08	w'alu
+09	s'ia
+00	_
+
+// Portuguese-spelled loans that the Portuguese-derived rules get wrong (agência = standard ajénsia)
+agência	aZ'Ensi,a
+agencia	aZ'Ensi,a
+// Timorese pronunciation of Portuguese-spelled names (Catharina van Klinken: ajEnsia, juAun, guzmAun, magalyAens; Viqueque and Covalima already match)
+joão	Zu'aun
+joao	Zu'aun
+gusmão	guzm'aun
+gusmao	guzm'aun
+magalhães	m,agal^'aEns
+magalhaes	m,agal^'aEns
+
+// BEGIN generated by scripts/data/build_tdt_exceptions.py (do not edit by hand)
+abn	'aban	// SMS: abn read as aban
+abnormal	,abnorm'al	// stress: abnormál
+aborto	ab'ortu	// irregular spelling: aborto read as abortu
+abrigo	abr'igu	// irregular spelling: abrigo read as abrigu
+abril	abr'il	// stress: abríl
+absensia	abs'Ensi,a	// stress: absénsia
+abstrato	abstr'atu	// irregular spelling: abstrato read as abstratu
+abuso	ab'uzu	// irregular spelling: abuso read as abuzu
+abuzador	,abuzad'or	// stress: abuzadór
+ac	'a||sE	$allcaps	// AC [a se]
+adaptador	,adaptad'or	// stress: adaptadór
+adaptor	,adapt'or	// stress: adaptór
+aderensia	,adEr'Ensi,a	// stress: aderénsia
+adido	ad'idu	// irregular spelling: adido read as adidu
+adisional	,adis,ion'al	// stress: adisionál
+adjetivo	,adZEt'ivu	// irregular spelling: adjetivo read as adjetivu
+adjunto	adZ'untu	// irregular spelling: adjunto read as adjuntu
+administracao	,admin,istras'aun	// irregular spelling: administracao read as administrasaun
+administrador	,admin,istrad'or	// stress: administradór
+admirador	,admirad'or	// stress: admiradór
+adolesensia	,adolEs'Ensi,a	// stress: adolesénsia
+adolexente	,adolEs'EntE	// irregular spelling: adolexente read as adolesente
+adorador	,adorad'or	// stress: adoradór
+adubo	ad'ubu	// irregular spelling: adubo read as adubu
+adulteriu	,adult'Eri,u	// stress: adultériu
+adulto	ad'ultu	// irregular spelling: adulto read as adultu
+advance	adv'ans	// advance [adváns]
+advento	adv'Entu	// irregular spelling: advento read as adventu
+adverbial	,advErbi'al	// stress: adverbiál
+adverbio	adv'Erbi,u	// irregular spelling: adverbio read as advérbiu
+adverbiu	adv'Erbi,u	// stress: advérbiu
+adversariu	,advErs'ari,u	// stress: adversáriu
+advogado	,advog'adu	// irregular spelling: advogado read as advogadu
+adware	a'EdwEr	// adware [aedwer]
+aeria	a'Eri,a	// stress: aéria
+aeriu	a'Eri,u	// stress: aériu
+afiador	,afiad'or	// stress: afiadór
+afinal	,afin'al	// stress: afinál
+afrika	'afrik,a	// stress: áfrika
+aga	ag'a	// stress: agá
+agosto	ag'ostu	// irregular spelling: agosto read as agostu
+agp	'aj||Z'i||p'i	$allcaps	// AGP [ay ji pi]
+agr	ag'ora	// SMS: agr read as agora
+agra	ag'ora	// SMS: agra read as agora
+agrafador	,agrafad'or	// stress: agrafadór
+agraria	agr'ari,a	// stress: agrária
+agrariu	agr'ari,u	// stress: agráriu
+agrikola	agr'ikol,a	// stress: agríkola
+agrikultor	,agrikult'or	// stress: agrikultór
+agroindustria	,agroind'ustri,a	// stress: agroindústria
+agrokimika	,agrok'imik,a	// stress: agrokímika
+agrokomersiu	,agrokom'Ersi,u	// stress: agrokomérsiu
+agropekuaria	,agrop,Eku'ari,a	// stress: agropekuária
+aguabentaria	,agu,abEnt'ari,a	// stress: aguabentária
+aguasal	,aguas'al	// stress: aguasál
+agudo	ag'udu	// irregular spelling: agudo read as agudu
+agustu	ag'ostu	// irregular spelling: agustu read as agostu
+aids	'aIdz	$allcaps	// AIDS [aidz]
+ajensia	aZ'Ensi,a	// stress: ajénsia
+ajudador	,aZudad'or	// stress: ajudadór
+akademika	,akad'Emik,a	// stress: akadémika
+akademiku	,akad'Emik,u	// stress: akadémiku
+akesedor	,akEsEd'or	// stress: akesedór
+akolitu	ak'olit,u	// stress: akólitu
+akresimu	akr'Esim,u	// stress: akrésimu
+akronimu	akr'onim,u	// stress: akrónimu
+aktif	akt'if	// stress: aktíf
+akua	'aku,a	// stress: ákua
+akuarium	,aku'ari,um	// stress: akuárium
+akuatika	,aku'atik,a	// stress: akuátika
+akuatiku	,aku'atik,u	// stress: akuátiku
+akuzador	,akuzad'or	// stress: akuzadór
+albino	alb'inu	// irregular spelling: albino read as albinu
+albizia	alb'izi,a	// stress: albízia
+aleijado	,aleiZ'adu	// irregular spelling: aleijado read as aleijadu
+alerjika	al'ErZik,a	// stress: alérjika
+alerjiku	al'ErZik,u	// stress: alérjiku
+alfandega	alf'andEg,a	// stress: alfándega
+alfandegariu	,alfandEg'ari,u	// stress: alfandegáriu
+alfanete	,alfin'Eti	// irregular spelling: alfanete read as alfineti
+alias	,ali'as	// stress: aliás
+alimentar	,alimEnt'ar	// stress: alimentár
+alinhador	,alin^ad'or	// stress: alinhadór
+alkali	'alkal,i	// stress: álkali
+altar	alt'ar	// stress: altár
+alternador	,altErnad'or	// stress: alternadór
+alternativo	,altErnat'ivu	// irregular spelling: alternativo read as alternativu
+alto	'altu	// irregular spelling: alto read as altu
+alu	'alu	$allcaps	// ALU [alu]
+aluminiu	,alum'ini,u	// stress: alumíniu
+am	'a||'Emi	$allcaps	// AM [a emi]
+amalgama	am'algam,a	// stress: amálgama
+ambien	,ambi'En	// stress: ambién
+ambiental	,ambient'al	// stress: ambientál
+ambitu	'ambit,u	// stress: ámbitu
+ambivalensia	,ambival'Ensi,a	// stress: ambivalénsia
+ambulansia	,ambul'ansi,a	// stress: ambulánsia
+ambulatoria	,ambulat'ori,a	// stress: ambulatória
+ambulatoriu	,ambulat'ori,u	// stress: ambulatóriu
+amen	am'En	// stress: amén
+amerika	am'Erik,a	// stress: amérika
+amerikano	,amErik'anu	// irregular spelling: amerikano read as amerikanu
+amigdala	am'igdal,a	// stress: amígdala
+amigo	am'igu	// irregular spelling: amigo read as amigu
+amnezia	amn'Ezi,a	// stress: amnézia
+amo	'amu	// irregular spelling: amo read as amu
+amor	am'or	// stress: amór
+amr	'a||'Em||'Er	$allcaps	// AMR [a em er]
+anal	an'al	// stress: anál
+analitiku	,anal'itik,u	// stress: analítiku
+analizador	,anal,izad'or	// stress: analizadór
+analize	an'aliz,E	// stress: análize
+analjeziku	,analZ'Ezik,u	// stress: analjéziku
+analojiku	,anal'oZik,u	// stress: analójiku
+anaunser	,anauns'Er	// stress: anaunsér
+andar	and'ar	// stress: andár
+andor	and'or	// stress: andór
+anemia	an'Emi,a	// stress: anémia
+anemiku	an'Emik,u	// stress: anémiku
+anestezika	,anEst'Ezik,a	// stress: anestézika
+anesteziku	,anEst'Ezik,u	// stress: anestéziku
+anexo	an'Eksu	// irregular spelling: anexo read as aneksu
+anfibiu	anf'ibi,u	// stress: anfíbiu
+angulu	'aNul,u	// stress: ángulu
+animal	,anim'al	// stress: animál
+animu	'anim,u	// stress: ánimu
+aniversariu	,anivErs'ari,u	// stress: aniversáriu
+anjo	'anZu	// irregular spelling: anjo read as anju
+anonimu	an'onim,u	// stress: anónimu
+anorganiku	,anorg'anik,u	// stress: anorgániku
+anormal	,anorm'al	// stress: anormál
+antartika	ant'artik,a	// stress: antártika
+antenatal	,antEnat'al	// stress: antenatál
+antepenultima	,antEpEn'ultim,a	// stress: antepenúltima
+antepenultimu	,antEpEn'ultim,u	// stress: antepenúltimu
+anterior	,antEri'or	// stress: anteriór
+antesedensia	,antEsEd'Ensi,a	// stress: antesedénsia
+antibiotika	,antibi'otik,a	// stress: antibiótika
+antibiotiku	,antibi'otik,u	// stress: antibiótiku
+antiepileptiku	,anti,epil'Eptik,u	// stress: antiepiléptiku
+antifona	ant'ifon,a	// stress: antífona
+antifunjika	,antif'unZik,a	// stress: antifúnjika
+antifunjiku	,antif'unZik,u	// stress: antifúnjiku
+antijeniu	,antiZ'Eni,u	// stress: antijéniu
+antimalaria	,antimal'ari,a	// stress: antimalária
+antiretroviral	,antir,Etrovir'al	// stress: antiretrovirál
+antiseptika	,antis'Eptik,a	// stress: antiséptika
+antiseptiku	,antis'Eptik,u	// stress: antiséptiku
+antiviral	,antivir'al	// stress: antivirál
+antonimu	ant'onim,u	// stress: antónimu
+antropologa	,antrop'olog,a	// stress: antropóloga
+antropologu	,antrop'olog,u	// stress: antropólogu
+antropolojika	,antropol'oZik,a	// stress: antropolójika
+antropolojiku	,antropol'oZik,u	// stress: antropolójiku
+anual	,anu'al	// stress: anuál
+anunsia	an'unsi,a	// stress: anúnsia
+anunsiu	an'unsi,u	// stress: anúnsiu
+apagador	,apagad'or	// stress: apagadór
+apar	ap'ar	// stress: apár
+aparensia	ap'arEns,ia	// stress: apárensia
+apartidariu	,apartid'ari,u	// stress: apartidáriu
+apel	ap'El	// stress: apél
+apendise	ap'Endis,E	// stress: apéndise
+api	'a||p'E||i	$allcaps	// API [a pe i]
+apolojetiku	,apoloZ'Etik,u	// stress: apolojétiku
+apostolika	,apost'olik,a	// stress: apostólika
+apostoliku	,apost'olik,u	// stress: apostóliku
+apostolu	ap'ostol,u	// stress: apóstolu
+apostrofu	ap'ostrof,u	// stress: apóstrofu
+apotek	,apot'Ek	// stress: apoték
+app	'ap	// App [ap]
+apre	,aprEz'Enta	// SMS: apre read as aprezenta
+aprendis	,aprEnd'is	// stress: aprendís
+aprezentador	,aprEz,Entad'or	// stress: aprezentadór
+apropriado	,apropri'adu	// irregular spelling: apropriado read as apropriadu
+arabia	ar'abi,a	// stress: arábia
+arbitraria	,arbitr'ari,a	// stress: arbitrária
+arbitrariu	,arbitr'ari,u	// stress: arbitráriu
+arbitu	'arbit,u	// stress: árbitu
+area	'arE,a	// stress: área
+areador	,arEad'or	// stress: areadór
+arendatariu	,arEndat'ari,u	// stress: arendatáriu
+arguido	,argu'idu	// irregular spelling: arguido read as arguidu
+argumento	,argum'Entu	// irregular spelling: argumento read as argumentu
+aritmetika	,aritm'Etik,a	// stress: aritmétika
+arkeologu	,arkE'olog,u	// stress: arkeólogu
+arkeolojika	,arkEOl'oZik,a	// stress: arkeolójika
+arkeolojiku	,arkEOl'oZik,u	// stress: arkeolójiku
+arkipelagu	,arkip'Elag,u	// stress: arkipélagu
+armado	arm'adu	// irregular spelling: armado read as armadu
+armariu	arm'ari,u	// stress: armáriu
+armazen	,armaz'En	// stress: armazén
+arogansia	,arog'ansi,a	// stress: arogánsia
+arquivo	ark'ivu	// irregular spelling: arquivo read as arkivu
+arsitek	,arsit'Ek	// stress: arsiték
+art	'a||'Er||t'E	$allcaps	// ART [a er te]
+arteria	art'Eri,a	// stress: artéria
+artifisial	,artif,isi'al	// stress: artifisiál
+artigo	art'igu	// irregular spelling: artigo read as artigu
+artikula	'artik,ula	// stress: ártikula
+artistika	art'istik,a	// stress: artístika
+artistiku	art'istik,u	// stress: artístiku
+asap	'Ez||s'un||'Ez||pos'ibEl	// SMS: asap read as ez suun ez posibel
+asasiniu	,asas'ini,u	// stress: asasíniu
+ascii	'aski	$allcaps	// ASCII [aski]
+asean	as'Ean	$allcaps	// ASEAN [asean]
+asediu	as'Edi,u	// stress: asédiu
+aselerador	,asEl,Erad'or	// stress: aseleradór
+asesor	,asEs'or	// stress: asesór
+asesoriu	,asEs'ori,u	// stress: asesóriu
+aseton	,asEt'on	// stress: asetón
+asf	'a||'Es||'Ef	$allcaps	// ASF [a es ef]
+asfiksia	asf'iksi,a	// stress: asfíksia
+asidu	'asid,u	// stress: ásidu
+asimetrika	,asim'Etrik,a	// stress: asimétrika
+asimetriku	,asim'Etrik,u	// stress: asimétriku
+asinkronu	as'inkron,u	// stress: asínkronu
+asintomatiku	,asintom'atik,u	// stress: asintomátiku
+asistensia	,asist'Ensi,a	// stress: asisténsia
+associacao	,asos,ias'aun	// irregular spelling: associacao read as asosiasaun
+ataksia	at'aksi,a	// stress: atáksia
+ate	at'E	// stress: até
+atelektasia	,atElEkt'asi,a	// stress: atelektásia
+atirador	,atirad'or	// stress: atiradór
+atlantiku	atl'antik,u	// stress: atlántiku
+atm	'a||t'E||'Em	$allcaps	// ATM [a te em]
+atmosferika	,atmosf'Erik,a	// stress: atmosférika
+atmosferiku	,atmosf'Erik,u	// stress: atmosfériku
+ator	at'or	// stress: atór
+atraves	,atrav'Es	// stress: através
+atropine	'atrop,in	// atropine [átropin]
+atual	,atu'al	// stress: atuál
+atun	at'un	// stress: atún
+audiensia	,audi'Ensi,a	// stress: audiénsia
+audio	'aud,io	// stress: áudio
+audiovizual	,aud,iov,izu'al	// stress: audiovizuál
+auditor	,audit'or	// stress: auditór
+australia	,austr'ali,a	// stress: austrália
+australiano	,austr,ali'anu	// irregular spelling: australiano read as australianu
+austria	'austr,ia	// stress: áustria
+austronezia	,austron'Ezi,a	// stress: austronézia
+austroneziu	,austron'Ezi,u	// stress: austronéziu
+autobiografika	,aut,obiogr'afik,a	// stress: autobiográfika
+autobiografiku	,aut,obiogr'afik,u	// stress: autobiográfiku
+automatika	,autom'atik,a	// stress: automátika
+automatiku	,autom'atik,u	// stress: automátiku
+autopsia	,aut'opsi,a	// stress: autópsia
+autor	,aut'or	// stress: autór
+autoritaria	,aut,orit'ari,a	// stress: autoritária
+autoritariu	,aut,orit'ari,u	// stress: autoritáriu
+autosufisiensia	,aut,osuf,isi'Ensi,a	// stress: autosufisiénsia
+auzensia	,auz'Ensi,a	// stress: auzénsia
+auziliar	,auz,ili'ar	// stress: auziliár
+auziliu	,auz'ili,u	// stress: auzíliu
+avaliador	,aval,iad'or	// stress: avaliadór
+avental	,avEnt'al	// stress: aventál
+avestrus	,avEstr'us	// stress: avestrús
+aviador	,aviad'or	// stress: aviadór
+aviao	,avi'aun	// irregular spelling: aviao read as aviaun
+azar	az'ar	// stress: azár
+azia	'azi,a	// stress: ázia
+aziatika	,azi'atik,a	// stress: aziátika
+aziatiko	,azi'atik,u	// irregular spelling: aziatiko read as aziátiku
+aziatiku	,azi'atik,u	// stress: aziátiku
+azmatika	azm'atik,a	// stress: azmátika
+azmatiku	azm'atik,u	// stress: azmátiku
+azul	az'ul	// stress: azúl
+azvez	azv'Ez	// stress: azvéz
+babilonia	b,abil'oni,a	// stress: babilónia
+background	bEkr'aun	// background [bekraun]
+backup	b'Ekap	// backup [bekap]
+badminton	b,admint'on	// stress: badmintón
+bainhaat	b'aIn||h'at	// bainhaat [bain haat]
+bainhira	b'aIn||h'ira	// bainhira [bain hira]
+bainhitu	b'aIn||h'itu	// bainhitu [bain hitu]
+bakteria	bakt'Eri,a	// stress: baktéria
+balines	b,alin'Es	// stress: balinés
+banco	b'anku	// irregular spelling: banco read as banku
+bando	b'andu	// irregular spelling: bando read as bandu
+bandwidth	b'Enwit	// bandwidth [benwit]
+bankaria	bank'ari,a	// stress: bankária
+bankariu	bank'ari,u	// stress: bankáriu
+barbituriku	b,arbit'urik,u	// stress: barbitúriku
+baril	bar'il	// stress: baríl
+barometru	bar'omEtr,u	// stress: barómetru
+baton	bat'on	// stress: batón
+baxarel	b,aSar'El	// stress: baxarél
+bazika	b'azik,a	// stress: bázika
+baziko	b'azik,u	// irregular spelling: baziko read as báziku
+baziku	b'azik,u	// stress: báziku
+bbeik	b,eib'eik	// SMS: bbeik read as beibeik
+bbn	b'aIbaIn	// SMS: bbn read as baibain
+bcu	b,auk'au	// SMS: bcu read as Baucau
+bdia	bond'ia	// SMS: bdia read as bondia
+bdk	b'adak	// SMS: bdk read as badak
+belador	b,Elad'or	// stress: beladór
+beljika	b'ElZik,a	// stress: béljika
+beneficio	b,EnEf'isi,u	// irregular spelling: beneficio read as benefísiu
+benefisia	b,EnEf'isi,a	// stress: benefísia
+benefisiariu	b,EnEf,isi'ari,u	// stress: benefisiáriu
+benefisiu	b,EnEf'isi,u	// stress: benefísiu
+bensaun	b'Ensa,un	// stress: bénsaun
+benzodiazepine	b,Enzodi'azEp,in	// benzodiazepine [benzodiázepin]
+bi	b'E||i	$allcaps	// BI [be i]
+bianual	b,ianu'al	// stress: bianuál
+bibiron	b,ibir'on	// stress: bibirón
+biblia	b'ibli,a	// stress: bíblia
+biblika	b'iblik,a	// stress: bíblika
+bibliko	b'iblik,u	// irregular spelling: bibliko read as bíbliku
+bibliku	b'iblik,u	// stress: bíbliku
+bide	bid'E	// stress: bidé
+bigada	,obrig'ada	// SMS: bigada read as obrigada
+bigadu	,obrig'adu	// SMS: bigadu read as obrigadu
+bilateral	b,ilatEr'al	// stress: bilaterál
+bilhar	bil^'ar	// stress: bilhár
+bilingual	b,iliNgu'al	// stress: bilinguál
+binariu	bin'ari,u	// stress: bináriu
+bingu	b'iNgo	// irregular spelling: bingu read as bingo
+bintes	bint'Es	// stress: bintés
+biogas	b,iog'as	// stress: biogás
+biografia	b,iogr'afi,a	// stress: biográfia
+biokimika	b,iok'imik,a	// stress: biokímika
+biomedika	b,iom'Edik,a	// stress: biomédika
+biomediku	b,iom'Edik,u	// stress: biomédiku
+biopsia	bi'opsi,a	// stress: biópsia
+bios	b'ios	$allcaps	// BIOS [bios]
+bipolar	b,ipol'ar	// stress: bipolár
+birmania	birm'ani,a	// stress: birmánia
+biseksual	b,isEksu'al	// stress: biseksuál
+bisemanal	b,isEman'al	// stress: bisemanál
+bispo	b'ispu	// irregular spelling: bispo read as bispu
+bluetooth	bl'utut	// Bluetooth [blutut]
+bnt	b,ono'itE	// SMS: bnt read as bonoite
+bo	b'O	// correction: bo [boo] expert 2026-11-02: one written vowel means a long vowel (o is open, like oo); only be ho i ka ke la no o se are truly one syllable
+board	b'or	// board [bor]
+boinha	b'oin^,a	// stress: bóinha
+bolber	bolb'Er	// stress: bolbér
+boletin	b,olEt'in	// stress: boletín
+bombador	b,ombad'or	// stress: bombadór
+bondi	b'oN||d'ia	// SMS: bondi read as bom dia
+bone	bon'E	// stress: boné
+boq	b'i||'O||kj'u	$allcaps	// BOQ [bi o kyu]
+bornal	born'al	// stress: bornál
+botador	b,otad'or	// stress: botadór
+botaun	but'aun	// irregular spelling: botaun read as butaun
+boxer	b'oksEr	// boxer [bokser]
+brazil	braz'il	// stress: brazíl
+breviariu	br,Evi'ari,u	// stress: breviáriu
+brigadeiro	br,igade'iru	// irregular spelling: brigadeiro read as brigadeiru
+britania	brit'ani,a	// stress: británia
+broadband	br'odbEn	// broadband [brodben]
+broker	br'okEr	// broker [broker]
+bronkiu	br'onki,u	// stress: brónkiu
+bronkopneumonia	br,onkopn,eum'oni,a	// stress: bronkopneumónia
+browser	bro'uzEr	// browser [brouzer]
+brulu	bar'ul^u	// SMS: brulu read as barulhu
+brunch	br'ank	// brunch [branc]
+brutal	brut'al	// stress: brutál
+bsf	b'E||'Es||'Ef	$allcaps	// BSF [be es ef]
+btr	b'atar	// SMS: btr read as batar
+btrd	bot'ardE	// SMS: btrd read as botarde
+btw	b'aI||dE||w'ei	// correction: btw [bai de wei] English "by the way"; respelling is ours, to be confirmed
+bufe	buf'E	// stress: bufé
+bulgaria	bulg'ari,a	// stress: bulgária
+bus	b'as	// bus [bas]
+busola	b'usol,a	// stress: búsola
+cache	k'Eks	// cache [kex]
+cafe	kaf'E	// irregular spelling: cafe read as kafé
+capital	k,apit'al	// irregular spelling: capital read as kapitál
+cappuccino	k,apus'ino	// cappuccino [kapucino]
+cargo	k'argu	// irregular spelling: cargo read as kargu
+castigo	kast'igu	// irregular spelling: castigo read as kastigu
+catering	k,eit'EriNg	// catering [keitering]
+cctv	s'i||s'i||t'i||v'i	$allcaps	// CCTV [si si ti vi]
+cd	s'i||d'i	$allcaps	// CD [si di]
+cdma	sE||dE||'Em||'a	$allcaps	// CDMA [se de em a]
+central	sEntr'al	// irregular spelling: central read as sentrál
+centralisado	s,Entraliz'adu	// irregular spelling: centralisado read as sentralizadu
+centro	s'Entru	// irregular spelling: centro read as sentru
+chat	s'Et	// chat [cet]
+chc	sE||h'a||sE	$allcaps	// CHC [se ha se]
+checklist	s'Eklist	// checklist [ceklist]
+checkup	s'Ekap	// checkup [cekap]
+chefe	S'Efi	// irregular spelling: chefe read as xefi
+chip	s'ip	// chip [cip]
+cidadao	s,idad'aun	// irregular spelling: cidadao read as sidadaun
+civico	s'ivik,u	// irregular spelling: civico read as síviku
+civil	siv'il	// irregular spelling: civil read as sivíl
+clipboard	kl'ipbord	// clipboard [klipbord]
+club	kl'ab	// club [klab]
+cluster	kl'astEr	// cluster [klaster]
+coc	sE||'O||sE	$allcaps	// COC [se o se]
+cocktail	k'oktaIl	// cocktail [koktail]
+consegue	kons'EgE	// irregular spelling: consegue read as konsege
+control	kontr'Ol	// Control [kontról]
+cookie	k'uki	// cookie [kuki]
+coz	b'ikoz	// SMS: coz read as bikóz
+cpap	s'ipap	$allcaps	// CPAP [sipap]
+cpu	sE||p'E||'u	$allcaps	// CPU [se pe u]
+crack	kr'Ek	// crack [krek]
+crew	kr'u	// crew [kru]
+cutter	k'atEr	// cutter [kater]
+cv	s'i||v'i	$allcaps	// CV [si vi]
+dabliu	d'abli,u	// stress: dábliu
+dados	d'adus	// irregular spelling: dados read as dadus
+dalmatika	dalm'atik,a	// stress: dalmátika
+database	d,atab'eis	// database [databeis]
+dbn	d'obEn	// SMS: dbn read as doben
+ddn	dad'aun	// SMS: ddn read as dadaun
+ddr	dE||dE||'Er	$allcaps	// DDR [de de er]
+deareia	d,iar'Ei,a	// irregular spelling: deareia read as diaréia
+debator	d,Ebat'or	// stress: debatór
+debitu	d'Ebit,u	// stress: débitu
+decisao	d,Esiz'aun	// irregular spelling: decisao read as desizaun
+declarasao	d,Eklaras'aun	// irregular spelling: declarasao read as deklarasaun
+dedikatoria	d,Edikat'ori,a	// stress: dedikatória
+default	dEf'ault	// default [default]
+defensor	d,EfEns'or	// stress: defensór
+defisiensia	d,Efisi'Ensi,a	// stress: defisiénsia
+defisil	dif'isil	// irregular spelling: defisil read as difisil
+defisit	d'Efis,it	// stress: défisit
+dehidrasi	d'Ehidr,asi	// stress: déhidrasi
+dekada	d'Ekad,a	// stress: dékada
+dekor	dEk'or	// stress: dekór
+delegado	d,ElEg'adu	// irregular spelling: delegado read as delegadu
+delete	dil'it	// Delete [dilít]
+deliriu	dEl'iri,u	// stress: delíriu
+demensia	dEm'Ensi,a	// stress: deménsia
+demisionariu	d,Emis,ion'ari,u	// stress: demisionáriu
+democratico	d,Emokr'atik,u	// irregular spelling: democratico read as demokrátiku
+demografika	d,Emogr'afik,a	// stress: demográfika
+demografiku	d,Emogr'afik,u	// stress: demográfiku
+demokratika	d,Emokr'atik,a	// stress: demokrátika
+demokratiku	d,Emokr'atik,u	// stress: demokrátiku
+demoniu	dEm'oni,u	// stress: demóniu
+denariu	dEn'ari,u	// stress: denáriu
+dental	dEnt'al	// stress: dentál
+dep	dEsk'ansa||En||p'az	// SMS: dep read as deskansa en paz
+departamento	d,Epartam'Entu	// irregular spelling: departamento read as departamentu
+dependensia	d,EpEnd'Ensi,a	// stress: dependénsia
+depozitaria	d,Epozit'ari,a	// stress: depozitária
+depozitariu	d,Epozit'ari,u	// stress: depozitáriu
+depozitu	dEp'ozit,u	// stress: depózitu
+deputado	d,Eput'adu	// irregular spelling: deputado read as deputadu
+dermatolojika	d,Ermatol'oZik,a	// stress: dermatolójika
+dermatolojiku	d,Ermatol'oZik,u	// stress: dermatolójiku
+desembro	dEz'Embru	// irregular spelling: desembro read as dezembru
+desempenho	d,EzEmp'En^u	// irregular spelling: desempenho read as dezempenhu
+desenho	dEz'En^u	// irregular spelling: desenho read as dezenhu
+desenvolvido	d,EzEnvolv'idu	// irregular spelling: desenvolvido read as dezenvolvidu
+desenvolvimento	d,EzEnv,olvim'Entu	// irregular spelling: desenvolvimento read as dezenvolvimentu
+desima	d'Esim,a	// stress: désima
+desimu	d'Esim,u	// stress: désimu
+deskonfiador	d,Eskonf,iad'or	// stress: deskonfiadór
+deskuidu	dEsk'uid,u	// stress: deskúidu
+destino	dEst'inu	// irregular spelling: destino read as destinu
+destrui	dEstr'oi	// irregular spelling: destrui read as destroi
+desvia	dEzv'ia	// irregular spelling: desvia read as dezvia
+detailu	dEt'al^u	// irregular spelling: detailu read as detalhu
+detalhado	d,Etal^'adu	// irregular spelling: detalhado read as detalhadu
+detekta	dEt'Eta	// irregular spelling: detekta read as deteta
+detido	dEt'idu	// irregular spelling: detido read as detidu
+detik	dEt'ik	// stress: detík
+deuterokanonika	d,eut,Erokan'onik,a	// stress: deuterokanónika
+deuterokanoniku	d,eut,Erokan'onik,u	// stress: deuterokanóniku
+devedor	d,EvEd'or	// stress: devedór
+dever	dEv'Er	// stress: devér
+dezenvolvimento	d,EzEnv,olvim'Entu	// irregular spelling: dezenvolvimento read as dezenvolvimentu
+dezestabelezador	d,EzEst,abEl,Ezad'or	// stress: dezestabelezadór
+deznesesariu	d,EznEsEs'ari,u	// stress: deznesesáriu
+dezobediensia	d,Ezob,Edi'Ensi,a	// stress: dezobediénsia
+dg	d'i||Z'i	$allcaps	// DG [di ji]
+dhn	d'Ehan	// SMS: dhn read as dehan
+diabetika	d,iab'Etik,a	// stress: diabétika
+diabetiku	d,iab'Etik,u	// stress: diabétiku
+diagnostiko	d,iagn'Ostik,u	// irregular spelling: diagnostiko read as diagnóstiku
+diagnostiku	d,iagn'ostik,u	// stress: diagnóstiku
+diagonal	d,iagon'al	// stress: diagonál
+diakonal	d,iakon'al	// stress: diakonál
+diakonu	di'akon,u	// stress: diákonu
+dialize	di'aliz,E	// stress: diálize
+dialog	d'ial,og	// stress: díalog
+dialogo	di'alog,u	// irregular spelling: dialogo read as diálogu
+dialogu	di'alog,u	// stress: diálogu
+diametru	di'amEtr,u	// stress: diámetru
+diare	d,iar'E	// stress: diaré
+diareia	d,iar'Ei,a	// stress: diaréia
+diario	di'ari,u	// irregular spelling: diario read as diáriu
+diariu	di'ari,u	// stress: diáriu
+didatika	did'atik,a	// stress: didátika
+dietetika	d,iet'Etik,a	// stress: dietétika
+diferensial	d,ifEr,Ensi'al	// stress: diferensiál
+dignisimu	dign'isim,u	// stress: dignísimu
+dignitariu	d,ignit'ari,u	// stress: dignitáriu
+dijital	d,iZit'al	// stress: dijitál
+dilematika	d,ilEm'atik,a	// stress: dilemátika
+dilematiku	d,ilEm'atik,u	// stress: dilemátiku
+dinamika	din'amik,a	// stress: dinámika
+dinamiko	din'amik,u	// irregular spelling: dinamiko read as dinámiku
+dinamiku	din'amik,u	// stress: dinámiku
+dinamizador	d,inam,izad'or	// stress: dinamizadór
+diocese	d,ios'EzE	// irregular spelling: diocese read as dioseze
+diplomatika	d,iplom'atik,a	// stress: diplomátika
+diplomatiku	d,iplom'atik,u	// stress: diplomátiku
+dir	dir'Etor	// SMS: dir read as diretór
+dira	d,irEt'ora	// SMS: dira read as diretora
+direccao	d,irEs'aun	// irregular spelling: direccao read as diresaun
+director	d,irEt'Or	// irregular spelling: director read as diretór
+direitamente	d,irEtam'EntE	// irregular spelling: direitamente read as diretamente
+direito	d,ire'itu	// irregular spelling: direito read as direitu
+direitur	d,irEt'Or	// irregular spelling: direitur read as diretór
+direto	dir'Etu	// irregular spelling: direto read as diretu
+diretor	d,irEt'or	// stress: diretór
+diretur	d,irEt'Or	// irregular spelling: diretur read as diretór
+dirijente	d,iriZ'Enti	// irregular spelling: dirijente read as dirijenti
+discriminacao	d,iskrim,inas'aun	// irregular spelling: discriminacao read as diskriminasaun
+discurso	disk'ursu	// irregular spelling: discurso read as diskursu
+disidi	dEs'idi	// irregular spelling: disidi read as desidi
+disilaba	dis'ilab,a	// stress: disílaba
+disionariu	d,ision'ari,u	// stress: disionáriu
+disipulu	dis'ipul,u	// stress: disípulu
+diskrepansia	d,iskrEp'ansi,a	// stress: diskrepánsia
+diskulpa	dEsk'ulpa	// irregular spelling: diskulpa read as deskulpa
+diskunfia	d,Eskonf'ia	// irregular spelling: diskunfia read as deskonfia
+distal	dist'al	// stress: distál
+distansia	dist'ansi,a	// stress: distánsia
+distribuidor	d,istrib,uid'or	// stress: distribuidór
+distrital	d,istrit'al	// stress: distritál
+distrito	distr'itu	// irregular spelling: distrito read as distritu
+disturbiu	dist'urbi,u	// stress: distúrbiu
+disuria	dis'uri,a	// stress: disúria
+ditador	d,itad'or	// stress: ditadór
+diuretiku	d,iur'Etik,u	// stress: diurétiku
+diverjensia	d,ivErZ'Ensi,a	// stress: diverjénsia
+diversidadi	d,ivErsid'adE	// irregular spelling: diversidadi read as diversidade
+divida	d'ivid,a	// stress: dívida
+dividir	d,ivid'ir	// stress: dividír
+divorsiu	div'orsi,u	// stress: divórsiu
+dixiplina	d,isipl'ina	// irregular spelling: dixiplina read as disiplina
+dixipula	d,isip'ula	// irregular spelling: dixipula read as disipula
+dixipuladu	d,isipul'adu	// irregular spelling: dixipuladu read as disipuladu
+dizenteria	d,isEntr'ia	// irregular spelling: dizenteria read as disentria
+dizimu	d'izim,u	// stress: dízimu
+dk	d'iak	// SMS: dk read as diak
+dln	d'alan	// SMS: dln read as dalan
+dlrma	d,alar'uma	// SMS: dlrma read as dalaruma
+dm	d'aIrEkt||m'EsaZ	// SMS: dm read as dairékt mesaj
+dmais	d'EmaIs	// SMS: dmais read as demais
+dna	dE||En||'a	$allcaps	// DNA [de en a]
+do	dE||'O	$allcaps	// DO [de o]
+doador	d,Oad'or	// stress: doadór
+dokumentariu	d,okumEnt'ari,u	// stress: dokumentáriu
+dokumento	d,okum'Entu	// irregular spelling: dokumento read as dokumentu
+domestika	dom'Estik,a	// stress: doméstika
+domestiku	dom'Estik,u	// stress: doméstiku
+dominansia	d,omin'ansi,a	// stress: dominánsia
+dominiu	dom'ini,u	// stress: domíniu
+donator	d,onat'or	// stress: donatór
+dormensia	dorm'Ensi,a	// stress: dorménsia
+dormitoriu	d,ormit'ori,u	// stress: dormitóriu
+dose	d'ozE	// irregular spelling: dose read as doze
+dosente	dos'Enti	// irregular spelling: dosente read as dosenti
+dotor	dot'or	// stress: dotór
+dots	d'ots	$allcaps	// DOTS [dots]
+doutor	d,out'or	// stress: doutór
+download	da'unlod	// download [daunlod]
+doze	d'ozi	// irregular spelling: doze read as dozi
+dp	dE||p'E	$allcaps	// DP [de pe]
+draft	dr'af	// draft [draf]
+dram	dE||r'am	$allcaps	// DRAM [de ram]
+dramatika	dram'atik,a	// stress: dramátika
+dramatiku	dram'atik,u	// stress: dramátiku
+dressing	dr'EsiNg	// dressing [dresing]
+drive	dr'aIv	// drive [draiv]
+dropout	drop'aut	// dropout [dropaut]
+drum	dr'am	// drum [dram]
+dt	d'eit	// SMS: dt read as deit
+duet	du'Et	// stress: duét
+dugon	dug'on	// stress: dugón
+duke	duk'E	// stress: duké
+duodesimu	d,uod'Esim,u	// stress: duodésimu
+duranti	dur'antE	// irregular spelling: duranti read as durante
+dutrina	d,outr'ina	// irregular spelling: dutrina read as doutrina
+duvida	d'uvid,a	// stress: dúvida
+duzia	d'uzi,a	// stress: dúzia
+dvd	div'idi	$allcaps	// DVD [dividi]
+ebola	'Ebol,a	// stress: ébola
+ecg	'e||sE||Z'E	$allcaps	// ECG [e se je]
+economico	,Ekon'Omik,u	// irregular spelling: economico read as ekonómiku
+edificio	,Edif'isi,u	// irregular spelling: edificio read as edifísiu
+edifisio	,Edif'isi,u	// irregular spelling: edifisio read as edifísiu
+edifisiu	,Edif'isi,u	// stress: edifísiu
+editor	,Edit'or	// stress: editór
+editorial	,Edit,ori'al	// stress: editoriál
+edukador	,Edukad'or	// stress: edukadór
+efikasia	,Efik'asi,a	// stress: efikásia
+efikaz	,Efik'az	// stress: efikáz
+efisiensia	,Efisi'Ensi,a	// stress: efisiénsia
+egipto	EZ'itu	// irregular spelling: egipto read as ejitu
+egiptu	EZ'itu	// irregular spelling: egiptu read as ejitu
+eixu	'Esu	// irregular spelling: eixu read as esu
+ekg	'e||ka||g'E	$allcaps	// EKG [e ka ge]
+ekilibriu	,Ekil'ibri,u	// stress: ekilíbriu
+ekivalensia	,Ekival'Ensi,a	// stress: ekivalénsia
+ekleziastiku	,EklEzi'astik,u	// stress: ekleziástiku
+ekonomika	,Ekon'omik,a	// stress: ekonómika
+ekonomiko	,Ekon'Omik,u	// irregular spelling: ekonomiko read as ekonómiku
+ekonomiku	,Ekon'omik,u	// stress: ekonómiku
+ekumenika	,Ekum'Enik,a	// stress: ekuménika
+ekumeniku	,Ekum'Enik,u	// stress: ekuméniku
+elaborador	,Elab,orad'or	// stress: elaboradór
+elefanti	,ElEf'antE	// irregular spelling: elefanti read as elefante
+eleitor	,Eleit'or	// stress: eleitór
+eleitoral	,Ele,itor'al	// stress: eleitorál
+elektrolitu	,ElEktr'olit,u	// stress: elektrólitu
+elementar	,ElEmEnt'ar	// stress: elementár
+eletrika	El'Etrik,a	// stress: elétrika
+eletriko	El'Etrik,u	// irregular spelling: eletriko read as elétriku
+eletriku	El'Etrik,u	// stress: elétriku
+eletrolitu	,ElEtr'olit,u	// stress: eletrólitu
+eletronika	,ElEtr'onik,a	// stress: eletrónika
+eletroniku	,ElEtr'onik,u	// stress: eletróniku
+elevador	,ElEvad'or	// stress: elevadór
+elikopteru	,Elik'optEr,u	// stress: elikópteru
+elisi	'Elis,i	// stress: élisi
+email	'imaIl	// email [imail]
+embaixador	,EmbaISad'or	// stress: embaixadór
+embolu	'Embol,u	// stress: émbolu
+emboskada	,Embusk'ada	// irregular spelling: emboskada read as embuskada
+embraiajen	,EmbrE'aZEn	// irregular spelling: embraiajen read as embreajen
+emergencia	,EmErZ'Ensi,a	// irregular spelling: emergencia read as emerjénsia
+emerjensia	,EmErZ'Ensi,a	// stress: emerjénsia
+eminensia	,Emin'Ensi,a	// stress: eminénsia
+emodialize	,Emodi'aliz,E	// stress: emodiálize
+emolitika	,Emol'itik,a	// stress: emolítika
+emorajia	,Emor'aZi,a	// stress: emorájia
+emosional	,Emos,ion'al	// stress: emosionál
+empatika	Emp'atik,a	// stress: empátika
+empatiku	Emp'atik,u	// stress: empátiku
+empirika	Emp'irik,a	// stress: empírika
+empiriku	Emp'irik,u	// stress: empíriku
+empregador	,EmprEgad'or	// stress: empregadór
+emprendedor	,EmprEndEd'or	// stress: emprendedór
+emprestimo	Empr'Estim,u	// irregular spelling: emprestimo read as empréstimu
+emprestimu	Empr'Estim,u	// stress: empréstimu
+emprezaria	,EmprEz'ari,a	// stress: emprezária
+emprezarial	,EmprEz,ari'al	// stress: emprezariál
+emprezario	,EmprEz'ari,u	// irregular spelling: emprezario read as emprezáriu
+emprezariu	,EmprEz'ari,u	// stress: emprezáriu
+enam	En'am	// stress: enám
+encontro	Enk'ontru	// irregular spelling: encontro read as enkontru
+endemika	End'Emik,a	// stress: endémika
+endemiku	End'Emik,u	// stress: endémiku
+endometrium	,Endom'Etri,um	// stress: endométrium
+endoskopiu	,Endosk'opi,u	// stress: endoskópiu
+enfaze	'Enfaz,E	// stress: énfaze
+enfermeiro	,EnfErme'iru	// irregular spelling: enfermeiro read as enfermeiru
+enfizema	,Enfis'Ema	// irregular spelling: enfizema read as enfisema
+ensiklika	Ens'iklik,a	// stress: ensíklika
+ensiklopedia	,Ensiklop'Edi,a	// stress: ensiklopédia
+ensino	Ens'inu	// irregular spelling: ensino read as ensinu
+entidadi	,Entid'adE	// irregular spelling: entidadi read as entidade
+enumerador	,Enum,Erad'or	// stress: enumeradór
+enxi	'EnSE	// irregular spelling: enxi read as enxe
+enxo	EnS'o	// stress: enxó
+ep	'e||p'E	$allcaps	// EP [e pe]
+epidemiolojika	,Epid,Emiol'oZik,a	// stress: epidemiolójika
+epidemiolojiku	,Epid,Emiol'oZik,u	// stress: epidemiolójiku
+epididimu	,Epid'idim,u	// stress: epidídimu
+epileptiku	,Epil'Eptik,u	// stress: epiléptiku
+episkopal	,Episkop'al	// stress: episkopál
+episodiu	,Epis'odi,u	// stress: episódiu
+epistola	Ep'istol,a	// stress: epístola
+epoka	'Epok,a	// stress: époka
+eroika	Er'oik,a	// stress: eróika
+eroiku	Er'oik,u	// stress: eróiku
+esbosu	Ezb'osu	// irregular spelling: esbosu read as ezbosu
+esensial	,EsEnsi'al	// stress: esensiál
+eskabies	Esk'abi,es	// stress: eskábies
+eskalator	,Eskalat'or	// stress: eskalatór
+eskandalu	Esk'andal,u	// stress: eskándalu
+eskapula	Esk'apul,a	// stress: eskápula
+eskatolojika	,Eskatol'oZik,a	// stress: eskatolójika
+eskatolojiku	,Eskatol'oZik,u	// stress: eskatolójiku
+eskavator	,Eskavat'or	// stress: eskavatór
+eskla	Esk'ola	// SMS: eskla read as eskola
+esklusivo	,Eskluz'ivu	// irregular spelling: esklusivo read as eskluzivu
+eskolar	,Eskol'ar	// stress: eskolár
+eskritor	,Eskrit'or	// stress: eskritór
+eskritoriu	,Eskrit'ori,u	// stress: eskritóriu
+eskrituraria	,Eskritur'ari,a	// stress: eskriturária
+eskriturariu	,Eskritur'ari,u	// stress: eskrituráriu
+eskutador	,Eskutad'or	// stress: eskutadór
+espanador	,Espanad'or	// stress: espanadór
+espanhol	,Espan^'ol	// stress: espanhól
+espatula	Esp'atul,a	// stress: espátula
+especial	,EspEsi'al	// irregular spelling: especial read as espesiál
+esperanca	,EspEr'ansa	// irregular spelling: esperanca read as esperansa
+esperiensia	,EspEri'Ensi,a	// stress: esperiénsia
+esperimental	,EspEr,imEnt'al	// stress: esperimentál
+espesial	,EspEsi'al	// stress: espesiál
+espesialidadi	,EspEs,ialid'adE	// irregular spelling: espesialidadi read as espesialidade
+espesie	Esp'Esi,e	// stress: espésie
+espesifika	,EspEs'ifik,a	// stress: espesífika
+espesifiku	,EspEs'ifik,u	// stress: espesífiku
+espetador	,EspEtad'or	// stress: espetadór
+espirito	Esp'irit,u	// irregular spelling: espirito read as espíritu
+espiritu	Esp'irit,u	// stress: espíritu
+espiritual	,Espir,itu'al	// stress: espirituál
+esplikacao	,Esplikas'aun	// irregular spelling: esplikacao read as esplikasaun
+esplorador	,Esplorad'or	// stress: esploradór
+espontanea	,Espont'anE,a	// stress: espontánea
+espontaneu	,Espont'ane,u	// stress: espontáneu
+essay	'EsaI	// essay [esai]
+estabilidadi	,Estab,ilid'adE	// irregular spelling: estabilidadi read as estabilidade
+estadiun	Est'adi,un	// stress: estádiun
+estajiaria	,EstaZi'ari,a	// stress: estajiária
+estajiariu	,EstaZi'ari,u	// stress: estajiáriu
+estajiu	Est'aZi,u	// stress: estájiu
+estatal	,Estat'al	// stress: estatál
+estatistika	,Estat'istik,a	// stress: estatístika
+estatistiku	,Estat'istik,u	// stress: estatístiku
+estatua	Est'atu,a	// stress: estátua
+estatuto	,Estat'utu	// irregular spelling: estatuto read as estatutu
+esterior	,EstEri'or	// stress: esteriór
+esternal	,EstErn'al	// stress: esternál
+esterno	Est'Ernu	// irregular spelling: esterno read as esternu
+esteroide	,EstEr'oid,E	// stress: esteróide
+estetoskopiu	,EstEtosk'opi,u	// stress: estetoskópiu
+estimado	,Estim'adu	// irregular spelling: estimado read as estimadu
+estomagu	Est'omak	// irregular spelling: estomagu read as estomak
+estrabismu	,Estrab'izmu	// irregular spelling: estrabismu read as estrabizmu
+estrajudisial	,EstraZ,udisi'al	// stress: estrajudisiál
+estrangeiro	,EstranZe'iru	// irregular spelling: estrangeiro read as estranjeiru
+estranjero	,EstranZe'iru	// irregular spelling: estranjero read as estranjeiru
+estraordinariu	,Estra,Ordin'ari,u	// stress: estraordináriu
+estratejia	,Estrat'EZi,a	// stress: estratéjia
+estratejika	,Estrat'EZik,a	// stress: estratéjika
+estratejiko	,Estrat'EZik,u	// irregular spelling: estratejiko read as estratéjiku
+estratejiku	,Estrat'EZik,u	// stress: estratéjiku
+estres	Estr'Es	// stress: estrés
+estrojeniu	,EstroZ'Eni,u	// stress: estrojéniu
+estrondu	Estr'undu	// irregular spelling: estrondu read as estrundu
+estrume	Estr'umi	// irregular spelling: estrume read as estrumi
+estrutural	,Estrutur'al	// stress: estruturál
+estudanti	,Estud'antE	// irregular spelling: estudanti read as estudante
+estudantil	,Estudant'il	// stress: estudantíl
+estudio	Est'udi,u	// irregular spelling: estudio read as estúdiu
+estudiu	Est'udi,u	// stress: estúdiu
+estudo	Est'udu	// irregular spelling: estudo read as estudu
+estupidu	Est'upid,u	// stress: estúpidu
+etanol	'Etan,ol	// stress: étanol
+eteroseksual	,EtEr,osEksu'al	// stress: eteroseksuál
+ethernet	Ed'ErnEt	// Ethernet [edernet]
+etika	'Etik,a	// stress: étika
+etiku	'Etik,u	// stress: étiku
+etniku	'Etnik,u	// stress: étniku
+etnografiku	,Etnogr'afik,u	// stress: etnográfiku
+etnolinguistika	,Etnol,iNgu'istik,a	// stress: etnolinguístika
+etnolinguistiku	,Etnol,iNgu'istik,u	// stress: etnolinguístiku
+etsetera	Ets'EtEr,a	// stress: etsétera
+eujenia	,euZ'Eni,a	// stress: eujénia
+eutanazia	,eutan'azi,a	// stress: eutanázia
+evanjelika	,EvanZ'Elik,a	// stress: evanjélika
+evanjeliku	,EvanZ'Elik,u	// stress: evanjéliku
+evanjelizador	,EvanZ,Elizad'or	// stress: evanjelizadór
+eventual	,EvEntu'al	// stress: eventuál
+evidensia	,Evid'Ensi,a	// stress: evidénsia
+examina	,Ezam'ina	// irregular spelling: examina read as ezamina
+examinasaun	,Ezam,inas'aun	// irregular spelling: examinasaun read as ezaminasaun
+exelensia	,ESEl'Ensi,a	// stress: exelénsia
+exemplu	Ez'Emplu	// irregular spelling: exemplu read as ezemplu
+exersisiu	,EzErs'isi,u	// irregular spelling: exersisiu read as ezersísiu
+experiensia	,EspEri'Ensi,a	// irregular spelling: experiensia read as esperiénsia
+explika	Espl'ika	// irregular spelling: explika read as esplika
+extensionista	,EstEns,ion'ista	// irregular spelling: extensionista read as estensionista
+extintor	,EStint'or	// stress: extintór
+ez	Ez'Emplu	// SMS: ez read as ezemplu
+ezaminador	,Ezam,inad'or	// stress: ezaminadór
+ezekutor	,EzEkut'or	// stress: ezekutór
+ezemplar	,EzEmpl'ar	// stress: ezemplár
+ezemplo	Ez'Emplu	// irregular spelling: ezemplo read as ezemplu
+ezersisiu	,EzErs'isi,u	// stress: ezersísiu
+ezersitu	Ez'Ersit,u	// stress: ezérsitu
+ezije	Ez'iZi	// irregular spelling: ezije read as eziji
+ezijensia	,EziZ'Ensi,a	// stress: ezijénsia
+eziliu	Ez'ili,u	// stress: ezíliu
+ezistensia	,Ezist'Ensi,a	// stress: ezisténsia
+ezodu	'Ezod,u	// stress: ézodu
+ezofagu	Ez'ofag,u	// stress: ezófagu
+ezotiku	Ez'otik,u	// stress: ezótiku
+fabrika	f'abrik,a	// stress: fábrika
+facebook	f'eIsbuk	// Facebook {f'eIsbuk} (given as phonemes)
+facto	f'aktu	// irregular spelling: facto read as faktu
+factor	fat'Or	// irregular spelling: factor read as fatór
+faktor	fat'Or	// irregular spelling: faktor read as fatór
+faktorial	f,aktori'al	// stress: faktoriál
+fakuldadi	f,akuld'adE	// irregular spelling: fakuldadi read as fakuldade
+falisa	f,alis'a	// stress: falisá
+familia	fam'ili,a	// stress: família
+familiar	f,amili'ar	// stress: familiár
+fanatika	fan'atik,a	// stress: fanátika
+fanatiku	fan'atik,u	// stress: fanátiku
+faq	f'ak	$allcaps	// FAQ [fak]
+farigadu	f,alig'adu	// irregular spelling: farigadu read as faligadu
+farmasia	farm'asi,a	// stress: farmásia
+farol	far'ol	// stress: faról
+fasilitador	f,asil,itad'or	// stress: fasilitadór
+fatal	fat'al	// stress: fatál
+fator	fat'or	// stress: fatór
+fatorial	f,atori'al	// stress: fatoriál
+favor	fav'or	// stress: favór
+fax	f'aks	// fax [faks]
+fb	'Ef||b'i	$allcaps	// FB [ef bi]
+federal	f,EdEr'al	// stress: federál
+fee	f'i	// fee [fii]
+feedback	f'idbEk	// feedback [fidbek]
+fekal	fEk'al	// stress: fekál
+feliz	fEl'iz	// stress: felíz
+fenomena	fEn'omEn,a	// stress: fenómena
+ferias	f'Eri,as	// stress: férias
+fertil	fErt'il	// stress: fertíl
+festival	f,Estiv'al	// stress: festivál
+fevereiro	f,EvEre'iru	// irregular spelling: fevereiro read as fevereiru
+fexu	fe'iSu	// irregular spelling: fexu read as feixu
+fiador	f,iad'or	// stress: fiadór
+fidelidadi	f,idElid'adE	// irregular spelling: fidelidadi read as fidelidade
+file	f'aIl	// file [fail]
+filial	f,ili'al	// stress: filiál
+filling	f'iliNg	// filling [filing]
+filosofia	f,ilozof'ia	// irregular spelling: filosofia read as filozofia
+filozofika	f,iloz'ofik,a	// stress: filozófika
+filozofiku	f,iloz'ofik,u	// stress: filozófiku
+fin	f'oin	// SMS: fin read as foin
+final	fin'al	// stress: finál
+financas	fin'ansas	// irregular spelling: financas read as finansas
+finansial	f,inansi'al	// stress: finansiál
+finje	f'inZi	// irregular spelling: finje read as finji
+finlandia	finl'andi,a	// stress: finlándia
+fintasdor	f,intaZd'or	// stress: fintasdór
+firewall	f'aIr||w'ol	// firewall [fair wol]
+firme	f'irmi	// irregular spelling: firme read as firmi
+firmware	frmw'Er	// firmware [frmwer]
+fiskal	fisk'al	// stress: fiskál
+fiskalizador	f,iskal,izad'or	// stress: fiskalizadór
+fistula	f'istul,a	// stress: fístula
+fixo	f'iksu	// irregular spelling: fixo read as fiksu
+fixu	f'iksu	// irregular spelling: fixu read as fiksu
+fizga	p'iska	// irregular spelling: fizga read as piska
+fizika	f'izik,a	// stress: fízika
+fiziku	f'izik,u	// stress: fíziku
+fizioterapia	f'izi,otEr,api,a	// stress: fízioterapia
+fla	f'ila	// SMS: fla read as fila
+flash	fl'Eks	// flash [flex]
+flatulensia	fl,atul'Ensi,a	// stress: flatulénsia
+flexibilidade	fl,Eksib,ilid'adE	// irregular spelling: flexibilidade read as fleksibilidade
+fli	f'ali	// SMS: fli read as fali
+flipchart	fl'ip||k'art	// flipchart [flip cart]
+fm	'Efi||'Emi	$allcaps	// FM [efi emi]
+fo	f'O	// correction: fo [foo] expert 2026-11-02: one written vowel means a long vowel (o is open, like oo); only be ho i ka ke la no o se are truly one syllable
+foco	f'oku	// irregular spelling: foco read as foku
+fogete	fug'Eti	// irregular spelling: fogete read as fugeti
+folklorika	folkl'orik,a	// stress: folklórika
+folkloriku	folkl'orik,u	// stress: folklóriku
+followup	fol'owap	// followup [folowap]
+fonetika	fon'Etik,a	// stress: fonétika
+forca	f'orsa	// irregular spelling: forca read as forsa
+formador	f,ormad'or	// stress: formadór
+formal	form'al	// stress: formál
+formula	f'ormul,a	// stress: fórmula
+formulario	f,ormul'ari,u	// irregular spelling: formulario read as formuláriu
+formulariu	f,ormul'ari,u	// stress: formuláriu
+fornesedor	f,ornEsEd'or	// stress: fornesedór
+fosforu	f'osfor,u	// stress: fósforu
+fotofobia	f,otof'obi,a	// stress: fotofóbia
+fotografa	fot'ograf,a	// stress: fotógrafa
+fotografu	fot'ograf,u	// stress: fotógrafu
+fotokopiador	f,otok,opiad'or	// stress: fotokopiadór
+fotosinteze	f,otos'intEz,E	// stress: fotosínteze
+fr	'Ef||'Er	$allcaps	// FR [ef er]
+franses	frans'Es	// stress: fransés
+fraternal	fr,atErn'al	// stress: fraternál
+frekuensia	fr,Eku'Ensi,a	// stress: frekuénsia
+friend	fr'End	// friend [frend]
+frik	f'Erik	// SMS: frik read as ferik
+fti	f'oti	// SMS: fti read as foti
+ftin	f'atin	// SMS: ftin read as fatin
+fto	f'oto	// SMS: fto read as foto
+fuat	f'uat	$allcaps	// FUAT [fuat]
+fugador	f,ugad'or	// stress: fugadór
+fulen	f'ulin	// irregular spelling: fulen read as fulin
+fundador	f,undad'or	// stress: fundadór
+fundamental	f,undamEnt'al	// stress: fundamentál
+fundo	f'undu	// irregular spelling: fundo read as fundu
+funebre	f'unEbr,E	// stress: fúnebre
+funeral	f,unEr'al	// stress: funerál
+funil	fun'il	// stress: funíl
+funsao	funs'aun	// irregular spelling: funsao read as funsaun
+funsionario	f,unsion'ari,u	// irregular spelling: funsionario read as funsionáriu
+funsionariu	f,unsion'ari,u	// stress: funsionáriu
+furador	f,urad'or	// stress: furadór
+furiel	f,uri'El	// stress: furiél
+futbol	f,utEb'Ol	// irregular spelling: futbol read as futeból
+futebol	f,utEb'ol	// stress: futeból
+futuro	fut'uru	// irregular spelling: futuro read as futuru
+gabineti	g,abin'EtE	// irregular spelling: gabineti read as gabinete
+game	g'Em	// game [gem]
+garanti	gar'antE	// irregular spelling: garanti read as garante
+garantor	g,arant'or	// stress: garantór
+garido	gar'idu	// irregular spelling: garido read as garidu
+gastador	g,astad'or	// stress: gastadór
+gastroskopiu	g,astrosk'opi,u	// stress: gastroskópiu
+gatilhu	kat'ilu	// irregular spelling: gatilhu read as katilu
+gava	g'aba	// irregular spelling: gava read as gaba
+gb	gig'abaIt	$allcaps	// GB [gigabait]
+gbu	g'ad||bl'EZ||j'u	// SMS: gbu read as Gad bles yu
+general	Z,EnEr'al	// irregular spelling: general read as jenerál
+generu	Z'EnEr,u	// irregular spelling: generu read as jéneru
+gentiu	ZEnt'iu	// irregular spelling: gentiu read as jentiu
+geralmente	Z,Eralm'EntE	// irregular spelling: geralmente read as jeralmente
+gerasaun	Z,Eras'aun	// irregular spelling: gerasaun read as jerasaun
+gerinda	gr'inda	// irregular spelling: gerinda read as grinda
+gestao	ZEst'aun	// irregular spelling: gestao read as jestaun
+ghz	gig'ahErts	// GHz [gigaherts]
+gigabyte	gig'abaIt	// gigabyte [gigabait]
+gigahertz	gig'ahErts	// gigahertz [gigaherts]
+gis	Z'i||'aI||'Es	$allcaps	// GIS [ji ai es]
+glandula	gl'andul,a	// stress: glándula
+glasiaria	gl,asi'ari,a	// stress: glasiária
+glasiariu	gl,asi'ari,u	// stress: glasiáriu
+global	glob'al	// stress: globál
+gloria	gl'ori,a	// stress: glória
+glosariu	glos'ari,u	// stress: glosáriu
+glotal	glot'al	// stress: glotál
+glukoze	gluk'oza	// irregular spelling: glukoze read as glukoza
+gmo	Z'E||'Em||'O	$allcaps	// GMO [je em o]
+go	g'E||'O	$allcaps	// GO [ge o]
+golfe	g'olf	// irregular spelling: golfe read as golf
+gonna	g'oiN||t'u	// SMS: gonna read as going tu
+gotikula	got'ikul,a	// stress: gotíkula
+governador	g,ovErnad'or	// stress: governadór
+governo	gov'Ernu	// irregular spelling: governo read as governu
+gps	Z'i||p'i||'Es	$allcaps	// GPS [ji pi es]
+gpu	g'E||p'E||'u	$allcaps	// GPU [ge pe u]
+gradual	gr,adu'al	// stress: graduál
+grafiku	gr'afik,u	// stress: gráfiku
+gramatika	gram'atik,a	// stress: gramátika
+gramatikal	gr,amatik'al	// stress: gramatikál
+gramatiku	gram'atik,u	// stress: gramátiku
+grampeador	gr,ampEad'or	// stress: grampeadór
+gravador	gr,avad'or	// stress: gravadór
+gravida	gr'avid,a	// stress: grávida
+gravidadi	gr,avid'adE	// irregular spelling: gravidadi read as gravidade
+graxa	gr'aISa	// irregular spelling: graxa read as graixa
+gresiaha	gr'Esiah'a	// stress: grésiahá
+grupo	gr'upu	// irregular spelling: grupo read as grupu
+gsta	g'osta	// SMS: gsta read as gosta
+guberno	gov'Ernu	// irregular spelling: guberno read as governu
+guerra	g'Era	// irregular spelling: guerra read as gera
+guesthouse	g'Est||h'aus	// guesthouse [gest haus]
+guia	g'ia	// irregular spelling: guia read as gia
+guvernu	gov'Ernu	// irregular spelling: guvernu read as governu
+gws	g'Et||w'El||s'un	// SMS: gws read as get wel suun
+gym	Z'iN	// gym [jim]
+ha	'iha	// SMS: ha read as iha
+habot	hab'Ot	// irregular spelling: habot read as haboot
+hacker	h'EkEr	// hacker [heker]
+hakahik	hak'ahEk	// irregular spelling: hakahik read as hakahek
+hakair	h'akaIl	// irregular spelling: hakair read as hakail
+hakdasa	hakd'asak	// irregular spelling: hakdasa read as hakdasak
+haklenan	hakl'Enak	// irregular spelling: haklenan read as haklenak
+haklili	hakl'ilin	// irregular spelling: haklili read as haklilin
+haklulun	hakl'ulu	// irregular spelling: haklulun read as haklulu
+hakma	hakm'atEk	// SMS: hakma read as hakmatek
+halothane	hal'otEn	// halothane [haloten]
+hamahun	ham'ahon	// irregular spelling: hamahun read as hamahon
+hamalaha	haml'aha	// irregular spelling: hamalaha read as hamlaha
+hamanasa	hamn'asa	// irregular spelling: hamanasa read as hamnasa
+hamos	ham'Os	// irregular spelling: hamos read as hamoos
+hamotuk	ham'utuk	// irregular spelling: hamotuk read as hamutuk
+handiplas	h'andipl,as	// stress: hándiplas
+handycam	hEnd'ikEm	// handycam [hendikem]
+hansa	han'Esan	// irregular spelling: hansa read as hanesan
+hardware	h'ardwEr	// hardware [hardwer]
+hase	has'E	// irregular spelling: hase read as hasee
+hasouru	has'oru	// irregular spelling: hasouru read as hasoru
+hatetu	hat'Etuk	// irregular spelling: hatetu read as hatetuk
+hatiun	hat'iu	// irregular spelling: hatiun read as hatiu
+hatun	hat'un	// irregular spelling: hatun read as hatuun
+hawai	h'abaI	// irregular spelling: hawai read as habai
+hbd	h'Epi||bErtd'ei	// correction: hbd [hepi bertdei] English "happy birthday"; respelling is ours, to be confirmed
+hdi	h'odi	// SMS: hdi read as hodi
+header	h'EdEr	// header [heder]
+hearing	h'iriNg	// hearing [hiring]
+hemiplejia	h,Emipl'EZi,a	// stress: hemipléjia
+hemodializa	h,Emodi'aliz,a	// stress: hemodiáliza
+hemolitika	h,Emol'itik,a	// stress: hemolítika
+hemolitiku	h,Emol'itik,u	// stress: hemolítiku
+hernia	h'Erni,a	// stress: hérnia
+heroi	Er'oi	// irregular spelling: heroi read as eroi
+hertz	h'Erts	// hertz [herts]
+heteroseksual	h,EtEr,osEksu'al	// stress: heteroseksuál
+hidrosefalu	h,idros'Efal,u	// stress: hidroséfalu
+hiperglisemia	h,ipErglis'Emi,a	// stress: hiperglisémia
+hipertermia	h,ipErt'Ermi,a	// stress: hipertérmia
+hipoglisemia	h,ipoglis'Emi,a	// stress: hipoglisémia
+hipokalsemia	h,ipokals'Emi,a	// stress: hipokalsémia
+hipotermia	h,ipot'Ermi,a	// stress: hipotérmia
+histeroskopiu	h,istErosk'opi,u	// stress: histeroskópiu
+hiv	'aga||i||v'E	$allcaps	// HIV [aga i ve]
+hkilar	hak'ilar	// SMS: hkilar read as hakilar
+hkrek	hak'ErEk	// SMS: hkrek read as hakerek
+hlbr	hal'ibur	// SMS: hlbr read as halibur
+hlha	hal'uha	// SMS: hlha read as haluha
+hlo	h'alo	// SMS: hlo read as halo
+hmnasa	hamn'asa	// SMS: hmnasa read as hamnasa
+hmoe	ham'oe	// SMS: hmoe read as hamoe
+hmos	ham'Os	// SMS: hmos read as hamoos
+hnoin	han'oin	// SMS: hnoin read as hanoin
+hnrin	han'orin	// SMS: hnrin read as hanorin
+hnsn	han'Esan	// SMS: hnsn read as hanesan
+home	h'aum	// Home [haum]
+homoseksual	h,omos,Eksu'al	// stress: homoseksuál
+honorer	h,onor'Er	// stress: honorér
+horas	'oras	// irregular spelling: horas read as oras
+horkln	h,orik'alan	// SMS: horkln read as horikalan
+horsehik	h,oris'eik	// irregular spelling: horsehik read as horiseik
+host	h'ost	// host [host]
+hosting	h'ostiNg	// hosting [hosting]
+houri	h'ori	// irregular spelling: houri read as hori
+housekeeping	h,ausk'ipiNg	// housekeeping [hauskiping]
+housi	h'usi	// irregular spelling: housi read as husi
+houtu	h'otu	// irregular spelling: houtu read as hotu
+hp	h'Enfon	// SMS: hp read as henfon
+hra	h'ira	// SMS: hra read as hira
+hre	har'E	// SMS: hre read as haree
+hrka	har'uka	// SMS: hrka read as haruka
+hrseik	hors'eik	// SMS: hrseik read as horseik
+hruka	har'uka	// SMS: hruka read as haruka
+hsi	h'usi	// SMS: hsi read as husi
+hsik	h'usik	// SMS: hsik read as husik
+hsoru	has'oru	// SMS: hsoru read as hasoru
+htama	hat'ama	// SMS: htama read as hatama
+htne	hat'EnE	// SMS: htne read as hatene
+htoba	hat'oba	// SMS: htoba read as hatoba
+htt	hat'EtE	// SMS: htt read as hatete
+htu	h'otu	// SMS: htu read as hotu
+hu	h'au	// SMS: hu read as hau
+humano	um'anu	// irregular spelling: humano read as umanu
+humor	hum'or	// stress: humór
+hvd	h'Epi||val'EntaInz||d'ei	// SMS: hvd read as hepi valentainz dei
+hvs	h'a||v'E||'Es	$allcaps	// HVS [ha ve es]
+hw	h'au	// SMS: hw read as hau
+hwa	h'Epi||w'EdiNg||,anivErs'ari	// SMS: hwa read as hepi weding anivérsari
+hz	h'Erts	// Hz [herts]
+icu	'aI||s'i||j'u	$allcaps	// ICU [ai si yu]
+idadi	id'adE	// irregular spelling: idadi read as idade
+idc	'aI||d'ount||k'Ear	// SMS: idc read as ai dount kear
+ide	'aI||d'i||i	$allcaps	// IDE [ai di i]
+idea	,ide'ia	// irregular spelling: idea read as ideia
+ideal	,idE'al	// stress: ideál
+identidadi	,idEntid'adE	// irregular spelling: identidadi read as identidade
+ideologia	,idE,OloZ'ia	// irregular spelling: ideologia read as ideolojia
+ideolojika	,idEOl'oZik,a	// stress: ideolójika
+ideolojiku	,idEOl'oZik,u	// stress: ideolójiku
+idk	'aI||d'ount||n'ou	// SMS: idk read as ai dount nou
+idolu	'idol,u	// stress: ídolu
+idroliku	idr'olik,u	// stress: idróliku
+idrueletriku	'idruel'Etrik,u	// stress: ídruelétriku
+ignoransia	,ignor'ansi,a	// stress: ignoránsia
+igreija	igr'EZa	// irregular spelling: igreija read as igreja
+igual	,igu'al	// stress: iguál
+igualidade	,iguald'adE	// irregular spelling: igualidade read as igualdade
+ijieniku	,iZi'Enik,u	// stress: ijiéniku
+ijiji	Ez'iZi	// irregular spelling: ijiji read as eziji
+ikterisia	,iktEr'isi,a	// stress: ikterísia
+ilegal	,ilEg'al	// stress: ilegál
+ilejitima	,ilEZ'itim,a	// stress: ilejítima
+ilejitimu	,ilEZ'itim,u	// stress: ilejítimu
+ilisitu	il'isit,u	// stress: ilísitu
+ilu	'aI||l'av||j'u	// SMS: ilu read as ai lav yu
+imap	'imap	$allcaps	// IMAP [imap]
+imci	'aI||'Em||s'i||'aI	$allcaps	// IMCI [ai em si ai]
+imediato	,imEdi'atu	// irregular spelling: imediato read as imediatu
+imortal	,imort'al	// stress: imortál
+imparsial	,imparsi'al	// stress: imparsiál
+imparsialidadi	,impars,ialid'adE	// irregular spelling: imparsialidadi read as imparsialidade
+imperador	,impErad'or	// stress: imperadór
+imperiu	imp'Eri,u	// stress: impériu
+implementador	,implEm,Entad'or	// stress: implementadór
+implisita	impl'isit,a	// stress: implísita
+implisitu	impl'isit,u	// stress: implísitu
+importador	,importad'or	// stress: importadór
+importansia	,import'ansi,a	// stress: importánsia
+importanti	,import'antE	// irregular spelling: importanti read as importante
+impotensia	,impot'Ensi,a	// stress: impoténsia
+imprime	impr'imi	// irregular spelling: imprime read as imprimi
+imu	'aI||m'iZ||j'u	// SMS: imu read as ai mis yu
+imunidadi	,imunid'adE	// irregular spelling: imunidadi read as imunidade
+imunolojika	,imunol'oZik,a	// stress: imunolójika
+imunolojiku	,imunol'oZik,u	// stress: imunolójiku
+inariu	in'ari,u	// stress: ináriu
+inaugural	,ina,ugur'al	// stress: inaugurál
+inbox	'inboks	// inbox [inboks]
+incentivo	,insEnt'ivu	// irregular spelling: incentivo read as insentivu
+inclui	iNkl'ui	// irregular spelling: inclui read as inklui
+independencia	,indEpEnd'Ensi,a	// irregular spelling: independencia read as independénsia
+independensia	,indEpEnd'Ensi,a	// stress: independénsia
+independenti	,indEpEnd'EntE	// irregular spelling: independenti read as independente
+india	'indi,a	// stress: índia
+indiano	,indi'anu	// irregular spelling: indiano read as indianu
+indikador	,indikad'or	// stress: indikadór
+indisi	'indis,i	// stress: índisi
+indisiplinar	,indis,iplin'ar	// stress: indisiplinár
+indisiu	ind'isi,u	// stress: indísiu
+individual	,indiv,idu'al	// stress: individuál
+indixiplina	,indisipl'ina	// irregular spelling: indixiplina read as indisiplina
+indonesia	,indon'Ezi,a	// irregular spelling: indonesia read as indonézia
+indonezia	,indon'Ezi,a	// stress: indonézia
+indoneziu	,indon'Ezi,u	// stress: indonéziu
+induljensia	,indulZ'Ensi,a	// stress: induljénsia
+industria	ind'ustri,a	// stress: indústria
+industrial	,industri'al	// stress: industriál
+inefisiensia	,inEf,isi'Ensi,a	// stress: inefisiénsia
+inersia	in'Ersi,a	// stress: inérsia
+inesperiensia	,inEsp,Eri'Ensi,a	// stress: inesperiénsia
+infansia	inf'ansi,a	// stress: infánsia
+infantil	,infant'il	// stress: infantíl
+inferior	,infEri'or	// stress: inferiór
+inflamatoria	,inflamat'ori,a	// stress: inflamatória
+inflamatoriu	,inflamat'ori,u	// stress: inflamatóriu
+influencia	,influ'Ensi,a	// irregular spelling: influencia read as influénsia
+influensia	,influ'Ensi,a	// stress: influénsia
+informacao	,informas'aun	// irregular spelling: informacao read as informasaun
+informador	,informad'or	// stress: informadór
+informal	,inform'al	// stress: informál
+informatika	,inform'atik,a	// stress: informátika
+infrastruktura	,infra,Estrut'ura	// irregular spelling: infrastruktura read as infraestrutura
+infrenta	Enfr'Enta	// irregular spelling: infrenta read as enfrenta
+ingles	iNgl'Es	// stress: inglés
+inhalante	'in||hal'antE	// inhalante [in halante]
+inhalasaun	'in||h,alas'aun	// inhalasaun [in halasaun]
+inibidor	,inibid'or	// stress: inibidór
+inisial	,inisi'al	// stress: inisiál
+inisiator	,inis,iat'or	// stress: inisiatór
+inisiu	in'isi,u	// stress: inísiu
+injetor	,inZEt'or	// stress: injetór
+inkapasidadi	,iNkap,asid'adE	// irregular spelling: inkapasidadi read as inkapasidade
+inkapaz	,iNkap'az	// stress: inkapáz
+inkeritu	iNk'Erit,u	// stress: inkéritu
+inkompetensia	,iNkompEt'Ensi,a	// stress: inkompeténsia
+inkonstitusional	,iNkonst,itus,ion'al	// stress: inkonstitusionál
+inkontinensia	,iNkontin'Ensi,a	// stress: inkontinénsia
+inkubador	,iNkubad'or	// stress: inkubadór
+ino	'inu	// irregular spelling: ino read as inu
+inosensia	,inos'Ensi,a	// stress: inosénsia
+inosente	,inos'Enti	// irregular spelling: inosente read as inosenti
+inovador	,inovad'or	// stress: inovadór
+insendiariu	,insEndi'ari,u	// stress: insendiáriu
+insensariu	,insEns'ari,u	// stress: insensáriu
+insidensia	,insid'Ensi,a	// stress: insidénsia
+insidenti	,insid'EntE	// irregular spelling: insidenti read as insidente
+insomnia	ins'omni,a	// stress: insómnia
+inspektur	,inspEt'Or	// irregular spelling: inspektur read as inspetór
+inspetor	,inspEt'or	// stress: inspetór
+instabilidadi	,instab,ilid'adE	// irregular spelling: instabilidadi read as instabilidade
+instansia	inst'ansi,a	// stress: instánsia
+institusional	,instit,usion'al	// stress: institusionál
+instrutor	,instrut'or	// stress: instrutór
+insufisiensia	,insuf,isi'Ensi,a	// stress: insufisiénsia
+integral	,intEgr'al	// stress: integrál
+integridadi	,intEgrid'adE	// irregular spelling: integridadi read as integridade
+intelektual	,intEl,Ektu'al	// stress: intelektuál
+inteligensia	,intEliZ'Ensi,a	// irregular spelling: inteligensia read as intelijénsia
+intelijensia	,intEliZ'Ensi,a	// stress: intelijénsia
+interbankaria	,intErbank'ari,a	// stress: interbankária
+interbankariu	,intErbank'ari,u	// stress: interbankáriu
+interdependensia	,intErdEp'EndEns,ia	// stress: interdepéndensia
+interdisiplinar	,intErd,isiplin'ar	// stress: interdisiplinár
+interface	int'ErfEs	// interface [interfes]
+interferensia	,intErfEr'Ensi,a	// stress: interferénsia
+interino	,intEr'inu	// irregular spelling: interino read as interinu
+interior	,intEri'or	// stress: interiór
+interkambiu	,intErk'ambi,u	// stress: interkámbiu
+interlokutor	,intErl,okut'or	// stress: interlokutór
+intermediariu	,intErm,Edi'ari,u	// stress: intermediáriu
+interministerial	,intErm,inist,Eri'al	// stress: interministeriál
+internacional	,intErn,asion'al	// irregular spelling: internacional read as internasionál
+internal	,intErn'al	// stress: internál
+internasional	,intErn,asion'al	// stress: internasionál
+internet	,intErn'Et	// stress: internét
+interno	int'Ernu	// irregular spelling: interno read as internu
+interogador	,intEr,ogad'or	// stress: interogadór
+interogatoriu	,intEr,ogat'ori,u	// stress: interogatóriu
+interpesoal	,intErp,Eso'al	// stress: interpesoál
+interprete	int'ErprEt,E	// stress: intérprete
+intersesor	,intErsEs'or	// stress: intersesór
+interuptor	,intErupt'or	// stress: interuptór
+intervein	,intErv'En	// irregular spelling: intervein read as intervén
+interven	,intErv'En	// stress: intervén
+intervistador	,intErv,istad'or	// stress: intervistadór
+intoleransia	,intolEr'ansi,a	// stress: intoleránsia
+intrapartu	,intrap'artuN	// irregular spelling: intrapartu read as intrapartum
+intrega	Entr'Ega	// irregular spelling: intrega read as entrega
+introdus	,introd'us	// stress: introdús
+invalida	inv'alid,a	// stress: inválida
+inventariu	,invEnt'ari,u	// stress: inventáriu
+inventoriu	,invEnt'ori,u	// stress: inventóriu
+investidor	,invEstid'or	// stress: investidór
+investigador	,invEst,igad'or	// stress: investigadór
+investor	,invEst'or	// stress: investór
+invoice	inv'ois	// invoice [invois]
+involuntaria	,involunt'ari,a	// stress: involuntária
+involuntariu	,involunt'ari,u	// stress: involuntáriu
+involvimentu	,Envolvim'Entu	// irregular spelling: involvimentu read as envolvimentu
+iperemeze	h,ipErEm'Esis	// irregular spelling: iperemeze read as hiperemesis
+iperglisemia	,ipErglis'Emi,a	// stress: iperglisémia
+iperopia	,ipEr'opi,a	// stress: iperópia
+ipertermia	,ipErt'Ermi,a	// stress: ipertérmia
+ipnoze	hipn'osis	// irregular spelling: ipnoze read as hipnosis
+ipoglisemia	,ipoglis'Emi,a	// stress: ipoglisémia
+ipokalemia	,ipokal'Emi,a	// stress: ipokalémia
+iponimia	,ipon'imi,a	// stress: iponímia
+ipotermia	,ipot'Ermi,a	// stress: ipotérmia
+ipsilon	'ipsil,on	// stress: ípsilon
+ira	'ira	$allcaps	// IRA [ira]
+iresponsabilidadi	,irEsp,onsab,ilid'adE	// irregular spelling: iresponsabilidadi read as iresponsabilidade
+irlandia	irl'andi,a	// stress: irlándia
+irman	irm'an	// stress: irmán
+irmao	irm'aun	// irregular spelling: irmao read as irmaun
+isa	i||'Es||'a	$allcaps	// ISA [i es a]
+iskola	Esk'ola	// irregular spelling: iskola read as eskola
+ispa	'ispa	$allcaps	// ISPA [ispa]
+ispanika	isp'anik,a	// stress: ispánika
+ispaniku	isp'anik,u	// stress: ispániku
+isteria	ist'Eri,a	// stress: istéria
+istoria	ist'ori,a	// stress: istória
+istoriador	,istor,iad'or	// stress: istoriadór
+istorika	ist'orik,a	// stress: istórika
+istoriko	ist'Orik,u	// irregular spelling: istoriko read as istóriku
+istoriku	ist'orik,u	// stress: istóriku
+it	'aI||t'i	$allcaps	// IT [ai ti]
+ital	it'al	// stress: itál
+italia	it'ali,a	// stress: itália
+item	'aItEm	// item [aitem]
+itinerariu	,itinEr'ari,u	// stress: itineráriu
+its	i||t'E||'Es	$allcaps	// ITS [i te es]
+iud	'aI||'u||d'i	$allcaps	// IUD [ai u di]
+iugoslavia	,iugoZl'avi,a	// stress: iugoslávia
+izlandia	izl'andi,a	// stress: izlándia
+izolado	,izol'adu	// irregular spelling: izolado read as izoladu
+izolador	,izolad'or	// stress: izoladór
+izrael	,izra'El	// stress: izraél
+jack	Z'Ek	// irregular spelling: jack read as jék
+jaket	Zak'Et	// stress: jakét
+jambula	Z,ambul'a	// stress: jambulá
+jantar	Zant'ar	// stress: jantár
+jante	Z'anti	// irregular spelling: jante read as janti
+japones	Z,apon'Es	// stress: japonés
+jardim	Zard'in	// irregular spelling: jardim read as jardín
+jardin	Zard'in	// stress: jardín
+javanes	Z,avan'Es	// stress: javanés
+javascript	Zav'askript	// JavaScript [javaskript]
+jejun	ZEZ'un	// stress: jejún
+jeneral	Z,EnEr'al	// stress: jenerál
+jenerika	ZEn'Erik,a	// stress: jenérika
+jeneriku	ZEn'Erik,u	// stress: jenériku
+jenerosidadi	Z,EnEr,osid'adE	// irregular spelling: jenerosidadi read as jenerosidade
+jeneru	Z'EnEr,u	// stress: jéneru
+jenetika	ZEn'Etik,a	// stress: jenétika
+jenetiku	ZEn'Etik,u	// stress: jenétiku
+jenital	Z,Enit'al	// stress: jenitál
+jenitalia	Z,Enit'ali,a	// stress: jenitália
+jenomika	ZEn'omik,a	// stress: jenómika
+jenomiku	ZEn'omik,u	// stress: jenómiku
+jenosidiu	Z,Enos'idi,u	// stress: jenosídiu
+jentiliku	ZEnt'ilik,u	// stress: jentíliku
+jeoestratejika	Z,EO,Estrat'EZik,a	// stress: jeoestratéjika
+jeoestratejiku	Z,EO,Estrat'EZik,u	// stress: jeoestratéjiku
+jeografika	Z,EOgr'afik,a	// stress: jeográfika
+jeografiku	Z,EOgr'afik,u	// stress: jeográfiku
+jeopolitiku	Z,EOpol'itik,u	// stress: jeopolítiku
+jerador	Z,Erad'or	// stress: jeradór
+jeral	ZEr'al	// stress: jerál
+jerigen	Z'Erig,En	// stress: jérigen
+jestor	ZEst'or	// stress: jestór
+jga	Z'oga	// SMS: jga read as joga
+jige	Zig'E	// stress: jigé
+jinastika	Zin'astik,a	// stress: jinástika
+jinaziu	Zin'azi,u	// stress: jináziu
+jirasol	Z,iras'ol	// stress: jirasól
+jiria	Z'iri,a	// stress: jíria
+jk	Z'ast||k'idiNg	// SMS: jk read as jast kiding
+jo	Z'O	// correction: jo [joo] expert 2026-11-02: one written vowel means a long vowel (o is open, like oo); only be ho i ka ke la no o se are truly one syllable
+jogador	Z,ogad'or	// stress: jogadór
+joia	Z'oi,a	// stress: jóia
+jordania	Zord'ani,a	// stress: jordánia
+jornal	Zorn'al	// stress: jornál
+jornalismo	Z,ornal'izmu	// irregular spelling: jornalismo read as jornalizmu
+joventude	Z,uvEnt'udE	// irregular spelling: joventude read as juventude
+joventudi	Z,uvEnt'udE	// irregular spelling: joventudi read as juventude
+joystick	Zo'istik	// joystick [joistik]
+judicial	Z,udisi'al	// irregular spelling: judicial read as judisiál
+judisial	Z,udisi'al	// stress: judisiál
+judisiaria	Z,udisi'ari,a	// stress: judisiária
+judisiario	Z,udisi'ari,u	// irregular spelling: judisiario read as judisiáriu
+judisiariu	Z,udisi'ari,u	// stress: judisiáriu
+judu	Z'udo	// irregular spelling: judu read as judo
+julgador	Z,ulgad'or	// stress: julgadór
+julgamento	Z,ulgam'Entu	// irregular spelling: julgamento read as julgamentu
+junior	Z,uni'or	// stress: juniór
+jupiter	Z'upit,Er	// stress: júpiter
+juridika	Zur'idik,a	// stress: jurídika
+juridiko	Zur'idik,u	// irregular spelling: juridiko read as jurídiku
+juridiku	Zur'idik,u	// stress: jurídiku
+jurisprudensia	Z,urisprud'Ensi,a	// stress: jurisprudénsia
+juven	Z'ovEn	// irregular spelling: juven read as joven
+juvenil	Z,uvEn'il	// stress: juveníl
+juventudi	Z,uvEnt'udE	// irregular spelling: juventudi read as juventude
+kaber	kab'Er	// irregular spelling: kaber read as kabeer
+kadaves	k,adav'Es	// stress: kadavés
+kadera	k,ade'ira	// irregular spelling: kadera read as kadeira
+kaevauk	kaIb'auk	// irregular spelling: kaevauk read as kaibauk
+kafe	kaf'E	// stress: kafé
+kaiju	kaIZ'u	// stress: kaijú
+kalendariu	k,alEnd'ari,u	// stress: kalendáriu
+kalibrador	k,alibrad'or	// stress: kalibradór
+kalix	k'alis	// irregular spelling: kalix read as kalis
+kalkulador	k,alkulad'or	// stress: kalkuladór
+kalkulu	k'alkul,u	// stress: kálkulu
+kalsiu	k'alsi,u	// stress: kálsiu
+kamara	k'amar,a	// stress: kámara
+kamardiar	k,amardi'ar	// stress: kamardiár
+kampanye	kamp'an^a	// irregular spelling: kampanye read as kampanha
+kampo	k'ampu	// irregular spelling: kampo read as kampu
+kanada	k,anad'a	// stress: kanadá
+kanal	kan'al	// stress: kanál
+kanalizador	k,anal,izad'or	// stress: kanalizadór
+kanarin	k'anar,in	// stress: kánarin
+kandida	k'andid,a	// stress: kándida
+kanfora	k'anfra	// irregular spelling: kanfora read as kanfra
+kanivete	k,aniv'Eti	// irregular spelling: kanivete read as kaniveti
+kanonika	kan'onik,a	// stress: kanónika
+kanoniku	kan'onik,u	// stress: kanóniku
+kantador	k,antad'or	// stress: kantadór
+kantiku	k'antik,u	// stress: kántiku
+kantil	kant'il	// stress: kantíl
+kantor	kant'or	// stress: kantór
+kantredu	k,antade'iru	// irregular spelling: kantredu read as kantadeiru
+kaotika	ka'otik,a	// stress: kaótika
+kaotiku	ka'otik,u	// stress: kaótiku
+kapasete	k,apas'Eti	// irregular spelling: kapasete read as kapaseti
+kapasidadi	k,apasid'adE	// irregular spelling: kapasidadi read as kapasidade
+kapital	k,apit'al	// stress: kapitál
+kapitulu	kap'itul,u	// stress: kapítulu
+kapon	kap'on	// stress: kapón
+kapote	kap'oti	// irregular spelling: kapote read as kapoti
+kapsula	k'apsul,a	// stress: kápsula
+karaik	kr'aIk	// irregular spelling: karaik read as kraik
+karakol	k,arak'ol	// stress: karakól
+karakteristika	k,araktEr'istik,a	// stress: karakterístika
+karare	k,arar'E	// stress: kararé
+karate	k,arat'E	// stress: karaté
+karater	kar'aktEr	// irregular spelling: karater read as karakter
+karburador	k,arburad'or	// stress: karburadór
+kardeal	k,ardE'al	// stress: kardeál
+kardiovaskular	k,ardi,ovaskul'ar	// stress: kardiovaskulár
+kardiuvaskular	k,ardi,uvaskul'ar	// stress: kardiuvaskulár
+karegador	k,arEgad'or	// stress: karegadór
+kargo	k'argu	// irregular spelling: kargo read as kargu
+karie	k'ari,e	// stress: kárie
+karil	kar'il	// stress: karíl
+karizmatiku	k,arizm'atik,u	// stress: karizmátiku
+karnaval	k,arnav'al	// stress: karnavál
+kartel	kart'El	// stress: kartél
+karton	kart'on	// stress: kartón
+kartun	kart'un	// stress: kartún
+kartus	kart'us	// stress: kartús
+kasador	k,asad'or	// stress: kasadór
+kasete	kas'Eti	// irregular spelling: kasete read as kaseti
+kastigo	kast'igu	// irregular spelling: kastigo read as kastigu
+katalizador	k,atal,izad'or	// stress: katalizadór
+katastrofe	kat'astrof,E	// stress: katástrofe
+katedral	k,atEdr'al	// stress: katedrál
+kategori	k,atEgor'ia	// irregular spelling: kategori read as kategoria
+kategorial	k,atEg,ori'al	// stress: kategoriál
+kateketika	k,atEk'Etik,a	// stress: katekétika
+kateketiku	k,atEk'Etik,u	// stress: katekétiku
+katekumenu	k,atEk'umEn,u	// stress: katekúmenu
+katolik	kat'Olik,u	// irregular spelling: katolik read as katóliku
+katolika	kat'olik,a	// stress: katólika
+katoliku	kat'olik,u	// stress: katóliku
+kazal	kaz'al	// stress: kazál
+kdd	k,uid'adu	// SMS: kdd read as kuidadu
+kds	k'Edas	// SMS: kds read as kedas
+keisa	ke'iSa	// irregular spelling: keisa read as keixa
+kelas	kEl'as	// stress: kelás
+kerubin	k,Erub'in	// stress: kerubín
+kestionariu	k,Estion'ari,u	// stress: kestionáriu
+ketik	kEt'ik	// stress: ketík
+keyboard	k'ibor	// keyboard [kibor]
+kilo	k'ilu	// irregular spelling: kilo read as kilu
+kilobyte	kil'ubaIt	// kilobyte [kilubait]
+kilometru	kil'omEtr,u	// stress: kilómetru
+kilowat	k,ilow'at	// stress: kilowát
+kimika	k'imik,a	// stress: kímika
+kimiku	k'imik,u	// stress: kímiku
+kintal	kint'al	// stress: kintál
+kinto	k'intu	// irregular spelling: kinto read as kintu
+kinze	k'inzi	// irregular spelling: kinze read as kinzi
+kirie	k'iri,e	// stress: kírie
+kistaun	kEst'aun	// irregular spelling: kistaun read as kestaun
+kisu	k'isuk	// irregular spelling: kisu read as kisuk
+klamidia	klam'idi,a	// stress: klamídia
+klasifikador	kl,asif,ikad'or	// stress: klasifikadór
+klauzula	kl'auz,ula	// stress: kláuzula
+klemensia	klEm'Ensi,a	// stress: kleménsia
+klg	kol'Ega	// SMS: klg read as kolega
+klia	k,Oal'ia	// SMS: klia read as koalia
+klienti	kli'entE	// irregular spelling: klienti read as kliente
+klimatika	klim'atik,a	// stress: klimátika
+klinika	kl'inik,a	// stress: klínika
+kliniku	kl'inik,u	// stress: klíniku
+klitiku	kl'itik,u	// stress: klítiku
+klone	kl'on	// irregular spelling: klone read as klon
+klube	kl'ubu	// irregular spelling: klube read as klubu
+kmeik	kam'eik	// irregular spelling: kmeik read as kameik
+kmesa	kom'Esa	// SMS: kmesa read as komesa
+kmpltu	kompl'Etu	// SMS: kmpltu read as kompletu
+knaban	kan'aba	// irregular spelling: knaban read as kanaba
+knek	k'anEk	// SMS: knek read as kanek
+kntti	kont'Enti	// SMS: kntti read as kontenti
+ko	k'O	// correction: ko [koo] expert 2026-11-02: one written vowel means a long vowel (o is open, like oo); only be ho i ka ke la no o se are truly one syllable
+koador	k,Oad'or	// stress: koadór
+koaze	ku'azE	// irregular spelling: koaze read as kuaze
+kobrador	k,obrad'or	// stress: kobradór
+kodigu	k'odig,u	// stress: kódigu
+kodiku	k'Odig,u	// irregular spelling: kodiku read as kódigu
+koinsidensia	k,oinsid'Ensi,a	// stress: koinsidénsia
+kolaborador	k,olab,orad'or	// stress: kolaboradór
+kolar	kol'ar	// stress: kolár
+kolejiu	kol'EZi,u	// stress: koléjiu
+kolektavel	k,olEktav'El	// stress: kolektavél
+kolelitiaze	k,olEl,iti'asis	// irregular spelling: kolelitiaze read as kolelitiasis
+kolera	k'olEr,a	// stress: kólera
+kolesistite	k,olEsist'itis	// irregular spelling: kolesistite read as kolesistitis
+kolesterol	k,olEstEr'ol	// stress: kolesteról
+kolika	k'olik,a	// stress: kólika
+kolokiu	kol'oki,u	// stress: kolókiu
+kolonia	kol'oni,a	// stress: kolónia
+kolonial	k,oloni'al	// stress: koloniál
+kolonialismu	k,olon,ial'izmu	// irregular spelling: kolonialismu read as kolonializmu
+kolonizador	k,olon,izad'or	// stress: kolonizadór
+kolorau	k,olor'aun	// irregular spelling: kolorau read as koloraun
+kolxaun	k,uliS'aun	// irregular spelling: kolxaun read as kulixaun
+komandanti	k,omand'antE	// irregular spelling: komandanti read as komandante
+komandu	kom'ando	// irregular spelling: komandu read as komando
+kombati	komb'atE	// irregular spelling: kombati read as kombate
+komedia	kom'Edi,a	// stress: komédia
+komentador	k,omEntad'or	// stress: komentadór
+komentariu	k,omEnt'ari,u	// stress: komentáriu
+komersial	k,omErsi'al	// stress: komersiál
+komersiu	kom'Ersi,u	// stress: komérsiu
+komisaria	k,omis'ari,a	// stress: komisária
+komisario	k,omis'ari,u	// irregular spelling: komisario read as komisáriu
+komisariu	k,omis'ari,u	// stress: komisáriu
+komisiu	kom'isi,u	// stress: komísiu
+komit	kom'it	// stress: komít
+komite	k,omit'E	// stress: komité
+komitmen	k,omitm'Entu	// irregular spelling: komitmen read as komitmentu
+komonidade	k,omunid'adE	// irregular spelling: komonidade read as komunidade
+kompanheiro	k,ompan^e'iru	// irregular spelling: kompanheiro read as kompanheiru
+kompetensia	k,ompEt'Ensi,a	// stress: kompeténsia
+kompetenti	k,ompEt'EntE	// irregular spelling: kompetenti read as kompetente
+kompetidor	k,ompEtid'or	// stress: kompetidór
+kompilador	k,ompilad'or	// stress: kompiladór
+komplementar	k,omplEmEnt'ar	// stress: komplementár
+kompozitor	k,ompozit'or	// stress: kompozitór
+kompozitu	komp'ozit,u	// stress: kompózitu
+komprador	k,omprad'or	// stress: kompradór
+komprensaun	k,ompriens'aun	// irregular spelling: komprensaun read as kompriensaun
+kompresor	k,omprEs'or	// stress: kompresór
+komprnd	kompr'EndE	// SMS: komprnd read as komprende
+komputador	k,omputad'or	// stress: komputadór
+komun	kom'un	// stress: komún
+komunal	k,omun'al	// stress: komunál
+komunitaria	k,omunit'ari,a	// stress: komunitária
+komunitario	k,omunit'ari,u	// irregular spelling: komunitario read as komunitáriu
+komunitariu	k,omunit'ari,u	// stress: komunitáriu
+konde	k'ondi	// irregular spelling: konde read as kondi
+kondensor	k,ondEns'or	// stress: kondensór
+kondis	kond'is	// stress: kondís
+kondolensia	k,ondol'Ensi,a	// stress: kondolénsia
+kondutor	k,ondut'or	// stress: kondutór
+konetor	k,onEt'or	// stress: konetór
+konferensia	k,onfEr'Ensi,a	// stress: konferénsia
+konfesionariu	k,onfEs,ion'ari,u	// stress: konfesionáriu
+konfidensial	k,onfid,Ensi'al	// stress: konfidensiál
+konfidensialidadi	k,onfid,Ensi,alid'adE	// irregular spelling: konfidensialidadi read as konfidensialidade
+konflito	konfl'itu	// irregular spelling: konflito read as konflitu
+konformi	konf'ormE	// irregular spelling: konformi read as konforme
+konfunde	konf'undi	// irregular spelling: konfunde read as konfundi
+kongresso	koNr'Esu	// irregular spelling: kongresso read as kongresu
+konjelador	k,onZElad'or	// stress: konjeladór
+konjenita	konZ'Enit,a	// stress: konjénita
+konjenitu	konZ'Enit,u	// stress: konjénitu
+konjunto	konZ'untu	// irregular spelling: konjunto read as konjuntu
+konkordansia	k,onkord'ansi,a	// stress: konkordánsia
+konkorensia	k,onkor'Ensi,a	// stress: konkorénsia
+konkreto	konkr'Etu	// irregular spelling: konkreto read as konkretu
+konse	kon^'EsE	// SMS: konse read as konhese
+konsekuensia	k,onsEku'Ensi,a	// stress: konsekuénsia
+konselho	kons'El^u	// irregular spelling: konselho read as konselhu
+konsensu	kons'Ensus	// irregular spelling: konsensu read as konsensus
+konsensual	k,onsEnsu'al	// stress: konsensuál
+konsiensia	k,onsi'Ensi,a	// stress: konsiénsia
+konsiliu	kons'ili,u	// stress: konsíliu
+konsistensia	k,onsist'Ensi,a	// stress: konsisténsia
+konsistenti	k,onsist'EntE	// irregular spelling: konsistenti read as konsistente
+konsistoriu	k,onsist'ori,u	// stress: konsistóriu
+konstitusional	k,onstit,usion'al	// stress: konstitusionál
+konsultador	k,onsultad'or	// stress: konsultadór
+konsultan	k,onsult'an	// stress: konsultán
+konsultor	k,onsult'or	// stress: konsultór
+konsultoriu	k,onsult'ori,u	// stress: konsultóriu
+konsume	kons'umi	// irregular spelling: konsume read as konsumi
+konsumidor	k,onsumid'or	// stress: konsumidór
+kont	k,ontin'ua	// SMS: kont read as kontínua
+kontador	k,ontad'or	// stress: kontadór
+kontajiu	kont'aZi,u	// stress: kontájiu
+kontakilometru	k,ontakil'omEtr,u	// stress: kontakilómetru
+kontazen	kont'aZEn	// irregular spelling: kontazen read as kontajen
+kontemporanea	k,ontEmpor'anE,a	// stress: kontemporánea
+kontentor	k,ontEnt'or	// stress: kontentór
+kontinensia	k,ontin'Ensi,a	// stress: kontinénsia
+kontinental	k,ontinEnt'al	// stress: kontinentál
+kontinjensia	k,ontinZ'Ensi,a	// stress: kontinjénsia
+kontinuidadi	k,ontin,uid'adE	// irregular spelling: kontinuidadi read as kontinuidade
+kontiudu	k,onte'udu	// irregular spelling: kontiudu read as konteudu
+kontradis	k,ontrad'is	// stress: kontradís
+kontraria	kontr'ari,a	// stress: kontrária
+kontrariu	kontr'ari,u	// stress: kontráriu
+kontrator	k,ontrat'or	// stress: kontratór
+kontratual	k,ontratu'al	// stress: kontratuál
+kontrolador	k,ontrolad'or	// stress: kontroladór
+kontroversial	k,ontrov,Ersi'al	// stress: kontroversiál
+konvensional	k,onvEns,ion'al	// stress: konvensionál
+konversor	k,onvErs'or	// stress: konversór
+konvivensia	k,onviv'Ensi,a	// stress: konvivénsia
+konxiente	k,onsi'entE	// irregular spelling: konxiente read as konsiente
+kopia	k'opi,a	// stress: kópia
+kor	k'Or	// correction: kor [koor] expert 2026-11-02: one written vowel means a long vowel (o is open, like oo); only be ho i ka ke la no o se are truly one syllable
+koral	kor'al	// stress: korál
+korante	kor'anti	// irregular spelling: korante read as koranti
+korazen	kor'aZEn	// irregular spelling: korazen read as korajen
+kordenador	k,ordEnad'or	// stress: kordenadór
+koreano	k,orE'anu	// irregular spelling: koreano read as koreanu
+koredor	k,orEd'or	// stress: koredór
+korektor	k,orEkt'or	// stress: korektór
+korespondensia	k,orEspond'Ensi,a	// stress: korespondénsia
+koretor	k,orEt'or	// stress: koretór
+koridor	k,orEd'Or	// irregular spelling: koridor read as koredór
+koronel	k,oron'El	// stress: koronél
+korporal	k,orpor'al	// stress: korporál
+korrente	kor'Enti	// irregular spelling: korrente read as korenti
+korrije	kor'iZi	// irregular spelling: korrije read as koriji
+koruptor	k,orupt'or	// stress: koruptór
+kostume	kost'umi	// irregular spelling: kostume read as kostumi
+kozmetiku	kozm'Etik,u	// stress: kozmétiku
+kps	k'ampus	// SMS: kps read as kampus
+kreatividadi	kr,Eat,ivid'adE	// irregular spelling: kreatividadi read as kreatividade
+kredensial	kr,EdEnsi'al	// stress: kredensiál
+kreditor	kr,Edit'or	// stress: kreditór
+kreditu	kr'Edit,u	// stress: kréditu
+kredor	krEd'or	// stress: kredór
+krematoriu	kr,Emat'ori,u	// stress: krematóriu
+kremi	kr'EmE	// irregular spelling: kremi read as kreme
+kreximentu	kr,Esim'Entu	// irregular spelling: kreximentu read as kresimentu
+kriado	kri'adu	// irregular spelling: kriado read as kriadu
+kriador	kr,iad'or	// stress: kriadór
+kriminal	kr,imin'al	// stress: kriminál
+kriminalidadi	kr,imin,alid'adE	// irregular spelling: kriminalidadi read as kriminalidade
+kristal	krist'al	// stress: kristál
+kriteria	krit'Eri,a	// stress: kritéria
+kritika	kr'itik,a	// stress: krítika
+kritiku	kr'itik,u	// stress: krítiku
+krk	k'arik	// SMS: krk read as karik
+kronika	kr'onik,a	// stress: krónika
+kroniku	kr'onik,u	// stress: króniku
+kronometru	kron'omEtr,u	// stress: kronómetru
+kroxe	kurs'E	// irregular spelling: kroxe read as kursé
+krusial	kr,usi'al	// stress: krusiál
+ktus	kat'uas	// SMS: ktus read as katuas
+kuadriplejia	k,uadripl'EZi,a	// stress: kuadripléjia
+kualidadi	k,ualid'adE	// irregular spelling: kualidadi read as kualidade
+kualker	k,ualk'Er	// stress: kualkér
+kuando	ku'andu	// irregular spelling: kuando read as kuandu
+kuantidadi	k,uantid'adE	// irregular spelling: kuantidadi read as kuantidade
+kuartel	k,uart'El	// stress: kuartél
+kuartet	k,uart'Et	// stress: kuartét
+kuase	ku'azE	// irregular spelling: kuase read as kuaze
+kuazi	ku'azE	// irregular spelling: kuazi read as kuaze
+kubano	kub'anu	// irregular spelling: kubano read as kubanu
+kuestionariu	k,Estion'ari,u	// irregular spelling: kuestionariu read as kestionáriu
+kulia	k,Oal'ia	// irregular spelling: kulia read as koalia
+kultural	k,ultur'al	// stress: kulturál
+kumpre	k'umpri	// irregular spelling: kumpre read as kumpri
+kumprende	k,ompri'endE	// irregular spelling: kumprende read as kompriende
+kunsidera	k,onsid'Era	// irregular spelling: kunsidera read as konsidera
+kupon	kup'on	// stress: kupón
+kurador	k,urad'or	// stress: kuradór
+kuria	k'uri,a	// stress: kúria
+kurikulu	kur'ikul,u	// stress: kuríkulu
+kurse	kurs'E	// stress: kursé
+kursor	k'ursor	// kursor [kursor]
+kurzi	kur'iZi	// SMS: kurzi read as kuriji
+kustume	kost'umi	// irregular spelling: kustume read as kostumi
+kutaneu	kut'ane,u	// stress: kutáneu
+label	l'abEl	// label [label]
+laboratorial	l,abor,atori'al	// stress: laboratoriál
+laboratorium	l,aborat'ori,um	// stress: laboratórium
+lakoi	lak'ohi	// irregular spelling: lakoi read as lakohi
+lamina	l'amin,a	// stress: lámina
+lampada	l'ampra	// irregular spelling: lampada read as lampra
+lan	l'En	$allcaps	// LAN [len]
+lansamento	l,ansam'Entu	// irregular spelling: lansamento read as lansamentu
+lanxa	l'ansa	// irregular spelling: lanxa read as lansa
+lapijeira	l,apize'ira	// irregular spelling: lapijeira read as lapizeira
+laptop	l'Eptop	// laptop [leptop]
+latin	lat'in	// stress: latín
+layout	l,ei'aut	// layout [leiaut]
+lazer	l'eIzer	// irregular spelling: lazer read as laser
+lbele	la||b'ElE	// SMS: lbele read as la bele
+lbrik	lab'arik	// SMS: lbrik read as labarik
+lcd	'El||s'i||d'i	$allcaps	// LCD [el si di]
+lda	l,imit'ada	// Lda [limitada]
+ldk	la||d'iak	// SMS: ldk read as la diak
+ldun	lad'un	// SMS: ldun read as laduun
+led	'El||i||d'i	$allcaps	// LED [el i di]
+legal	lEg'al	// stress: legál
+legislasaun	l,EZizlas'aun	// irregular spelling: legislasaun read as lejizlasaun
+legitimidade	l,EZit,imid'adE	// irregular spelling: legitimidade read as lejitimidade
+leiju	le'igu	// irregular spelling: leiju read as leigu
+leilaun	lEl'aun	// irregular spelling: leilaun read as lelaun
+leitor	l,eit'or	// stress: leitór
+lejitima	lEZ'itim,a	// stress: lejítima
+lejitimu	lEZ'itim,u	// stress: lejítimu
+lelan	lEl'an	// stress: lelán
+lensol	lEns'ol	// stress: lensól
+lesbian	l'EZbi,an	// stress: lésbian
+letarjia	lEt'arZi,a	// stress: letárjia
+leukemia	l,euk'Emi,a	// stress: leukémia
+lezado	lEz'adu	// irregular spelling: lezado read as lezadu
+lezbika	l'Ezbik,a	// stress: lézbika
+lgbt	'El||Z'i||b'i||t'i	$allcaps	// LGBT [el ji bi ti]
+lgbti	'El||Z'i||b'i||t'i||'aI	$allcaps	// LGBTI [el ji bi ti ai]
+lha	la||'iha	// SMS: lha read as la iha
+liberal	l,ibEr'al	// stress: liberál
+libertador	l,ibErtad'or	// stress: libertadór
+libraria	libr'ari,a	// stress: librária
+libre	l'ivrE	// irregular spelling: libre read as livre
+ligador	l,igad'or	// stress: ligadór
+like	l'aIk	// like [laik]
+likidez	l,ikid'Ez	// stress: likidéz
+likidu	l'ikid,u	// stress: líkidu
+lila	l'ila	$allcaps	// LILA [lila]
+lili	lil'i	// stress: lilí
+linear	l,inE'ar	// stress: lineár
+lingua	l'iNu,a	// stress: língua
+linguistika	l,iNgu'istik,a	// stress: linguístika
+linguistiku	l,iNgu'istik,u	// stress: linguístiku
+liriu	l'iri,u	// stress: líriu
+lisio	lis'iu	$allcaps	// LISIO [lisiu]
+literaria	l,itEr'ari,a	// stress: literária
+literariu	l,itEr'ari,u	// stress: literáriu
+liturjika	lit'urZik,a	// stress: litúrjika
+liturjiku	lit'urZik,u	// stress: litúrjiku
+livro	l'ivru	// irregular spelling: livro read as livru
+lixador	l,iSad'or	// stress: lixadór
+lixivia	liS'ivi,a	// stress: lixívia
+lkoi	lak'ohi	// SMS: lkoi read as lakohi
+lkon	l'akon	// SMS: lkon read as lakon
+lky	lak'oi	// SMS: lky read as lakoi
+llis	l'aIlaIs	// SMS: llis read as lailais
+llka	lal'ika	// SMS: llka read as lalika
+lo	l'O	// correction: lo [loo] expert 2026-11-02: one written vowel means a long vowel (o is open, like oo); only be ho i ka ke la no o se are truly one syllable
+local	lok'al	// irregular spelling: local read as lokál
+lockdown	lokd'aun	// lockdown [lokdaun]
+loial	l,oi'al	// stress: loiál
+lojika	l'oZik,a	// stress: lójika
+lojiku	l'oZik,u	// stress: lójiku
+lojistika	loZ'istik,a	// stress: lojístika
+lojistiku	loZ'istik,u	// stress: lojístiku
+lokal	lok'al	// stress: lokál
+lokrk	l'okraIk	// SMS: lokrk read as lokraik
+lol	l'afiNg||'aut||l'aud	// SMS: lol read as lafing aut laud
+longitudinal	l,oNit,udin'al	// stress: longitudinál
+lor	l'Or	// correction: lor [loor] expert 2026-11-02: one written vowel means a long vowel (o is open, like oo); only be ho i ka ke la no o se are truly one syllable
+los	l'Os	// correction: los [loos] expert 2026-11-02: one written vowel means a long vowel (o is open, like oo); only be ho i ka ke la no o se are truly one syllable
+louvor	l,ouv'or	// stress: louvór
+lugar	lug'ar	// stress: lugár
+lusifer	l,usif'Er	// stress: lusifér
+lutador	l,utad'or	// stress: lutadór
+luzofonu	luz'ofon,u	// stress: luzófonu
+mae	m'aIn	// irregular spelling: mae read as main
+mafia	m'afi,a	// stress: máfia
+magnezium	magn'Ezi,um	// stress: magnézium
+maibe	maIb'E	// stress: maibé
+mainframe	m'EnfrEm	// mainframe [menfrem]
+maior	maI'or	// stress: maiór
+maioritaria	m,aIorit'ari,a	// stress: maioritária
+maioritariu	m,aIorit'ari,u	// stress: maioritáriu
+majika	m'aZik,a	// stress: májika
+majisteriu	m,aZist'Eri,u	// stress: majistériu
+major	maZ'or	// stress: majór
+makina	m'akin,a	// stress: mákina
+makula	m'akul,a	// stress: mákula
+makular	m,akul'ar	// stress: makulár
+malaria	mal'ari,a	// stress: malária
+malazia	mal'azi,a	// stress: malázia
+malkriado	m,alkri'adu	// irregular spelling: malkriado read as malkriadu
+mama	mam'a	// stress: mamá
+mamiferu	mam'ifEr,u	// stress: mamíferu
+mandibula	mand'ibul,a	// stress: mandíbula
+mandolin	m,andol'in	// stress: mandolín
+mandor	mand'or	// stress: mandór
+mangal	maN'al	// stress: mangál
+maniaka	man'iak,a	// stress: maníaka
+maniaku	man'iak,u	// stress: maníaku
+manifold	man'iful	// manifold [maniful]
+manipulador	m,anip,ulad'or	// stress: manipuladór
+manual	m,anu'al	// stress: manuál
+marakuja	m,arakuZ'a	// stress: marakujá
+maritima	mar'itim,a	// stress: marítima
+maritimu	mar'itim,u	// stress: marítimu
+marjinal	m,arZin'al	// stress: marjinál
+markador	m,arkad'or	// stress: markadór
+marmore	m'armor,E	// stress: mármore
+martirolojiu	m,artirol'oZi,u	// stress: martirolójiu
+mas	m'aIs	// irregular spelling: mas read as mais
+masal	mas'al	// stress: masál
+masimu	m'asim,u	// stress: másimu
+maskara	m'askar,a	// stress: máskara
+masoniku	mas'onik,u	// stress: masóniku
+matematika	m,atEm'atik,a	// stress: matemátika
+materia	mat'Eri,a	// stress: matéria
+material	m,atEri'al	// stress: materiál
+maternal	m,atErn'al	// stress: maternál
+matriarkal	m,atriark'al	// stress: matriarkál
+matrikula	matr'ikul,a	// stress: matríkula
+matrilineal	m,atril,inE'al	// stress: matrilineál
+matrilinear	m,atril,inE'ar	// stress: matrilineár
+matrimonia	m,atrim'oni,a	// stress: matrimónia
+matris	matr'is	// stress: matrís
+matros	matr'os	// stress: matrós
+maupagador	m,aup,agad'or	// stress: maupagadór
+mb	mEg'abaIt	$allcaps	// MB [megabait]
+mbe	maIb'E	// SMS: mbe read as maibee
+mc	Ems'i	$allcaps	// MC [emsí]
+mda	m,eud'ia	// SMS: mda read as meudia
+mdg	Emd'iZi	$allcaps	// MDG [emdiji]
+mds	'Em||dE||'Es	// MdS [em de es]
+me	m'adrE	// SMS: me read as madre
+media	m'Edi,a	// stress: média
+mediador	m,Ediad'or	// stress: mediadór
+medidor	m,Edid'or	// stress: medidór
+medika	m'Edik,a	// stress: médika
+mediku	m'Edik,u	// stress: médiku
+mediteraneu	m,EditEr'ane,u	// stress: mediteráneu
+mediu	m'Edi,u	// stress: médiu
+megabyte	mEg'abaIt	// megabyte [megabait]
+megahertz	mEg'ahErts	// megahertz [megaherts]
+meios	me'ius	// irregular spelling: meios read as meius
+mekanika	mEk'anik,a	// stress: mekánika
+meksiko	m'Eksik,o	// stress: méksiko
+melanezia	m,Elan'Ezi,a	// stress: melanézia
+melhorador	m,El^orad'or	// stress: melhoradór
+membro	m'Embru	// irregular spelling: membro read as membru
+memoria	mEm'ori,a	// stress: memória
+menino	mEn'inu	// irregular spelling: menino read as meninu
+menor	mEn'or	// stress: menór
+menos	m'Enus	// irregular spelling: menos read as menus
+mensagem	mEns'aZEn	// irregular spelling: mensagem read as mensajen
+mensal	mEns'al	// stress: mensál
+mental	mEnt'al	// stress: mentál
+mercado	mErk'adu	// irregular spelling: mercado read as merkadu
+meritu	m'Erit,u	// stress: méritu
+merkuriu	mErk'uri,u	// stress: merkúriu
+mesa	m'Eza	// irregular spelling: mesa read as meza
+mesial	m,Esi'al	// stress: mesiál
+mesin	mEs'in	// stress: mesín
+mesmo	m'Ezmu	// irregular spelling: mesmo read as mezmu
+mestiso	mEst'isu	// irregular spelling: mestiso read as mestisu
+metabolika	m,Etab'olik,a	// stress: metabólika
+metaboliku	m,Etab'olik,u	// stress: metabóliku
+metafora	mEt'afor,a	// stress: metáfora
+metal	mEt'al	// stress: metál
+metalinguistika	m,Etal,iNgu'istik,a	// stress: metalinguístika
+metalinguistiku	m,Etal,iNgu'istik,u	// stress: metalinguístiku
+metastasis	mEt'astas,is	// stress: metástasis
+meteorolojika	m,EtE,Orol'oZik,a	// stress: meteorolójika
+meteorolojiku	m,EtE,Orol'oZik,u	// stress: meteorolójiku
+metodu	m'Etod,u	// stress: métodu
+metralhador	m,Etral^ad'or	// stress: metralhadór
+metropole	mEtr'opol,E	// stress: metrópole
+mexiku	m'ESik,u	// stress: méxiku
+mfb	mar'omak||f'O||bEns'aun	// SMS: mfb read as Maromak foo bensaun
+mhz	mEg'ahErts	// MHz [megaherts]
+mianmar	m'ianm,ar	// stress: míanmar
+microchip	mikr'osip	// microchip [mikrocip]
+microwave	m,aIkrow'eiv	// microwave [maikroweiv]
+mikrobiu	mikr'obi,u	// stress: mikróbiu
+mikrokomputador	m,ikrok,omputad'or	// stress: mikrokomputadór
+mikrokontrolador	m,ikrok,ontrolad'or	// stress: mikrokontroladór
+mikrokreditu	m,ikrokr'Edit,u	// stress: mikrokréditu
+mikrolet	m,ikrol'Et	// stress: mikrolét
+mikrometru	mikr'omEtr,u	// stress: mikrómetru
+mikroprosesador	m,ikropr,osEsad'or	// stress: mikroprosesadór
+mikroskopiu	m,ikrosk'opi,u	// stress: mikroskópiu
+mileniu	mil'Eni,u	// stress: miléniu
+milimetru	mil'imEtr,u	// stress: milímetru
+milisia	mil'isi,a	// stress: milísia
+militar	m,ilit'ar	// stress: militár
+milyar	milj'ar	// stress: milyár
+mineral	m,inEr'al	// stress: minerál
+minibar	m,inib'ar	// stress: minibár
+minikomputador	m,inik,omputad'or	// stress: minikomputadór
+minimal	m,inim'al	// stress: minimál
+minimu	m'inim,u	// stress: mínimu
+ministeriu	m,inist'Eri,u	// stress: ministériu
+minoritaria	m,inorit'ari,a	// stress: minoritária
+minoritariu	m,inorit'ari,u	// stress: minoritáriu
+miopia	mi'opi,a	// stress: miópia
+misal	mis'al	// stress: misál
+misionaria	m,ision'ari,a	// stress: misionária
+misionariu	m,ision'ari,u	// stress: misionáriu
+misteriu	mist'Eri,u	// stress: mistériu
+mistika	m'istik,a	// stress: místika
+mistiku	m'istik,u	// stress: místiku
+mizeria	miz'Eri,a	// stress: mizéria
+mizerikordia	m,izErik'ordi,a	// stress: mizerikórdia
+mk	m'ak	// SMS: mk read as mak
+mkne	mak||n'E	// SMS: mkne read as mak nee
+mksd	m'aksud	// SMS: mksd read as maksud
+mlrn	mal'irin	// SMS: mlrn read as malirin
+mmuk	m'amuk	// SMS: mmuk read as mamuk
+mo	m'O	// correction: mo [moo] expert 2026-11-02: one written vowel means a long vowel (o is open, like oo); only be ho i ka ke la no o se are truly one syllable
+mobilizador	m,obil,izad'or	// stress: mobilizadór
+moderador	m,odErad'or	// stress: moderadór
+modifikador	m,odif,ikad'or	// stress: modifikadór
+modulu	m'odul,u	// stress: módulu
+molar	mol'ar	// stress: molár
+molekula	mol'Ekul,a	// stress: molékula
+monetaria	m,onEt'ari,a	// stress: monetária
+monetariu	m,onEt'ari,u	// stress: monetáriu
+monitor	m,onit'or	// stress: monitór
+monitoring	m,onit'oriNg	// monitoring [monitoring]
+monoplejia	m,onopl'EZi,a	// stress: monopléjia
+monoteistika	m,onotE'istik,a	// stress: monoteístika
+monoteistiku	m,onotE'istik,u	// stress: monoteístiku
+monsenhor	m,onsEn^'or	// stress: monsenhór
+mor	'amor	// SMS: mor read as amor
+moral	mor'al	// stress: morál
+mordor	mord'or	// stress: mordór
+morfemika	morf'Emik,a	// stress: morfémika
+morfemiku	morf'Emik,u	// stress: morfémiku
+mortal	mort'al	// stress: mortál
+mortuariu	m,ortu'ari,u	// stress: mortuáriu
+mos	m'Os	// correction: mos [moos] expert 2026-11-02: one written vowel means a long vowel (o is open, like oo); only be ho i ka ke la no o se are truly one syllable
+motel	mot'El	// stress: motél
+motokros	m,otokr'os	// stress: motokrós
+motor	mot'or	// stress: motór
+mou	m'ou	$allcaps	// MOU [mou]
+mouse	m'aus	// mouse [maus]
+mr	m'or	// SMS: mr read as mor
+mri	'Em||'ar||'aI	$allcaps	// MRI [em ar ai]
+mrkdu	mErk'adu	// SMS: mrkdu read as merkadu
+mrmk	mar'omak	// SMS: mrmk read as Maromak
+msg	mEns'aZEn	// SMS: msg read as mensajen
+msk	m'Esak	// SMS: msk read as mesak
+msm	'Em||'Es||'Em	$allcaps	// MSM [em es em]
+mte	m'atE	// SMS: mte read as mate
+mtr	m'otor	// SMS: mtr read as motor
+mtt	m,anat'utu	// SMS: mtt read as Manatutu
+muac	m'uak	$allcaps	// MUAC [muak]
+muitu	m'uit,u	// stress: múitu
+multidisiplinar	m,ultid,isiplin'ar	// stress: multidisiplinár
+multikultural	m,ultik,ultur'al	// stress: multikulturál
+multilateral	m,ultil,atEr'al	// stress: multilaterál
+multilingual	m,ultil,iNgu'al	// stress: multilinguál
+multimedia	m,ultim'Edi,a	// stress: multimédia
+multimetru	mult'imEtr,u	// stress: multímetru
+multinasional	m,ultin,asion'al	// stress: multinasionál
+multisetoral	m,ultis,Etor'al	// stress: multisetorál
+mundial	m,undi'al	// stress: mundiál
+munisipal	m,unisip'al	// stress: munisipál
+munisipiu	m,unis'ipi,u	// stress: munisípiu
+muskulu	m'uskul,u	// stress: múskulu
+muturabudor	m,utur,abud'or	// stress: muturabudór
+muzika	m'uzik,a	// stress: múzika
+muzikal	m,uzik'al	// stress: muzikál
+muziku	m'uzik,u	// stress: múziku
+na	'ona	// SMS: na read as ona
+napiron	n'apir,on	// stress: nápiron
+narador	n,arad'or	// stress: naradór
+narkotiku	nark'otik,u	// stress: narkótiku
+nasional	n,asion'al	// stress: nasionál
+natal	nat'al	// stress: natál
+natural	n,atur'al	// stress: naturál
+naval	nav'al	// stress: navál
+navegador	n,avEgad'or	// stress: navegadór
+nbe	nEb'E	// SMS: nbe read as nebee
+negosiador	n,Egos,iad'or	// stress: negosiadór
+negosiu	nEg'osi,u	// stress: negósiu
+nem	n'ein	// irregular spelling: nem read as nein
+neonatal	n,EOnat'al	// stress: neonatál
+neostigmine	n,EOst'igmin	// neostigmine [neostigmin]
+nesesaria	n,EsEs'ari,a	// stress: nesesária
+nesesariu	n,EsEs'ari,u	// stress: nesesáriu
+neurolojika	n,eurol'oZik,a	// stress: neurolójika
+neurolojiku	n,eurol'oZik,u	// stress: neurolójiku
+neurosiensia	n,eur,osi'Ensi,a	// stress: neurosiénsia
+neutral	n,eutr'al	// stress: neutrál
+nijeria	niZ'Eri,a	// stress: nijéria
+nitrojeniu	n,itroZ'Eni,u	// stress: nitrojéniu
+nmk	n'E||mak	// SMS: nmk read as nee mak
+nn	n'ian	// SMS: nn read as nian
+nneik	n,ein'eik	// SMS: nneik read as neineik
+nnka	n'unka	// SMS: nnka read as nunka
+nodulu	n'odul,u	// stress: nódulu
+nomea	n,ome'ia	// irregular spelling: nomea read as nomeia
+nominal	n,omin'al	// stress: nominál
+normal	norm'al	// stress: normál
+notariu	not'ari,u	// stress: notáriu
+notisia	not'isi,a	// stress: notísia
+notisiariu	not'isi,ari,u	// stress: notísiariu
+notisias	not'isi,as	// stress: notísias
+notulensia	n,otul'Ensi,a	// stress: notulénsia
+nove	n'ovi	// irregular spelling: nove read as novi
+novembro	nov'Embru	// irregular spelling: novembro read as novembru
+novisia	nov'isi,a	// stress: novísia
+novo	n'ovu	// irregular spelling: novo read as novu
+npk	En||p'E||ka	$allcaps	// NPK [en pe ka]
+nrk	n'aruk	// SMS: nrk read as naruk
+nrn	n'aran	// SMS: nrn read as naran
+ntaun	Ent'aun	// SMS: ntaun read as entaun
+nuklear	n,uklE'ar	// stress: nukleár
+nukleu	n'ukle,u	// stress: núkleu
+numeral	n,umEr'al	// stress: numerál
+numeru	n'umEr,u	// stress: númeru
+nunsiu	n'unsi,u	// stress: núnsiu
+nurep	nur'Ep	// stress: nurép
+nutrisional	n,utris,ion'al	// stress: nutrisionál
+nx	n'ia	// SMS: nx read as nia
+ob	'O||b'E	$allcaps	// OB [o be]
+obediensia	,obEdi'Ensi,a	// stress: obediénsia
+obg	,obrig'adu	// SMS: obg read as obrigadu
+obita	'obit,a	// stress: óbita
+obitu	'obit,u	// stress: óbitu
+obrigatoriu	,obrigat'ori,u	// stress: obrigatóriu
+observador	,obsErvad'or	// stress: observadór
+observatoriu	,obsErvat'ori,u	// stress: observatóriu
+obstakulu	obst'akul,u	// stress: obstákulu
+obstetrisia	,obstEtr'isi,a	// stress: obstetrísia
+odiu	'odi,u	// stress: ódiu
+ofertoriu	,ofErt'ori,u	// stress: ofertóriu
+off	'of	// off [of]
+offline	'oflaIn	// offline [oflain]
+offroad	'ofrod	// offroad [ofrod]
+offside	'ofsaId	// offside [ofsaid]
+ofisial	,ofisi'al	// stress: ofisiál
+ofisiu	of'isi,u	// stress: ofísiu
+oftalmika	oft'almik,a	// stress: oftálmika
+oftalmiku	oft'almik,u	// stress: oftálmiku
+oftalmoloika	,oftalmol'oik,a	// stress: oftalmolóika
+oftalmoloiku	,oftalmol'oik,u	// stress: oftalmolóiku
+ohn	'ohin	// SMS: ohn read as ohin
+oje	'O||Z'E||'e	$allcaps	// OJE [o je e]
+oke	ok'E	// stress: oké
+okluzal	,okluz'al	// stress: okluzál
+oksijeniu	,oksiZ'Eni,u	// stress: oksijéniu
+oksitonu	oks'iton,u	// stress: oksítonu
+ola	ol'a	// stress: olá
+olandes	,oland'Es	// stress: olandés
+oligoidramnios	,olig,oidr'amni,os	// stress: oligoidrámnios
+oligosakarideu	,olig,osakar'ide,u	// stress: oligosakarídeu
+olimpiku	ol'impik,u	// stress: olímpiku
+omilia	om'ili,a	// stress: omília
+omisidiu	,omis'idi,u	// stress: omisídiu
+omnibenevolensia	,omnib,EnEvol'Ensi,a	// stress: omnibenevolénsia
+omnipotensia	,omnipot'Ensi,a	// stress: omnipoténsia
+omnisiensia	,omnisi'Ensi,a	// stress: omnisiénsia
+omoseksual	,omos,Eksu'al	// stress: omoseksuál
+ong	'O||En||Z'E	$allcaps	// ONG [o en je]
+online	'onlaIn	// online [onlain]
+onorariu	,onor'ari,u	// stress: onoráriu
+onu	'onu	$allcaps	// ONU [onu]
+oop	'O||'O||p'E	$allcaps	// OOP [o o pe]
+operador	,opErad'or	// stress: operadór
+operasional	,opEr,asion'al	// stress: operasionál
+opresor	,oprEs'or	// stress: opresór
+orador	,orad'or	// stress: oradór
+oral	or'al	// stress: orál
+orariu	or'ari,u	// stress: oráriu
+oratoriu	,orat'ori,u	// stress: oratóriu
+ordinal	,ordin'al	// stress: ordinál
+ordinaria	,ordin'ari,a	// stress: ordinária
+ordinariu	,ordin'ari,u	// stress: ordináriu
+organiku	org'anik,u	// stress: orgániku
+organizador	,organ,izad'or	// stress: organizadór
+orientador	,ori,entad'or	// stress: orientadór
+oriental	,orient'al	// stress: orientál
+orijinal	,oriZin'al	// stress: orijinál
+orizontal	,orizont'al	// stress: orizontál
+ortopediku	,ortop'Edik,u	// stress: ortopédiku
+ortoriu	ort'ori,u	// stress: ortóriu
+osidental	,osidEnt'al	// stress: osidentál
+ospital	,ospit'al	// stress: ospitál
+osptal	osp'ital	// SMS: osptal read as ospitál
+ostia	'osti,a	// stress: óstia
+osuariu	,osu'ari,u	// stress: osuáriu
+otel	ot'El	// stress: otél
+otiku	'otik,u	// stress: ótiku
+otima	'otim,a	// stress: ótima
+otimu	'otim,u	// stress: ótimu
+otorrinolaringologa	,otor,inol,ariNg'olog,a	// stress: otorrinolaringóloga
+otorrinolaringologo	,otor,inol,ariNg'olog,o	// stress: otorrinolaringólogo
+otw	'on||dE||w'ei	// correction: otw [on de wei] English "on the way"; respelling is ours, to be confirmed
+outreach	a'utrik	// outreach [autric]
+outubro	,out'ubru	// irregular spelling: outubro read as outubru
+ovariu	ov'ari,u	// stress: ováriu
+ovulu	'ovul,u	// stress: óvulu
+oxala	,oSal'a	// stress: oxalá
+painel	paIn'El	// stress: painél
+paiol	paI'ol	// stress: paiól
+pais	pa'is	// stress: país
+paixon	paIS'on	// stress: paixón
+pajina	p'aZin,a	// stress: pájina
+pakimetru	pak'imEtr,u	// stress: pakímetru
+palasiu	pal'asi,u	// stress: palásiu
+paliu	p'ali,u	// stress: páliu
+pandemika	pand'Emik,a	// stress: pandémika
+pandemiku	pand'Emik,u	// stress: pandémiku
+paniku	p'anik,u	// stress: pániku
+pankreas	p'ankrE,as	// stress: pánkreas
+papa	pap'a	// stress: papá
+papel	pap'El	// stress: papél
+parabens	p,arab'Ens	// stress: parabéns
+parafraze	par'afraz,E	// stress: paráfraze
+paralitiku	p,aral'itik,u	// stress: paralítiku
+paralon	p,aral'on	// stress: paralón
+parametru	par'amEtr,u	// stress: parámetru
+paraplejia	p,arapl'EZi,a	// stress: parapléjia
+parenteze	par'EntEz,E	// stress: parénteze
+pareser	p,arEs'Er	// stress: paresér
+parlamentar	p,arlamEnt'ar	// stress: parlamentár
+parodia	par'odi,a	// stress: paródia
+parokia	par'oki,a	// stress: parókia
+parokial	p,aroki'al	// stress: parokiál
+paroksitonu	p,aroks'iton,u	// stress: paroksítonu
+paroku	p'arok,u	// stress: pároku
+parsial	p,arsi'al	// stress: parsiál
+partidaria	p,artid'ari,a	// stress: partidária
+partidariu	p,artid'ari,u	// stress: partidáriu
+partikula	part'ikul,a	// stress: partíkula
+partikular	p,artikul'ar	// stress: partikulár
+partisan	p,artis'an	// stress: partisán
+partisipatoria	p,artis,ipat'ori,a	// stress: partisipatória
+partisipatoriu	p,artis,ipat'ori,u	// stress: partisipatóriu
+partograf	p'artogr,af	// stress: pártograf
+pasador	p,asad'or	// stress: pasadór
+pasageiros	p,asaZe'iru	// irregular spelling: pasageiros read as pasajeiru
+pasensia	pas'Ensi,a	// stress: pasénsia
+pasien	p,asi'En	// stress: pasién
+pasiensia	p,asi'Ensi,a	// stress: pasiénsia
+pasifikador	p,asif,ikad'or	// stress: pasifikadór
+pasifiku	pas'ifik,u	// stress: pasífiku
+paskal	pask'al	// stress: paskál
+paskua	p'asku,a	// stress: páskua
+pastor	past'or	// stress: pastór
+pastoral	p,astor'al	// stress: pastorál
+patojenika	p,atoZ'Enik,a	// stress: patojénika
+patojeniku	p,atoZ'Enik,u	// stress: patojéniku
+patojenu	pat'oZEn,u	// stress: patójenu
+patria	p'atri,a	// stress: pátria
+patriarkal	p,atriark'al	// stress: patriarkál
+patrilineal	p,atril,inE'al	// stress: patrilineál
+patrilinear	p,atril,inE'ar	// stress: patrilineár
+patrimonial	p,atrim,oni'al	// stress: patrimoniál
+patrimoniu	p,atrim'oni,u	// stress: patrimóniu
+patrosinador	p,atros,inad'or	// stress: patrosinadór
+patrosiniu	p,atros'ini,u	// stress: patrosíniu
+pc	p'i||s'i	$allcaps	// PC [pi si]
+pci	p'i||s'i||'aI	$allcaps	// PCI [pi si ai]
+pedal	pEd'al	// stress: pedál
+pediatria	p,Edi'atri,a	// stress: pediátria
+pedofilia	p,Edof'ili,a	// stress: pedofília
+pekador	p,Ekad'or	// stress: pekadór
+pekuaria	p,Eku'ari,a	// stress: pekuária
+pelvika	p'Elvik,a	// stress: pélvika
+pelviku	p'Elvik,u	// stress: pélviku
+penal	pEn'al	// stress: penál
+pendulu	p'Endul,u	// stress: péndulu
+penitensia	p,Enit'Ensi,a	// stress: peniténsia
+pensiun	p'Ensi,un	// stress: pénsiun
+pentagonu	pEnt'agon,u	// stress: pentágonu
+pentekostal	p,EntEkost'al	// stress: pentekostál
+penultima	pEn'ultim,a	// stress: penúltima
+penultimu	pEn'ultim,u	// stress: penúltimu
+performansia	p,Erform'ansi,a	// stress: performánsia
+periferika	p,Erif'Erik,a	// stress: periférika
+periferiku	p,Erif'Erik,u	// stress: perifériku
+perikope	pEr'ikop,E	// stress: períkope
+perinatal	p,Erinat'al	// stress: perinatál
+periodu	pEr'iod,u	// stress: períodu
+perola	p'Erol,a	// stress: pérola
+perpetua	pErp'Etu,a	// stress: perpétua
+persistensia	p,Ersist'Ensi,a	// stress: persisténsia
+personalia	p,Erson'ali,a	// stress: personália
+pertinensia	p,Ertin'Ensi,a	// stress: pertinénsia
+pesegu	p'EsEg,u	// stress: pésegu
+peskador	p,Eskad'or	// stress: peskadór
+peskizador	p,Eskizad'or	// stress: peskizadór
+pesoal	p,Eso'al	// stress: pesoál
+petisionariu	p,Etis,ion'ari,u	// stress: petisionáriu
+petrokimia	p,Etrok'imi,a	// stress: petrokímia
+petrokimika	p,Etrok'imik,a	// stress: petrokímika
+petrokimiku	p,Etrok'imik,u	// stress: petrokímiku
+petroleu	pEtr'ole,u	// stress: petróleu
+petrolifera	p,Etrol'ifEr,a	// stress: petrolífera
+petroliferu	p,Etrol'ifEr,u	// stress: petrolíferu
+petroliu	pEtr'oli,u	// stress: petróliu
+petromas	p,Etrom'as	// stress: petromás
+pezames	p'Ezam,Es	// stress: pézames
+ph	p'E||h'a	// pH [pe ha]
+phd	p'E||'aIk_||d'i	// PhD [pe aic di]
+php	pEmb'Eri||har'apan||p'alsu	// SMS: php read as pemberi harapan palsu
+pilar	pil'ar	// stress: pilár
+pilula	p'ilul,a	// stress: pílula
+pin	p'in	$allcaps	// PIN [pin]
+pinsel	pins'El	// stress: pinsél
+pintor	pint'or	// stress: pintór
+pior	pi'or	// stress: piór
+pipeline	p'aIplaIn	// pipeline [paiplain]
+piramide	pir'amid,E	// stress: pirámide
+piza	p'iza	// piza [piza]
+plajiu	pl'aZi,u	// stress: plájiu
+planeador	pl,anEad'or	// stress: planeadór
+plano	pl'anu	// irregular spelling: plano read as planu
+plastiku	pl'astik,u	// stress: plástiku
+plenaria	plEn'ari,a	// stress: plenária
+plenariu	plEn'ari,u	// stress: plenáriu
+pln	p'E||'El||En	$allcaps	// PLN [pe el en]
+plotter	pl'otEr	// plotter [ploter]
+plural	plur'al	// stress: plurál
+pnud	p'E||En||'u||dE	$allcaps	// PNUD [pe en u de]
+poder	pod'Er	// stress: podér
+poetika	po'Etik,a	// stress: poétika
+poetiku	po'Etik,u	// stress: poétiku
+pois	dEp'ois	// SMS: pois read as depois
+polandia	pol'andi,a	// stress: polándia
+polemika	pol'Emik,a	// stress: polémika
+polidaktilia	p,olidakt'ili,a	// stress: polidaktília
+poligamu	pol'igam,u	// stress: polígamu
+polio	p'oli,o	// stress: pólio
+polipu	p'olip,u	// stress: pólipu
+polisia	pol'isi,a	// stress: polísia
+polisial	p,olisi'al	// stress: polisiál
+polisilaba	p,olis'ilab,a	// stress: polisílaba
+politeknika	p,olit'Eknik,a	// stress: politéknika
+politika	pol'itik,a	// stress: polítika
+politiku	pol'itik,u	// stress: polítiku
+poliuria	p,oli'uri,a	// stress: poliúria
+polonia	pol'oni,a	// stress: polónia
+pontual	p,ontu'al	// stress: pontuál
+popular	p,opul'ar	// stress: populár
+porke	purk'E	// irregular spelling: porke read as purké
+pornografiku	p,ornogr'afik,u	// stress: pornográfiku
+portavos	p,ortav'os	// stress: portavós
+portugal	p,ortug'al	// stress: portugál
+portuges	p,ortug'Es	// stress: portugés
+posisaun	p,ozis'aun	// irregular spelling: posisaun read as pozisaun
+positivo	p,ozit'ivu	// irregular spelling: positivo read as pozitivu
+posnatal	p,oZnat'al	// stress: posnatál
+poss	pos'isi	// SMS: poss read as posisi
+postal	post'al	// stress: postál
+posterior	p,ostEri'or	// stress: posteriór
+posto	p'ostu	// irregular spelling: posto read as postu
+posuidor	p,osuid'or	// stress: posuidór
+potasiu	pot'asi,u	// stress: potásiu
+potensia	pot'Ensi,a	// stress: poténsia
+potensial	p,otEnsi'al	// stress: potensiál
+povo	p'ovu	// irregular spelling: povo read as povu
+pr	p'E||'Er	// correction: Pr [pe er] expert 2026-10-30: ambiguous (padre, pastor, para), so read as two letters
+pragmatiku	pragm'atik,u	// stress: pragmátiku
+pratika	pr'atik,a	// stress: prátika
+prazer	praz'Er	// stress: prazér
+preambulu	prE'ambul,u	// stress: preámbulu
+prediu	pr'Edi,u	// stress: prédiu
+prefasiu	prEf'asi,u	// stress: prefásiu
+preferensia	pr,EfEr'Ensi,a	// stress: preferénsia
+pregador	pr,Egad'or	// stress: pregadór
+preliminariu	pr,Elimin'ari,u	// stress: prelimináriu
+premio	pr'Emi,u	// irregular spelling: premio read as prémiu
+premiu	pr'Emi,u	// stress: prémiu
+preparatoria	pr,Eparat'ori,a	// stress: preparatória
+preparatoriu	pr,Eparat'ori,u	// stress: preparatóriu
+presbiteriu	pr,EZbit'Eri,u	// stress: presbitériu
+presbiteru	prEZb'itEr,u	// stress: presbíteru
+presedensia	pr,EsEd'Ensi,a	// stress: presedénsia
+presenca	prEz'Ensa	// irregular spelling: presenca read as prezensa
+presente	prEz'Enti	// irregular spelling: presente read as prezenti
+preside	prEz'idi	// irregular spelling: preside read as prezidi
+presidencial	pr,Ezid,Ensi'al	// irregular spelling: presidencial read as prezidensiál
+presidente	pr,Ezid'EntE	// irregular spelling: presidente read as prezidente
+presisaun	pr,Esiz'aun	// irregular spelling: presisaun read as presizaun
+prestador	pr,Estad'or	// stress: prestadór
+prestijiu	prEst'iZi,u	// stress: prestíjiu
+prevalensia	pr,Eval'Ensi,a	// stress: prevalénsia
+prezensial	pr,EzEnsi'al	// stress: prezensiál
+prezepiu	prEz'Epi,u	// stress: prezépiu
+prezidensia	pr,Ezid'Ensi,a	// stress: prezidénsia
+prezidensial	pr,Ezid,Ensi'al	// stress: prezidensiál
+pri	pr'imu	// SMS: pri read as primu
+primaria	prim'ari,a	// stress: primária
+primariu	prim'ari,u	// stress: primáriu
+principio	prins'ipi,u	// irregular spelling: principio read as prinsípiu
+prinsezaria	pr,insEz'ari,a	// stress: prinsezária
+prinsipal	pr,insip'al	// stress: prinsipál
+prinsipiu	prins'ipi,u	// stress: prinsípiu
+printer	pr'intEr	// printer [printer]
+prioritaria	pr,iorit'ari,a	// stress: prioritária
+prioritariu	pr,iorit'ari,u	// stress: prioritáriu
+privado	priv'adu	// irregular spelling: privado read as privadu
+privilejiu	pr,ivil'EZi,u	// stress: priviléjiu
+probatoriu	pr,obat'ori,u	// stress: probatóriu
+produs	prod'us	// stress: prodús
+produtor	pr,odut'or	// stress: produtór
+prof	prof'Esor	// SMS: prof read as professor
+profa	pr,ofEs'ora	// SMS: profa read as professora
+profesor	pr,ofEs'or	// stress: profesór
+profetika	prof'Etik,a	// stress: profétika
+profetiku	prof'Etik,u	// stress: profétiku
+profilaktika	pr,ofil'aktik,a	// stress: profiláktika
+profilaktiku	pr,ofil'aktik,u	// stress: profiláktiku
+profilaxia	pr,ofil'aSi,a	// stress: profiláxia
+profisiat	prof'isi,at	// stress: profísiat
+profisional	pr,ofis,ion'al	// stress: profisionál
+programador	pr,ogramad'or	// stress: programadór
+programatiku	pr,ogram'atik,u	// stress: programátiku
+projecto	proZ'Etu	// irregular spelling: projecto read as projetu
+projetor	pr,oZEt'or	// stress: projetór
+proklamador	pr,oklamad'or	// stress: proklamadór
+prokurador	pr,okurad'or	// stress: prokuradór
+promotor	pr,omot'or	// stress: promotór
+pronto	pr'ontu	// irregular spelling: pronto read as prontu
+pronunsia	pron'unsi,a	// stress: pronúnsia
+proparoksitonu	pr,oparoks'iton,u	// stress: proparoksítonu
+proporsional	pr,opors,ion'al	// stress: proporsionál
+proposal	pr,opos'al	// stress: proposál
+propozitu	prop'ozit,u	// stress: propózitu
+proprietaria	pr,opriet'ari,a	// stress: proprietária
+proprietariu	pr,opriet'ari,u	// stress: proprietáriu
+propriu	pr'opri,u	// stress: própriu
+prosesador	pr,osEsad'or	// stress: prosesadór
+prostata	pr'ostat,a	// stress: próstata
+protege	prot'EZE	// irregular spelling: protege read as proteje
+protesis	pr'otEs,is	// stress: prótesis
+protetor	pr,otEt'or	// stress: protetór
+protokol	pr,otok'ol	// stress: protokól
+prototipu	prot'otip,u	// stress: protótipu
+provedor	pr,ovEd'or	// stress: provedór
+providensia	pr,ovid'Ensi,a	// stress: providénsia
+provinsia	prov'insi,a	// stress: provínsia
+provinsial	pr,ovinsi'al	// stress: provinsiál
+provizoria	pr,oviz'ori,a	// stress: provizória
+provizoriu	pr,oviz'ori,u	// stress: provizóriu
+provokador	pr,ovokad'or	// stress: provokadór
+psikiatrika	ps,iki'atrik,a	// stress: psikiátrika
+psikiatriku	ps,iki'atrik,u	// stress: psikiátriku
+psikolojika	ps,ikol'oZik,a	// stress: psikolójika
+psikolojiku	ps,ikol'oZik,u	// stress: psikolójiku
+psikosomatika	ps,ikosom'atik,a	// stress: psikosomátika
+psikosomatiku	ps,ikosom'atik,u	// stress: psikosomátiku
+psikososial	ps,ikos,osi'al	// stress: psikososiál
+psk	p'E||'e||s||ka	$allcaps	// PSK [pe es ka]
+pstr	p'astor	// SMS: pstr read as pastor
+pterygium	ptEr'iZi,um	// pterygium [pteríjium]
+publico	p'ublik,u	// irregular spelling: publico read as públiku
+publika	p'ublik,a	// stress: públika
+publiku	p'ublik,u	// stress: públiku
+pulin	pul'in	// stress: pulín
+pulmonaria	p,ulmon'ari,a	// stress: pulmonária
+pulmonariu	p,ulmon'ari,u	// stress: pulmonáriu
+pulpitu	p'ulpit,u	// stress: púlpitu
+punhal	pun^'al	// stress: punhál
+purgatoriu	p,urgat'ori,u	// stress: purgatóriu
+purifikator	p,urif,ikat'or	// stress: purifikatór
+purke	purk'E	// stress: purké
+pusradiador	p'uZrad,iad'or	// stress: púsradiadór
+pustu	p'ostu	// irregular spelling: pustu read as postu
+pvu	p'ovu	// SMS: pvu read as povu
+pxx	pos'isi	// SMS: pxx read as posisi
+pylox	p'iloks	// Pylox [piloks]
+questionariu	k,Estion'ari,u	// irregular spelling: questionariu read as kestionáriu
+rabies	r'abis	// rabies [rabis]
+radial	r,adi'al	// stress: radiál
+radikal	r,adik'al	// stress: radikál
+radiolojika	r,adiol'oZik,a	// stress: radiolójika
+radiolojiku	r,adiol'oZik,u	// stress: radiolójiku
+radiu	r'adi,u	// stress: rádiu
+radius	r'adi,us	// stress: rádius
+ram	r'am	$allcaps	// RAM [ram]
+rapida	r'apid,a	// stress: rápida
+rapidu	r'apid,u	// stress: rápidu
+rasaun	raz'aun	// irregular spelling: rasaun read as razaun
+rasional	r,asion'al	// stress: rasionál
+rasiu	r'asi,u	// stress: rásiu
+razao	raz'aun	// irregular spelling: razao read as razaun
+rdt	'Er||dE||t'E	$allcaps	// RDT [er de te]
+real	rE'al	// stress: reál
+realistiku	r,Eal'istik,u	// stress: realístiku
+redator	r,Edat'or	// stress: redatór
+redentor	r,EdEnt'or	// stress: redentór
+redus	rEd'us	// stress: redús
+reduz	rEd'us	// irregular spelling: reduz read as redús
+refeitoriu	r,Efeit'ori,u	// stress: refeitóriu
+referal	r,EfEr'al	// stress: referál
+referensia	r,EfEr'Ensi,a	// stress: referénsia
+refletador	r,EflEtad'or	// stress: refletadór
+refren	rEfr'En	// stress: refrén
+refugiadu	r,EfuZi'adu	// irregular spelling: refugiadu read as refujiadu
+refujiado	r,EfuZi'adu	// irregular spelling: refujiado read as refujiadu
+regador	r,Egad'or	// stress: regadór
+regiaun	r,EZi'aun	// irregular spelling: regiaun read as rejiaun
+regime	rEZ'imi	// irregular spelling: regime read as rejimi
+registo	rEZ'istu	// irregular spelling: registo read as rejistu
+registrasaun	r,EZistras'aun	// irregular spelling: registrasaun read as rejistrasaun
+registu	rEZ'istu	// irregular spelling: registu read as rejistu
+regua	r'Egu,a	// stress: régua
+regulador	r,Egulad'or	// stress: reguladór
+regulamento	r,Egulam'Entu	// irregular spelling: regulamento read as regulamentu
+regular	r,Egul'ar	// stress: regulár
+regulator	r,Egulad'Or	// irregular spelling: regulator read as reguladór
+regulatoria	r,Egulat'ori,a	// stress: regulatória
+regulatoriu	r,Egulat'ori,u	// stress: regulatóriu
+reitor	r,eit'or	// stress: reitór
+rejional	r,EZion'al	// stress: rejionál
+rekoa	rEk'ua	// irregular spelling: rekoa read as rekua
+rekonsilia	r,Ekons'ili,a	// stress: rekonsília
+rekuiem	r'Eku,iEm	// stress: rékuiem
+relasional	r,Elas,ion'al	// stress: relasionál
+relator	r,Elat'or	// stress: relatór
+relatoriu	r,Elat'ori,u	// stress: relatóriu
+relevansia	r,ElEv'ansi,a	// stress: relevánsia
+religiaun	r,EliZi'aun	// irregular spelling: religiaun read as relijiaun
+relikia	rEl'iki,a	// stress: relíkia
+relojiu	rEl'oZi,u	// stress: relójiu
+remedial	r,EmEdi'al	// stress: remediál
+rental	rEnt'al	// stress: rentál
+representantes	r,EprEzEnt'antE	// irregular spelling: representantes read as reprezentante
+reprezalia	r,EprEz'ali,a	// stress: reprezália
+reprodutivo	r,Eprodut'ivu	// irregular spelling: reprodutivo read as reprodutivu
+republika	rEp'ublik,a	// stress: repúblika
+resigna	rEz'igna	// irregular spelling: resigna read as rezigna
+resistencia	r,Ezist'Ensi,a	// irregular spelling: resistencia read as rezisténsia
+respiratoria	r,Espirat'ori,a	// stress: respiratória
+respiratoriu	r,Espirat'ori,u	// stress: respiratóriu
+retangulu	rEt'aNul,u	// stress: retángulu
+retina	r'Etin,a	// stress: rétina
+retorika	rEt'orik,a	// stress: retórika
+reumatika	r,eum'atik,a	// stress: reumátika
+reumatiku	r,eum'atik,u	// stress: reumátiku
+reverendisima	r,EvErEnd'isim,a	// stress: reverendísima
+reverendisimu	r,EvErEnd'isim,u	// stress: reverendísimu
+reverendo	r,EvEr'Endu	// irregular spelling: reverendo read as reverendu
+reverensia	r,EvEr'Ensi,a	// stress: reverénsia
+reversal	r,EvErs'al	// stress: reversál
+revolusionariu	r,Evol,usion'ari,u	// stress: revolusionáriu
+rezidensia	r,Ezid'Ensi,a	// stress: rezidénsia
+rezidu	r,Ezid'u	// stress: rezidú
+rezidual	r,Ezidu'al	// stress: reziduál
+reziliensia	r,Ezili'Ensi,a	// stress: reziliénsia
+rezistensia	r,Ezist'Ensi,a	// stress: rezisténsia
+rezistrasaun	r,EZistras'aun	// irregular spelling: rezistrasaun read as rejistrasaun
+rh	'Er||h'a	// Rh [er ha]
+rico	r'iku	// irregular spelling: rico read as riku
+rigor	rig'or	// stress: rigór
+rip	r'Est||'in||p'is	// SMS: rip read as rest in piis
+risinu	r'isin,u	// stress: rísinu
+ritual	r,itu'al	// stress: rituál
+rival	riv'al	// stress: rivál
+rna	'Er||En||'a	$allcaps	// RNA [er en a]
+rock	r'ok	// rock [rok]
+rodape	r,odap'E	// stress: rodapé
+rodaviaria	r,odavi'ari,a	// stress: rodaviária
+roedor	r,oed'or	// stress: roedór
+rom	r'uN	$allcaps	// ROM [rum]
+romantiku	rom'antik,u	// stress: romántiku
+romenia	rom'Eni,a	// stress: roménia
+rosa	r'oza	// irregular spelling: rosa read as roza
+rotina	rut'ina	// irregular spelling: rotina read as rutina
+royal	roj'al	// stress: royál
+royalty	r,oi'alti	// royalty [roialti]
+rozariu	roz'ari,u	// stress: rozáriu
+roze	roz'E	// stress: rozé
+rubeola	rub'Eol,a	// stress: rubéola
+rumau	rum'aun	// irregular spelling: rumau read as rumaun
+rural	rur'al	// stress: rurál
+rusia	r'usi,a	// stress: rúsia
+rw	'Er||w'E	$allcaps	// RW [er we]
+sabado	s'abdu	// irregular spelling: sabado read as sabdu
+sabadu	s'abad,u	// stress: sábadu
+sabatika	sab'atik,a	// stress: sabátika
+sabatiku	sab'atik,u	// stress: sabátiku
+sabor	sab'or	// stress: sabór
+sagrado	sagr'adu	// irregular spelling: sagrado read as sagradu
+sakrariu	sakr'ari,u	// stress: sakráriu
+sakrifisiu	s,akrif'isi,u	// stress: sakrifísiu
+salador	s,alad'or	// stress: saladór
+salarial	s,alari'al	// stress: salariál
+salariu	sal'ari,u	// stress: saláriu
+salvador	s,alvad'or	// stress: salvadór
+samtu	samt'u	// stress: samtú
+sandalias	sand'ali,as	// stress: sandálias
+santisima	sant'isim,a	// stress: santísima
+santisimu	sant'isim,u	// stress: santísimu
+santo	s'antu	// irregular spelling: santo read as santu
+santuariu	s,antu'ari,u	// stress: santuáriu
+saramale	s,aramal'E	// stress: saramalé
+sasate	s'atE	// irregular spelling: sasate read as sate
+saserdosiu	s,asErd'osi,u	// stress: saserdósiu
+saserdotal	s,asErdot'al	// stress: saserdotál
+saserdoti	s,asErd'otE	// irregular spelling: saserdoti read as saserdote
+satanas	s,atan'as	// stress: satanás
+satisfas	s,atisf'as	// stress: satisfás
+saumi	s,aum'i	// stress: saumí
+save	S'avi	// irregular spelling: save read as xavi
+scanner	sk'EnEr	// scanner [skener]
+screen	skr'in	// screen [skrin]
+screening	skr'inin	// screening [skrinin]
+screensaver	skr'in||s'EvEr	// screensaver [skrin sever]
+sda	s'aIda	// SMS: sda read as saida
+sdf	'e||Z||dE||'Ef	$allcaps	// SDF [es de ef]
+sdk	s,eid'auk	// SMS: sdk read as seidauk
+sebelas	s,EbEl'as	// stress: sebelás
+secretario	s,EkrEt'ari,u	// irregular spelling: secretario read as sekretáriu
+sector	sEt'Or	// irregular spelling: sector read as setór
+sedimentar	s,EdimEnt'ar	// stress: sedimentár
+segidor	s,Egid'or	// stress: segidór
+seitor	sEt'Or	// irregular spelling: seitor read as setór
+sekretaria	s,EkrEt'ari,a	// stress: sekretária
+sekretariu	s,EkrEt'ari,u	// stress: sekretáriu
+seksual	s,Eksu'al	// stress: seksuál
+sektor	sEt'Or	// irregular spelling: sektor read as setór
+sekuensia	s,Eku'Ensi,a	// stress: sekuénsia
+sekular	s,Ekul'ar	// stress: sekulár
+sekulu	s'Ekul,u	// stress: sékulu
+sekundaria	s,Ekund'ari,a	// stress: sekundária
+sekundario	s,Ekund'ari,u	// irregular spelling: sekundario read as sekundáriu
+sekundariu	s,Ekund'ari,u	// stress: sekundáriu
+sekuriti	sEk'urit,i	// stress: sekúriti
+selestial	s,ElEsti'al	// stress: selestiál
+selin	sEl'in	// stress: selín
+selsius	s'Elsi,us	// stress: sélsius
+selula	s'Elul,a	// stress: sélula
+sem	s'ein	// irregular spelling: sem read as sein
+semaforu	sEm'afor,u	// stress: semáforu
+semanal	s,Eman'al	// stress: semanál
+semantika	sEm'antik,a	// stress: semántika
+semantiku	sEm'antik,u	// stress: semántiku
+semestral	s,EmEstr'al	// stress: semestrál
+semifinal	s,Emifin'al	// stress: semifinál
+seminar	s'Emin,ar	// stress: séminar
+seminariu	s,Emin'ari,u	// stress: semináriu
+semiteriu	s,Emit'Eri,u	// stress: semitériu
+senariu	sEn'ari,u	// stress: senáriu
+senhor	sEn^'or	// stress: senhór
+senior	s,Eni'or	// stress: seniór
+sentenariu	s,EntEn'ari,u	// stress: sentenáriu
+sentigradu	sEnt'igrad,u	// stress: sentígradu
+sentimental	s,EntimEnt'al	// stress: sentimentál
+sentimetru	sEnt'imEtr,u	// stress: sentímetru
+sentimu	s'Entim,u	// stress: séntimu
+sentral	sEntr'al	// stress: sentrál
+sentralizador	s,Entral,izad'or	// stress: sentralizadór
+septiku	s'Eptik,u	// stress: séptiku
+ser	sErv'isu	// SMS: ser read as servisu
+serafin	s,Eraf'in	// stress: serafín
+seramiku	sEr'amik,u	// stress: serámiku
+seran	sEr'an	// stress: serán
+serbi	sErb'i	// stress: serbí
+sereal	s,ErE'al	// stress: sereál
+serebral	s,ErEbr'al	// stress: serebrál
+serial	s,Eri'al	// stress: seriál
+serimonia	s,Erim'oni,a	// stress: serimónia
+serimonial	s,Erim,oni'al	// stress: serimoniál
+seriu	s'Eri,u	// stress: sériu
+sertifikat	s,Ertifik'at	// stress: sertifikát
+seruisu	sErv'isu	// irregular spelling: seruisu read as servisu
+servi	sErv'i	// stress: serví
+servico	sErv'isu	// irregular spelling: servico read as servisu
+servicu	sErv'isu	// irregular spelling: servicu read as servisu
+servido	sErv'idu	// irregular spelling: servido read as servidu
+servidor	s,Ervid'or	// stress: servidór
+servikal	s,Ervik'al	// stress: servikál
+serviku	s'Ervik,u	// stress: sérviku
+serwisu	sErv'isu	// irregular spelling: serwisu read as servisu
+serzi	s'irZi	// irregular spelling: serzi read as sirji
+sete	s'Eti	// irregular spelling: sete read as seti
+setembro	sEt'Embru	// irregular spelling: setembro read as setembru
+setesentus	s,Etis'Entus	// irregular spelling: setesentus read as setisentus
+setima	s'Etim,a	// stress: sétima
+setimu	s'Etim,u	// stress: sétimu
+setor	sEt'or	// stress: setór
+setorial	s,Etori'al	// stress: setoriál
+sexo	s'Eksu	// irregular spelling: sexo read as seksu
+shareware	S'ErwEr	// shareware [xerwer]
+shift	S'ift	// Shift [xift]
+shigelosis	S,igEl'osis	// shigelosis [xigelosis]
+siboriu	sib'ori,u	// stress: sibóriu
+siensia	si'Ensi,a	// stress: siénsia
+sientifiku	s,ient'ifik,u	// stress: sientífiku
+sifilis	s'ifil,is	// stress: sífilis
+sig	s'ik	// irregular spelling: sig read as siik
+siguru	sEg'uru	// irregular spelling: siguru read as seguru
+silaba	s'ilab,a	// stress: sílaba
+silabus	s'ilab,us	// stress: sílabus
+silensiu	sil'Ensi,u	// stress: silénsiu
+simboliku	simb'olik,u	// stress: simbóliku
+simbolu	s'imbol,u	// stress: símbolu
+simentu	sEm'Enti	// irregular spelling: simentu read as sementi
+simetrika	sim'Etrik,a	// stress: simétrika
+simetriku	sim'Etrik,u	// stress: simétriku
+simpoziu	simp'ozi,u	// stress: simpóziu
+simultanea	s,imult'anE,a	// stress: simultánea
+simultaneu	s,imult'ane,u	// stress: simultáneu
+sinal	sin'al	// stress: sinál
+sindroma	s'indrom,a	// stress: síndroma
+sinedriu	sin'Edri,u	// stress: sinédriu
+sing	s'in	// irregular spelling: sing read as sin
+singular	s,iNgul'ar	// stress: singulár
+sinika	s'inik,a	// stress: sínika
+siniku	s'inik,u	// stress: síniku
+sinkumas	s,iNkum'as	// stress: sinkumás
+sinodu	s'inod,u	// stress: sínodu
+sinonimu	sin'onim,u	// stress: sinónimu
+sintaktika	sint'aktik,a	// stress: sintáktika
+sintaktiku	sint'aktik,u	// stress: sintáktiku
+sinte	s'Enti	// irregular spelling: sinte read as senti
+sintetiku	sint'Etik,u	// stress: sintétiku
+sintomatika	s,intom'atik,a	// stress: sintomátika
+sintomatiku	s,intom'atik,u	// stress: sintomátiku
+sirkuit	s,irku'it	// stress: sirkuít
+sirkula	s'irkul,a	// stress: sírkula
+sirkulariu	s,irkul'ari,u	// stress: sirkuláriu
+sirkulu	s'irkul,u	// stress: sírkulu
+sirkunferensia	s,irkunfEr'Ensi,a	// stress: sirkunferénsia
+sirkunstansia	s,irkunst'ansi,a	// stress: sirkunstánsia
+sirroze	sir'osis	// irregular spelling: sirroze read as sirosis
+sistematika	s,istEm'atik,a	// stress: sistemátika
+sistematiku	s,istEm'atik,u	// stress: sistemátiku
+sistoskopiu	s,istosk'opi,u	// stress: sistoskópiu
+sitiu	s'iti,u	// stress: sítiu
+situacao	s,ituas'aun	// irregular spelling: situacao read as situasaun
+siume	si'umi	// irregular spelling: siume read as siumi
+sivika	s'ivik,a	// stress: sívika
+siviku	s'ivik,u	// stress: síviku
+sivil	siv'il	// stress: sivíl
+slide	zl'aId	// slide [slaid]
+slk	s'Eluk	// SMS: slk read as seluk
+slovakia	zlov'aki,a	// stress: slovákia
+smartphone	zm'artpun	// smartphone [smartpun]
+sms	'Es||'Em||'Es	$allcaps	// SMS [es em es]
+so	s'O	// correction: so [soo] expert 2026-11-02: one written vowel means a long vowel (o is open, like oo); only be ho i ka ke la no o se are truly one syllable
+soberano	s,obEr'anu	// irregular spelling: soberano read as soberanu
+sobrevivensia	sobreviv'Ensi,a	// stress: sobrevivénsia
+social	s,osi'al	// irregular spelling: social read as sosiál
+socket	s'okEt	// socket [soket]
+sodiu	s'odi,u	// stress: sódiu
+sofa	sof'a	// stress: sofá
+softcopy	sofk'opi	// softcopy [sofkopi]
+software	s'ofwEr	// software [sofwer]
+sol	s'Ol	// correction: sol [sool] expert 2026-11-02: one written vowel means a long vowel (o is open, like oo); only be ho i ka ke la no o se are truly one syllable
+solar	sol'ar	// stress: solár
+soldado	sold'adu	// irregular spelling: soldado read as soldadu
+soldador	s,oldad'or	// stress: soldadór
+solidu	s'olid,u	// stress: sólidu
+somatika	som'atik,a	// stress: somátika
+somatiku	som'atik,u	// stress: somátiku
+sop	'Es||'O||p'E	$allcaps	// SOP [es o pe]
+sosial	s,osi'al	// stress: sosiál
+sosiolinguistika	s,osi,oliNgu'istik,a	// stress: sosiolinguístika
+sosiologa	s,osi'olog,a	// stress: sosióloga
+sosiologu	s,osi'olog,u	// stress: sosiólogu
+sosiukultural	s'osi,ukultur'al	// stress: sósiukulturál
+spam	sp'am	// spam [spam]
+spesialis	sp,Esial'is	// stress: spesialís
+spidol	spid'ol	// stress: spidól
+spidometer	sp'idom,EtEr	// stress: spídometer
+spiral	spir'al	// stress: spirál
+spyware	sp'aIwEr	// spyware [spaiwer]
+sr	s'En^or	// SMS: sr read as senhór
+ssa	s'osa	// SMS: ssa read as sosa
+ssd	'Es||'e||Z||dE	$allcaps	// SSD [es es de]
+ssk	'Es||'e||s||ka	$allcaps	// SSK [es es ka]
+ssm	'Es||'Es||'Em	$allcaps	// SSM [es es em]
+stakeholder	stEkh'oldEr	// stakeholder [stekholder]
+standby	st'EnbaI	// standby [stenbai]
+stetoskop	st'Etosk,op	// stress: stétoskop
+sti	'e||s||t'i||'aI	$allcaps	// STI [es ti ai]
+stock	st'ok	// stock [stok]
+striker	str'aIkEr	// striker [straiker]
+stylus	st'ilus	// stylus [stilus]
+subklinika	subkl'inik,a	// stress: subklínika
+subkliniku	subkl'inik,u	// stress: subklíniku
+subkutanea	s,ubkut'anE,a	// stress: subkutánea
+subkutaneu	s,ubkut'ane,u	// stress: subkutáneu
+subsidiaria	s,ubsidi'ari,a	// stress: subsidiária
+subsidiu	subs'idi,u	// stress: subsídiu
+subsistensia	s,ubzist'Ensi,a	// stress: subsisténsia
+substansia	subst'ansi,a	// stress: substánsia
+substansial	s,ubstansi'al	// stress: substansiál
+subteraneu	s,ubtEr'ane,u	// stress: subteráneu
+subtitulu	subt'itul,u	// stress: subtítulu
+sucesso	sus'Esu	// irregular spelling: sucesso read as susesu
+suco	s'uku	// irregular spelling: suco read as suku
+suesia	su'Esi,a	// stress: suésia
+sufrajiu	sufr'aZi,u	// stress: sufrájiu
+sukursal	s,ukurs'al	// stress: sukursál
+sumariu	sum'ari,u	// stress: sumáriu
+sumingal	s,umiNg'al	// stress: sumingál
+superfisial	s,upErf,isi'al	// stress: superfisiál
+superfisie	s,upErf'isi,e	// stress: superfísie
+superior	s,upEri'or	// stress: superiór
+superkomputador	s,upErk,omputad'or	// stress: superkomputadór
+supermi	s'upErm,i	// stress: súpermi
+supervizor	s,upErviz'or	// stress: supervizór
+suplementariu	s,uplEmEnt'ari,u	// stress: suplementáriu
+suportador	s,uportad'or	// stress: suportadór
+supozitoriu	s,upozit'ori,u	// stress: supozitóriu
+susesor	s,usEs'or	// stress: susesór
+sutian	s,uti'an	// stress: sutián
+swab	sw'ab	// swab [swab]
+tab	t'Eb	// Tab [teb]
+tabernakulu	t,abErn'akul,u	// stress: tabernákulu
+tabulador	t,abulad'or	// stress: tabuladór
+taenia	t'aEn,ia	// stress: táenia
+tailandes	t,aIland'Es	// stress: tailandés
+tailandia	taIl'andi,a	// stress: tailándia
+taiwan	taIw'an	// stress: taiwán
+takometru	tak'omEtr,u	// stress: takómetru
+talvez	talv'Ez	// stress: talvéz
+tambor	tamb'or	// stress: tambór
+tansa	tans'a	// stress: tansá
+taskbar	t'askbar	// taskbar [taskbar]
+taskforce	t'askfor	// taskforce [taskfor]
+tatika	t'atik,a	// stress: tátika
+tba	t'oba	// SMS: tba read as toba
+tbs	t'EbEs	// SMS: tbs read as tebes
+tc	t'eik||k'Ear	// SMS: tc read as teik kear
+teknika	t'Eknik,a	// stress: téknika
+tekniku	t'Eknik,u	// stress: tékniku
+telefonika	t,ElEf'onik,a	// stress: telefónika
+telefoniku	t,ElEf'onik,u	// stress: telefóniku
+telejornal	t,ElEZorn'al	// stress: telejornál
+telekonferensia	t,ElEk,onfEr'Ensi,a	// stress: telekonferénsia
+teleskopiu	t,ElEsk'opi,u	// stress: teleskópiu
+telespetador	t,ElEsp,Etad'or	// stress: telespetadór
+tematika	tEm'atik,a	// stress: temátika
+tematiku	tEm'atik,u	// stress: temátiku
+temporal	t,Empor'al	// stress: temporál
+temporaria	t,Empor'ari,a	// stress: temporária
+temporariu	t,Empor'ari,u	// stress: temporáriu
+tendensia	tEnd'Ensi,a	// stress: tendénsia
+tenia	t'Eni,a	// stress: ténia
+tenor	tEn'or	// stress: tenór
+tensoplas	t,Ensopl'as	// stress: tensoplás
+tentador	t,Entad'or	// stress: tentadór
+teoretiku	t,EOr'Etik,u	// stress: teorétiku
+teorika	tE'orik,a	// stress: teórika
+teoriku	tE'orik,u	// stress: teóriku
+terabyte	tEr'abaIt	// terabyte [terabait]
+teras	tEr'as	// stress: terás
+terasering	tEr'asEr,iNg	// stress: terásering
+teritorial	t,Erit,ori'al	// stress: teritoriál
+teritoriu	t,Erit'ori,u	// stress: teritóriu
+terminal	t,Ermin'al	// stress: terminál
+teror	tEr'or	// stress: terór
+tersiaria	t,Ersi'ari,a	// stress: tersiária
+tersiariu	t,Ersi'ari,u	// stress: tersiáriu
+testikulu	tEst'ikul,u	// stress: testíkulu
+testpack	t'EspEk	// testpack [tespek]
+tetanu	t'Etan,u	// stress: tétanu
+tetanus	t'Etan,us	// stress: tétanus
+thermoscanner	t'Ermo||sk'EnEr	// thermoscanner [termo skener]
+thx	t'Enks	// correction: thx [tenks] English "thanks"; respelling is ours, to be confirmed
+timpanu	t'impan,u	// stress: tímpanu
+tin	t'in	$allcaps	// TIN [tin]
+tipografika	t,ipogr'afik,a	// stress: tipográfika
+tipografiku	t,ipogr'afik,u	// stress: tipográfiku
+titular	t,itul'ar	// stress: titulár
+titulu	t'itul,u	// stress: títulu
+titulus	t'itul,us	// stress: títulus
+tlf	t,ElEf'onE	// SMS: tlf read as telefone
+tlfn	t,ElEf'onE	// SMS: tlfn read as telefone
+tna	t'iha||'ona	// SMS: tna read as tiha ona
+tnb	t'anba	// SMS: tnb read as tanba
+tnki	t'Enki	// SMS: tnki read as tenki
+tnq	t'Enk||'iu	// correction: tnq [tenk iu] English "thank you"; respelling is ours, to be confirmed
+to	t'O	// correction: to [too] expert 2026-11-02: one written vowel means a long vowel (o is open, like oo); only be ho i ka ke la no o se are truly one syllable
+todos	t'odus	// irregular spelling: todos read as todus
+tok	t'Ok	// correction: tok [took] expert 2026-11-02: one written vowel means a long vowel (o is open, like oo); only be ho i ka ke la no o se are truly one syllable
+tokador	t,okad'or	// stress: tokadór
+toksiku	t'oksik,u	// stress: tóksiku
+toleransia	t,olEr'ansi,a	// stress: toleránsia
+tonika	t'onik,a	// stress: tónika
+topiku	t'opik,u	// stress: tópiku
+total	tot'al	// stress: totál
+touchpad	t,ukip'aEd	// touchpad [tucpaed]
+tq	t'Enk||'iu	// correction: tq [tenk iu] English "thank you"; respelling is ours, to be confirmed
+trabalhador	tr,abal^ad'or	// stress: trabalhadór
+trackball	tr'Ekbol	// trackball [trekbol]
+tradisional	tr,adis,ion'al	// stress: tradisionál
+tradus	trad'us	// stress: tradús
+tradutor	tr,adut'or	// stress: tradutór
+trafiku	tr'afik,u	// stress: tráfiku
+traidor	traId'or	// stress: traidór
+trajedia	traZ'Edi,a	// stress: trajédia
+transferensia	tr,ansfEr'Ensi,a	// stress: transferénsia
+transferidor	tr,ansfErid'or	// stress: transferidór
+transformador	tr,ansformad'or	// stress: transformadór
+transjenera	tranC'EnEr,a	// stress: transjénera
+transjeneru	tranC'EnEr,u	// stress: transjéneru
+transnasional	tr,anznas,ion'al	// stress: transnasionál
+transparan	tr,anspar'an	// stress: transparán
+transparensia	tr,anspar'Ensi,a	// stress: transparénsia
+tranzistor	tr,anzist'or	// stress: tranzistór
+tranzitoriu	tr,anzit'ori,u	// stress: tranzitóriu
+tranzitu	tr'anzit,u	// stress: tránzitu
+tranzjeneru	tranzZ'EnEr,u	// stress: tranzjéneru
+trator	trat'or	// stress: tratór
+treinador	tr,einad'or	// stress: treinadór
+triangular	tr,iaNul'ar	// stress: triangulár
+triangulu	tri'aNul,u	// stress: triángulu
+tribunal	tr,ibun'al	// stress: tribunál
+tributaria	tr,ibut'ari,a	// stress: tributária
+tributariu	tr,ibut'ari,u	// stress: tributáriu
+trilateral	tr,ilatEr'al	// stress: trilaterál
+trimestral	tr,imEstr'al	// stress: trimestrál
+trisilaba	tris'ilab,a	// stress: trisílaba
+trombositopenia	tr,ombos,itop'Eni,a	// stress: trombositopénia
+tropikal	tr,opik'al	// stress: tropikál
+tropiku	tr'opik,u	// stress: trópiku
+trotoar	tr,oto'ar	// stress: trotoár
+truka	tr'oka	// irregular spelling: truka read as troka
+tu	'atu	// SMS: tu read as atu
+tumor	tum'or	// stress: tumór
+tunika	t'unik,a	// stress: túnika
+tunnel	t'anEl	// tunnel [tanel]
+turismo	tur'izmu	// irregular spelling: turismo read as turizmu
+turistiku	tur'istik,u	// stress: turístiku
+tutorial	t,utori'al	// stress: tutoriál
+twn	Ent'aun	// SMS: twn read as entaun
+ubriga	obr'iga	// irregular spelling: ubriga read as obriga
+ulk	'uluk	// SMS: ulk read as uluk
+ulsera	'ulsEr,a	// stress: úlsera
+ultima	'ultim,a	// stress: última
+ultimu	'ultim,u	// stress: últimu
+ultrason	,ultras'on	// stress: ultrasón
+umanitaria	,umanit'ari,a	// stress: umanitária
+umanitariu	,umanit'ari,u	// stress: umanitáriu
+umidu	'umid,u	// stress: úmidu
+underscore	and'Erskor	// underscore [anderskor]
+ungaria	uN'ari,a	// stress: ungária
+unicode	un'ikod	// Unicode [unikod]
+unifikador	,unif,ikad'or	// stress: unifikadór
+uniku	'unik,u	// stress: úniku
+unilateral	,unil,atEr'al	// stress: unilaterál
+unitariu	,unit'ari,u	// stress: unitáriu
+universal	,univErs'al	// stress: universál
+universitaria	,univ,Ersit'ari,a	// stress: universitária
+universitariu	,univ,Ersit'ari,u	// stress: universitáriu
+untaet	unt'aEt	$allcaps	// UNTAET [untaet]
+update	apd'eit	// update [apdeit]
+upload	'aplod	// upload [aplod]
+urgente	urZ'Enti	// irregular spelling: urgente read as urjenti
+urinaria	,urin'ari,a	// stress: urinária
+urinariu	,urin'ari,u	// stress: urináriu
+urjensia	urZ'Ensi,a	// stress: urjénsia
+usa	'uza	// irregular spelling: usa read as uza
+usg	'u||'e||Z||g'E	$allcaps	// USG [u es ge]
+utensiliu	,utEns'ili,u	// stress: utensíliu
+uteru	'utEr,u	// stress: úteru
+utilizador	,util,izad'or	// stress: utilizadór
+uzuariuvajinal	,uzu'ari,uvaZin'al	// stress: uzuáriuvajinál
+validu	v'alid,u	// stress: válidu
+valor	val'or	// stress: valór
+valsa	b'alsa	// irregular spelling: valsa read as balsa
+valvula	v'alvul,a	// stress: válvula
+vantagem	vant'aZEn	// irregular spelling: vantagem read as vantajen
+vb	v'i||b'i	$allcaps	// VB [vi bi]
+vct	v'i||s'i||t'i	$allcaps	// VCT [vi si ti]
+vendedor	v,EndEd'or	// stress: vendedór
+vensedor	v,EnsEd'or	// stress: vensedór
+ventilador	v,Entilad'or	// stress: ventiladór
+verbal	vErb'al	// stress: verbál
+verifikador	v,Erif,ikad'or	// stress: verifikadór
+vernis	vErn'is	// stress: vernís
+versikulu	vErs'ikul,u	// stress: versíkulu
+vertebra	v'ErtEbr,a	// stress: vértebra
+vertikal	v,Ertik'al	// stress: vertikál
+vespera	v'EspEr,a	// stress: véspera
+vesperas	v'EspEr,as	// stress: vésperas
+vestijiu	vEst'iZi,u	// stress: vestíjiu
+veterinariu	v,EtErin'ari,u	// stress: veterináriu
+vetor	vEt'or	// stress: vetór
+veu	v'EO	// irregular spelling: veu read as veo
+vga	v'E||g'E||'a	$allcaps	// VGA [ve ge a]
+viagem	vi'aZEn	// irregular spelling: viagem read as viajen
+vice	v'isi	// irregular spelling: vice read as visi
+video	v'idE,O	// stress: vídeo
+vietnam	v,ietn'am	// stress: vietnám
+vigariu	vig'ari,u	// stress: vigáriu
+vigor	vig'or	// stress: vigór
+vijilansia	v,iZil'ansi,a	// stress: vijilánsia
+vijilia	viZ'ili,a	// stress: vijília
+violador	v,iolad'or	// stress: violadór
+violensia	v,iol'Ensi,a	// stress: violénsia
+vip	v'i||'aI||p'i	$allcaps	// VIP [vi ai pi]
+virgem	v'irZEn	// irregular spelling: virgem read as virjen
+virgula	v'irgul,a	// stress: vírgula
+virtual	v,irtu'al	// stress: virtuál
+vise	v'isi	// irregular spelling: vise read as visi
+visita	viz'ita	// irregular spelling: visita read as vizita
+visiu	v'isi,u	// stress: vísiu
+visto	v'istu	// irregular spelling: visto read as vistu
+vital	vit'al	// stress: vitál
+vitima	v'itim,a	// stress: vítima
+vitoria	vit'ori,a	// stress: vitória
+vizual	v,izu'al	// stress: vizuál
+vkk	vik'EkE	// SMS: vkk read as Vikeke
+vlr	v'alor	// SMS: vlr read as valór
+vogal	vog'al	// stress: vogál
+vokabulariu	v,okabul'ari,u	// stress: vokabuláriu
+vokasional	v,okas,ion'al	// stress: vokasionál
+voluntaria	v,olunt'ari,a	// stress: voluntária
+voluntariu	v,olunt'ari,u	// stress: voluntáriu
+vs	v'Ersus	// vs [versus]
+vulkaniku	vulk'anik,u	// stress: vulkániku
+wanna	w'ant||t'u	// SMS: wanna read as want tu
+webcam	w'Ebkam	// webcam [webkam]
+website	w'EbsaIt	// website [websait]
+welcm	w'Elkam	// SMS: welcm read as welkam
+whats	w'ots	// Whats [wots]
+whatsapp	w'otsap	// whatsapp [wotsap]
+who	w'E||h'a||'O	$allcaps	// WHO [we ha o]
+widget	w'idZEt	// widget [widjet]
+xadres	Sadr'Es	// stress: xadrés
+xamine	S,amin'E	// stress: xaminé
+xampo	Samp'o	// stress: xampó
+xamtun	Samt'un	// stress: xamtún
+xasi	Sas'i	// stress: xasí
+xines	Sin'Es	// stress: xinés
+xofer	Sof'Er	// stress: xofér
+zelador	z,Elad'or	// stress: zeladór
+zeru	z'Ero	// irregular spelling: zeru read as zero
+zodiak	z,odi'ak	// stress: zodiák
+// END generated
