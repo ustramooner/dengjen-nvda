@@ -14,6 +14,8 @@
    ʼ   '    // modifier letter apostrophe
 
 .group a
+      c) ao (_     ''aun       // expert 2026-11-03: final cao -> saun (c below gives s)
+        ancia (_   ''ansja     // final ancia -> ansia, stressed
         a        a
         aa       ''a
         a'a      ''a        // glottal stop between identical vowels = doubled vowel (nunee = nune'e)
@@ -35,13 +37,15 @@
 .group à // Portuguese
         à        ''a
 .group ã // Portuguese
+        ãe (_      aEn       // expert 2026-11-03: final ae -> aen (mae)
         ã          aN
-        ão         auN
+        ão         aun       // expert 2026-11-03: final ao -> aun
 
 .group b
         b        b
 
 .group c // Portuguese
+      c (ao_       s         // cao -> saun
      _) c (_       se
         c          k
         c (Y       s         // ce ci
@@ -93,6 +97,9 @@
         ff       f //English
 
 .group g
+        gu (e      g         // expert 2026-11-03 (Portuguese spelling, with or without accents): gue -> ge (Miguel, Rodrigues)
+        gu (é      g
+        gu (i      g         // gui -> gi (Baguia)
         g        g
         gg       g // English
 
@@ -151,6 +158,9 @@
         ñ       n^
 
 .group o
+      ad) o (_     u         // expert 2026-11-03 (Portuguese spelling, with or without accents): final ado -> adu
+      c) o (_      u         // final co -> ku (fantastico)
+     nt) o (_      u         // final nto -> ntu
         o        o
         oa       Oa
         o'a       Oa
@@ -179,6 +189,7 @@
         ôn (K      ''oN
         ônh        ''on^
 .group õ // Portuguese
+        ões (_     ''oens    // expert 2026-11-03: final oes -> oens
         õ          oi
         õe         oin
 

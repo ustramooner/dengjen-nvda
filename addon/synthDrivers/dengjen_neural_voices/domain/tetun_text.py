@@ -68,7 +68,11 @@ def _decimal(m):
     return " ".join(parts)
 
 
+_ORDINAL_DOT = re.compile(r"(?<=\d)\.(?=[ºª])")  # Portuguese `3.º`, `1.ª`: without the dot the rules read the ordinal word (terceiru), with it a cardinal plus `maskulinu`
+
+
 def normalise(text: str) -> str:
+    text = _ORDINAL_DOT.sub("", text)
     for pattern, word in _WORDS:
         text = pattern.sub(word, text)
     text = _UNIT.sub(lambda m: _UNITS[m.group("unit")] + " " + m.group("num"), text)
